@@ -4,6 +4,14 @@ Choose the route that matches the app you use. Nothing is installed globally unl
 
 The ready-made files are in `dist/`. If you have the source repository, rebuild them first with `python3 scripts/build.py dist`.
 
+## No terminal: ChatGPT (custom GPT or Project)
+
+1. Open `dist/generic/ADHD-support-instructions-compact.md` (about 6,500 characters) and copy all of it.
+2. In ChatGPT, create a GPT (**Explore GPTs → Create → Configure**) and paste it into **Instructions**, or paste it into a Project's instructions.
+3. Optional: upload the full `dist/generic/ADHD-support-instructions.md` and a few `dist/skills/*/SKILL.md` files as Knowledge, for deeper behaviour.
+
+The compact file keeps the core safety rules verbatim, plus the urgent-safety, medicine, controls and tool-honesty essentials. It is built and checked automatically, but it is **not yet tested inside ChatGPT**; the ChatGPT menu names above may also differ on your plan. Use `site-plan/study-0-chatgpt-test-log.md` to test it.
+
 ## No terminal: any assistant (manual route)
 
 1. Open `dist/generic/ADHD-support-instructions.md` and copy all of it.

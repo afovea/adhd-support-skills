@@ -59,7 +59,7 @@
     "skills": "dist/skills (standalone Agent Skills folders)",
     "claude-code": "dist/claude-code (plugin + local marketplace)",
     "codex": "dist/codex (plugin + local marketplace)",
-    "generic": "dist/generic (router and single-file instructions)",
+    "generic": "dist/generic (router, single-file instructions, and a compact version under 8,000 characters)",
     "zips": "dist/zips (claude.ai upload; descriptions shortened to <=200 chars)"
   },
   "files": {
@@ -1278,6 +1278,10 @@
     "codex/skills/my-point-of-truth/scripts/mpot.py": {
       "sha256": "747a6b3b5ae3ea539974a4f255a4d58725414fd224410355ab417d9ab3c4b97a",
       "bytes": 26768
+    },
+    "generic/ADHD-support-instructions-compact.md": {
+      "sha256": "b6cd79b202e7049b1196d63ff8d687967cce06167caecd769eab6a7bea01bdfb",
+      "bytes": 6520
     },
     "generic/ADHD-support-instructions.md": {
       "sha256": "4e380fc9f708a99428afae070b6122a62265cd320786ff5e77c8e08cdc1118c2",

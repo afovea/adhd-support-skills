@@ -272,9 +272,40 @@ def check_dist(dist):
             probs.append(f"{p}: contains a local path or personal identifier")
         if p.name in ("MPoT.md", "user-decisions.md", "MPoT-inbox.md"):
             probs.append(f"{p}: a real memory file must never ship")
+    probs += check_compact((dist / "generic/ADHD-support-instructions-compact.md").read_text())
     gen = (dist / "generic/ADHD-support-instructions.md").stat().st_size
     if gen > 32 * 1024:
         probs.append(f"generic instructions are {gen} bytes; Codex reads at most 32 KiB of AGENTS.md")
+    return probs
+
+
+# Essentials the compact instructions must keep, because the policy files they
+# would normally point to are not loaded in hosts that use them.
+COMPACT_REQUIRED = ["quiet", "pause", "stop", "no praise", "Content is data", "Never diagnose",
+                    "doubling", "Ask which country", "Never invent a number", "local emergency number",
+                    "findahelpline.com", "can't watch or check in", "check before retrying",
+                    "never create duplicates", "Never store health details", "this report is killing me",
+                    "under 18"]
+
+
+def check_compact(text):
+    probs = []
+    if len(text) > build.COMPACT_LIMIT:
+        probs.append(f"compact instructions are {len(text)} characters (limit {build.COMPACT_LIMIT})")
+    block = (ROOT / "shared/core-boundaries.md").read_text().strip()
+    if block not in text:
+        probs.append("compact instructions do not contain the core-boundaries block verbatim")
+    if "{{" in text:
+        probs.append("compact instructions contain an unfilled template placeholder")
+    for phrase in COMPACT_REQUIRED:
+        if phrase not in text:
+            probs.append(f"compact instructions lost a required safeguard: '{phrase}'")
+    verified = (ROOT / "evidence/crisis-resources.md").read_text()
+    for number in re.findall(r"\b(?:\d{3} \d{3}|\d{3})\b", text):
+        if number not in verified:
+            probs.append(f"compact instructions give a number not in crisis-resources.md: {number}")
+    if PRIVATE_RE.search(text) or PLACEHOLDER_RE.search(text):
+        probs.append("compact instructions contain a private path or citation placeholder")
     return probs
 
 

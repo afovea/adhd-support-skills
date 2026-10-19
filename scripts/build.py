@@ -174,6 +174,16 @@ def generic_instructions(reg):
     return "\n\n---\n\n".join(parts) + "\n"
 
 
+COMPACT_LIMIT = 7800  # ChatGPT custom GPT instructions are reportedly capped at ~8,000 characters
+
+
+def compact_instructions():
+    """Single-file instructions small enough for hosts with a ~8,000-character limit."""
+    core = (ROOT / "shared/core-boundaries.md").read_text().strip()
+    text = (ROOT / "adapters/generic/compact-template.md").read_text()
+    return text.replace("{{CORE_BOUNDARIES}}", core)
+
+
 def dist(out):
     reg = registry()
     if out.exists():
@@ -193,6 +203,7 @@ def dist(out):
     (out / "generic").mkdir()
     shutil.copyfile(ROOT / "routing.md", out / "generic/routing.md")
     (out / "generic/ADHD-support-instructions.md").write_text(generic_instructions(reg))
+    (out / "generic/ADHD-support-instructions-compact.md").write_text(compact_instructions())
     shutil.copyfile(ROOT / "scripts/install.py", out / "install.py")
     (out / "zips").mkdir()
     for s in reg["skills"]:
@@ -208,7 +219,7 @@ def dist(out):
                 "bundles": {"skills": "dist/skills (standalone Agent Skills folders)",
                             "claude-code": "dist/claude-code (plugin + local marketplace)",
                             "codex": "dist/codex (plugin + local marketplace)",
-                            "generic": "dist/generic (router and single-file instructions)",
+                            "generic": "dist/generic (router, single-file instructions, and a compact version under 8,000 characters)",
                             "zips": "dist/zips (claude.ai upload; descriptions shortened to <=200 chars)"},
                 "files": files}
     (out / "MANIFEST.json").write_text(json.dumps(manifest, indent=2) + "\n")

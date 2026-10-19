@@ -83,6 +83,28 @@ class BundleTests(unittest.TestCase):
                 self.assertNotIn("allow_implicit_invocation", t, p)
 
 
+class CompactInstructionsTests(unittest.TestCase):
+    def setUp(self):
+        self.text = (DIST / "generic/ADHD-support-instructions-compact.md").read_text()
+
+    def test_compact_fits_and_keeps_safeguards(self):
+        self.assertLessEqual(len(self.text), build.COMPACT_LIMIT)
+        self.assertEqual(validate.check_compact(self.text), [])
+
+    def test_check_catches_dropped_safeguard(self):
+        broken = self.text.replace("Never invent a number", "")
+        self.assertTrue(any("Never invent a number" in p for p in validate.check_compact(broken)))
+
+    def test_check_catches_unverified_phone_number(self):
+        broken = self.text.replace("call or text 988", "call or text 988 or 555 123")
+        self.assertTrue(any("555 123" in p for p in validate.check_compact(broken)))
+
+    def test_check_catches_oversize_and_edited_core_block(self):
+        self.assertTrue(validate.check_compact(self.text + "x" * build.COMPACT_LIMIT))
+        edited = self.text.replace("Controls come first.", "Controls matter.")
+        self.assertTrue(any("core-boundaries" in p for p in validate.check_compact(edited)))
+
+
 class InstallerTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
