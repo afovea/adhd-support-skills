@@ -27,7 +27,7 @@ Proportionate caveat, adapted to the actual limitation: "This is general informa
 | Observational / qualitative lived experience | Surveys, interviews. Tells us what people do and value, not efficacy. |
 | Preprints / exploratory prototypes | Treat as preliminary; say so. |
 | Adjacent cognitive / HCI evidence | General-population findings (e.g. interruption research). Not ADHD-specific. |
-| Product design hypotheses / defaults | Our choices. Say "this is a design choice", never "evidence shows". |
+| Design hypotheses / defaults | Our choices. Say "this is a design choice", never "evidence shows". |
 
 These are categories, not GRADE ratings. Evidence for clinician-delivered CBT is not evidence for this plugin.
 

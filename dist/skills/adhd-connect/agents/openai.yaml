@@ -1,0 +1,5 @@
+interface:
+  display_name: Connect your apps
+  short_description: Get reminders, events, lists and notes into the apps you already
+    use - via a real connection, or a calendar file, note or checklist. No app recommended.
+  default_prompt: 'Use $adhd-connect: Add this to my calendar'

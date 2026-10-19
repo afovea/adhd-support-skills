@@ -168,6 +168,8 @@ def generic_instructions(reg):
              (ROOT / "shared/core-boundaries.md").read_text().strip(),
              (ROOT / "shared/interaction-policy.md").read_text().strip(),
              (ROOT / "shared/safety-policy.md").read_text().strip(),
+             (ROOT / "shared/integration-policy.md").read_text().strip(),
+             (ROOT / "shared/handoff-formats.md").read_text().strip(),
              (ROOT / "evidence/crisis-resources.md").read_text().strip(),
              "## Deeper skill behaviour\n\nFor a specific skill's full workflow, paste its `SKILL.md` from "
              "`dist/skills/<name>/` into the conversation, or attach the folder if your host allows files."]

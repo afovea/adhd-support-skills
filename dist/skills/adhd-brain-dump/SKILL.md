@@ -40,7 +40,7 @@ The items, in any order or format. Nothing else.
 
 ## Stop when
 
-The user has a visible NOW, says that's enough, or asks to stop. Saving the list beyond the session needs their request (copyable card by default).
+The user has a visible NOW, says that's enough, or asks to stop. Saving the list beyond the session needs their request: a copyable card by default, or a Markdown note or checklist for their notes or task app (`references/shared/handoff-formats.md`; `adhd-connect` to send it there).
 
 ## If context or capabilities are missing
 

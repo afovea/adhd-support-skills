@@ -1,6 +1,6 @@
 # Technical and trust plan: consumer website
 
-Lenses: technical architect + security specialist. Planning only; building waits on the ChatGPT tests.
+Workstream: technical architecture, security and trust. Planning only; building waits on the ChatGPT tests.
 
 ## Top 3 recommendations
 

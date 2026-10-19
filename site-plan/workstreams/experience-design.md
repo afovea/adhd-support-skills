@@ -1,6 +1,6 @@
 # Experience design: ADHD Support Skills consumer site
 
-Lenses: product design + accessibility. Planning only; build depends on the ChatGPT test results.
+Workstream: experience design and accessibility. Planning only; build depends on the ChatGPT test results.
 
 ## Top 3 recommendations
 

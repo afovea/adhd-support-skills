@@ -15,7 +15,7 @@ States used: **complete** · **failed** · **not run** · **awaiting qualified r
 
 | Item | State | Evidence / what would change it |
 |---|---|---|
-| 13 skills with valid SKILL.md, explicit and natural entry examples, workflow, stop conditions, fallback, examples, safeguards and evidence pointer | complete | `scripts/validate.py` → canonical skills ok |
+| 14 skills (13 core plus `adhd-connect`) with valid SKILL.md, explicit and natural entry examples, workflow, stop conditions, fallback, examples, safeguards and evidence pointer | complete | `scripts/validate.py` → canonical skills ok |
 | Router (`routing.md`) and registry, including the mechanism map | complete | Registry check ok. Every report mechanism mapped |
 | Shared policies: interaction, safety, evidence, permission, memory, execution state | complete | `shared/` |
 | Core safeguards embedded in every entry point | complete | Validator checks the block in every SKILL.md and every bundle |
@@ -24,6 +24,7 @@ States used: **complete** · **failed** · **not run** · **awaiting qualified r
 | Mocked capability harness (failure, ambiguity, cancellation, DST) | complete | `tests/behaviour/test_capability_harness.py`: 12 tests pass |
 | Installer: dry run, idempotent update, managed block, ownership-bounded uninstall | complete | `tests/packaging/test_packaging.py`: 21 tests pass (including compact instructions) |
 | Reproducible bundles plus manifest | complete | Reproducibility test; `dist/MANIFEST.json` |
+| App linking: `adhd-connect`, integration policy, handoff formats (`.ics`, Markdown, checklist), neutral app choice | complete, with one strict-rule failure | `make_ics.py`: 6 tests pass. Simulated evals: 11 of 12 pass, 0 severe (CON-03 failed only under a no-brand-names-at-all rule). See `tests/results/2026-10-19-simulated.md` |
 | Synthetic example library (6 required scenarios, plus handoffs, overrides, stopping, safety) | complete | `examples/conversations.md` |
 
 ## Validation
@@ -33,7 +34,7 @@ States used: **complete** · **failed** · **not run** · **awaiting qualified r
 | Static and package validation | complete | `python3 scripts/validate.py --host-checks`: all checks passed, 54 unit tests OK |
 | Compact instructions for ChatGPT-sized hosts (under 7,800 characters, safeguards checked) | complete (build and validation) | `check_compact` and 4 tests. **Behaviour in ChatGPT not run**: use the Study 0 log |
 | `claude plugin validate` (marketplace and plugin manifest) | complete | Passed on Claude Code 2.1.150. `--strict` fails only on the deliberately unset `author` field |
-| Claude Code plugin loads in isolation | complete | `claude -p --plugin-dir dist/claude-code --setting-sources project` listed all 13 namespaced skills, and no user plugins |
+| Claude Code plugin loads in isolation | complete | `claude -p --plugin-dir dist/claude-code --setting-sources project` listed all 13 namespaced skills (before `adhd-connect` was added), and no user plugins |
 | Behavioural evaluation, simulated host (70 cases) | complete, with failures | Run 1: 67 pass, 3 fail, **0 severe**. 3 repaired; retest 4 of 5 pass. MEM-06 failed against a defective case sheet, which has been amended and **not re-graded**. See `tests/results/2026-10-19-simulated.md` |
 | Behavioural evaluation, native Claude Code | not run | The CLI's login token was revoked (HTTP 401). Run `claude auth login`, then `python3 scripts/evals.py run-claude` |
 | Behavioural evaluation, Codex | not run | Codex is not installed |

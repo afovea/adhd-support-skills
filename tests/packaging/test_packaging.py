@@ -17,6 +17,8 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build  # noqa: E402
 import validate  # noqa: E402
 
+N_SKILLS = len(build.registry()["skills"])
+
 TMP = tempfile.TemporaryDirectory()
 DIST = Path(TMP.name) / "dist"
 build.dist(DIST)
@@ -65,7 +67,7 @@ class BundleTests(unittest.TestCase):
 
     def test_manifest_lists_every_skill_and_file(self):
         m = json.loads((DIST / "MANIFEST.json").read_text())
-        self.assertEqual(len(m["skills"]), 13)
+        self.assertEqual(len(m["skills"]), N_SKILLS)
         for rel in m["files"]:
             self.assertTrue((DIST / rel).exists())
 
@@ -143,7 +145,7 @@ class InstallerTests(unittest.TestCase):
 
     def test_project_install_preserves_instructions_and_is_idempotent(self):
         install("--host", "claude-code", "--project", str(self.project))
-        self.assertEqual(len(self.skills()), 13)
+        self.assertEqual(len(self.skills()), N_SKILLS)
         text = (self.project / "CLAUDE.md").read_text()
         self.assertTrue(text.startswith("# My project\n\nKeep this line.\n"))
         self.assertEqual(text.count(installer.START), 1)
@@ -184,7 +186,7 @@ class InstallerTests(unittest.TestCase):
 
     def test_codex_layout(self):
         install("--host", "codex", "--project", str(self.project))
-        self.assertEqual(len(self.skills(".agents/skills")), 13)
+        self.assertEqual(len(self.skills(".agents/skills")), N_SKILLS)
         self.assertIn(installer.START, (self.project / "AGENTS.md").read_text())
         self.assertFalse((self.project / ".claude/skills").exists())
 
@@ -195,7 +197,7 @@ class InstallerTests(unittest.TestCase):
 
     def test_personal_install_leaves_global_instructions_alone(self):
         install("--host", "claude-code", "--personal")
-        self.assertEqual(len(list((self.home / ".claude/skills").glob("*/SKILL.md"))), 13)
+        self.assertEqual(len(list((self.home / ".claude/skills").glob("*/SKILL.md"))), N_SKILLS)
         self.assertFalse((self.home / ".claude/CLAUDE.md").exists())
 
     def test_generic_host_inserts_block_into_chosen_file(self):
@@ -218,7 +220,7 @@ class InstallerTests(unittest.TestCase):
     def test_verify_reports_state(self):
         install("--host", "claude-code", "--project", str(self.project))
         code, out = install("--host", "claude-code", "--project", str(self.project), "--verify")
-        self.assertIn("skills: 13/13", out)
+        self.assertIn(f"skills: {N_SKILLS}/{N_SKILLS}", out)
         self.assertIn("router block: present", out)
 
 

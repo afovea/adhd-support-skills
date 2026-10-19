@@ -1,6 +1,6 @@
 # Product framing: ADHD Support Skills consumer website
 
-Role: Product Manager. Status: planning draft, 2026-10-19. Sources: squad brief, `README.md`, `INSTALL.md`, `docs/release-readiness.md`, `docs/capability-matrix.md`, `docs/privacy-and-retention.md`, `docs/evaluation-plan.md`.
+Workstream: product framing. Planning draft, 2026-10-19. Sources: the site brief, `README.md`, `INSTALL.md`, `docs/release-readiness.md`, `docs/capability-matrix.md`, `docs/privacy-and-retention.md`, `docs/evaluation-plan.md`.
 
 ## Top 3 recommendations
 

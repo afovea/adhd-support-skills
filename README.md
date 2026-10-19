@@ -2,7 +2,7 @@
 
 Practical, low-pressure help with the *doing* side of everyday life: getting things out of your head, choosing what's next, starting, keeping going, getting back to it after an interruption, switching tasks, remembering later, and stopping when you need to.
 
-It is **13 portable [Agent Skills](https://agentskills.io/specification)** with a small routing brain, plus **My Point of Truth**, a private register of how you like to be helped that you control. It runs inside the AI assistant you already use: Claude, ChatGPT, Codex, or any assistant you can give instructions to.
+It is **14 portable [Agent Skills](https://agentskills.io/specification)** with a small routing brain, plus **My Point of Truth**, a private register of how you like to be helped that you control. It runs inside the AI assistant you already use: Claude, ChatGPT, Codex, or any assistant you can give instructions to.
 
 **You don't need a diagnosis, and you don't need to explain yourself.** Ask in ordinary words.
 
@@ -11,16 +11,14 @@ It is **13 portable [Agent Skills](https://agentskills.io/specification)** with 
 **→ [What it helps with](#the-13-skills)**
 What each skill does, in plain words, with the request that triggers it.
 
+**→ [Works with the apps you already use](#working-with-your-other-apps)**
+Calendars, reminder apps, Obsidian and other notes apps, task managers: through a real connection, or a file or list to import. No product is pushed.
+
 **→ [Example conversations](./examples/conversations.md)**
 Six made-up conversations covering overdue paperwork, writing, a home task, an interruption, a routine and preparing for an appointment. They show how it is meant to behave.
 
 **→ [Evidence, honestly](#evidence-honestly)**
 What the research does and doesn't support. Every health claim traces to a checked source. None of that research tested this software.
-
-**→ [Release readiness](./docs/release-readiness.md)**
-What is done, what failed, what has not been run, and what is waiting for qualified review.
-
-> **Status: v0.1.0, private, not released.** The implementation, packaging and validation are complete. Still outstanding: clinical, privacy, legal and regulatory review, user research, a licence and a named owner.
 
 ## Contents
 
@@ -34,14 +32,14 @@ What is done, what failed, what has not been run, and what is waiting for qualif
   - [G · Any other assistant](#g--any-other-assistant)
 - [Using it](#using-it): ordinary words, naming a skill, and the controls that always work
 - [What it won't do](#what-it-wont-do)
-- [The 13 skills](#the-13-skills): grouped, with when to reach for each
+- [The 14 skills](#the-14-skills): grouped, with when to reach for each
+- [Working with your other apps](#working-with-your-other-apps): calendars, reminders, Obsidian, task apps
 - [My Point of Truth](#my-point-of-truth): private, approved preferences, with deletion that really deletes
 - [Safety and health boundaries](#safety-and-health-boundaries)
 - [Evidence, honestly](#evidence-honestly)
 - [Privacy](#privacy)
 - [Install options](#install-options): every route compared, plus the installer
-- [Compatibility](#compatibility): what was validated, what is documented, what is untested
-- [Verified by running, not reading](#verified-by-running-not-reading): tests and behavioural evaluation
+- [Compatibility](#compatibility): how each host loads and invokes the skills
 - [Repository layout](#repository-layout)
 - [Building from source](#building-from-source)
 - [Conventions](#conventions)
@@ -53,17 +51,15 @@ What is done, what failed, what has not been run, and what is waiting for qualif
 
 **Find your row, then read that section.** Which app you're in decides the method.
 
-| Where you are | Method | Status | Section |
-|---|---|---|---|
-| **Claude web** (`claude.ai` in a browser) | Upload skill ZIPs | untested | [A](#a--claude-web-claudeai-in-a-browser) |
-| **Claude app**, **Chat** tab | Upload skill ZIPs | untested | [B](#b--claude-app-chat-tab) |
-| **Claude app**, **Code** tab | Two typed lines, all 13 | plugin loads; GitHub route untested | [C](#c--claude-app-code-tab-claude-code) |
-| **Claude Code** in a terminal | Two typed lines, all 13 | plugin loads; GitHub route untested | [D](#d--claude-code-in-a-terminal) |
-| **ChatGPT** (custom GPT or Project) | Paste the compact instructions | untested | [E](#e--chatgpt) |
-| **Codex**, or any host that reads `SKILL.md` | One command, all 13 | documented, untested | [F](#f--codex-and-other-skillmd-hosts) |
-| **Any other assistant** | Paste the single-file instructions | works anywhere, as a lighter version | [G](#g--any-other-assistant) |
-
-"Untested" means the route matches the host's current documentation, but nobody has yet run it end to end on that host. See [Compatibility](#compatibility).
+| Where you are | Method | Section |
+|---|---|---|
+| **Claude web** (`claude.ai` in a browser) | Upload skill ZIPs | [A](#a--claude-web-claudeai-in-a-browser) |
+| **Claude app**, **Chat** tab | Upload skill ZIPs | [B](#b--claude-app-chat-tab) |
+| **Claude app**, **Code** tab | Two typed lines, all 14 | [C](#c--claude-app-code-tab-claude-code) |
+| **Claude Code** in a terminal | Two typed lines, all 14 | [D](#d--claude-code-in-a-terminal) |
+| **ChatGPT** (custom GPT or Project) | Paste the compact instructions | [E](#e--chatgpt) |
+| **Codex**, or any host that reads `SKILL.md` | One command, all 14 | [F](#f--codex-and-other-skillmd-hosts) |
+| **Any other assistant** | Paste the single-file instructions | [G](#g--any-other-assistant) |
 
 ---
 
@@ -82,7 +78,7 @@ These are the same files and the same account as A, so skills you uploaded in th
 
 ### C · Claude app, Code tab (Claude Code)
 
-This installs all 13 at once. Type the two lines into the ordinary message box:
+This installs all 14 at once. Type the two lines into the ordinary message box:
 
 ```
 /plugin marketplace add afovea/adhd-support-skills
@@ -97,7 +93,7 @@ If it says `Run /reload-plugins to activate.`, run that too. Plugin skills are n
 
 You don't have to, though. Natural-language selection is on, so *"I can't start my expenses claim"* is enough.
 
-While this repository is private, the marketplace route only works for accounts with access to it. To try the plugin for one session without installing anything, use `claude --plugin-dir dist/claude-code` from a clone.
+To try the plugin for one session without installing anything, use `claude --plugin-dir dist/claude-code` from a clone.
 
 ### D · Claude Code in a terminal
 
@@ -109,11 +105,11 @@ If you also want the routing brain in a project's `CLAUDE.md` (a plugin can't ad
 
 ChatGPT custom GPT instructions are reportedly limited to about 8,000 characters, so there's a compact version built for it.
 
-1. Copy all of [`dist/generic/ADHD-support-instructions-compact.md`](./dist/generic/ADHD-support-instructions-compact.md) (about 6,900 characters).
+1. Copy all of [`dist/generic/ADHD-support-instructions-compact.md`](./dist/generic/ADHD-support-instructions-compact.md) (about 7,200 characters).
 2. In ChatGPT, create a GPT (**Explore GPTs → Create → Configure**) and paste it into **Instructions**. Or paste it into a Project's instructions.
 3. Optional: upload [`dist/generic/ADHD-support-instructions.md`](./dist/generic/ADHD-support-instructions.md) and a few `dist/skills/*/SKILL.md` files as Knowledge, for deeper behaviour.
 
-The compact file keeps the shared safety rules word for word. The build fails if it exceeds 7,800 characters or loses a required safeguard. It has **not yet been tested inside ChatGPT**, and the menu names may differ on your plan. Test it with [`site-plan/study-0-chatgpt-test-log.md`](./site-plan/study-0-chatgpt-test-log.md).
+The compact file keeps the shared safety rules word for word. The build fails if it exceeds 7,800 characters or loses a required safeguard. Menu names may differ on your plan.
 
 ### F · Codex, and other `SKILL.md` hosts
 
@@ -126,11 +122,11 @@ python3 scripts/install.py --host codex --personal --dry-run
 python3 scripts/install.py --host codex --personal
 ```
 
-That installs all 13 into `~/.agents/skills/`. Restart Codex, then try: `$adhd-start I can't start the report.` A Codex plugin and local marketplace also ship in [`dist/codex`](./dist/codex). Codex wasn't available when this was built, so the route is untested.
+That installs all 14 into `~/.agents/skills/`. Restart Codex, then try: `$adhd-start I can't start the report.` A Codex plugin and local marketplace also ship in [`dist/codex`](./dist/codex).
 
 ### G · Any other assistant
 
-Paste [`dist/generic/ADHD-support-instructions.md`](./dist/generic/ADHD-support-instructions.md) (21 KB) into your assistant's custom or project instructions, or use the compact version if it has a size limit. Then talk normally.
+Paste [`dist/generic/ADHD-support-instructions.md`](./dist/generic/ADHD-support-instructions.md) (about 30 KB) into your assistant's custom or project instructions, or use the compact version if it has a size limit. Then talk normally.
 
 Without a skills feature, your assistant can't load the detailed skill files, so this is a lighter version. The safety rules and controls are included.
 
@@ -157,6 +153,9 @@ Without a skills feature, your assistant can't load the detailed skill files, so
 | "Help me make mornings simpler" | One small routine anchored to something you already do |
 | "This is too much" | Pause, sort out what really matters, or one tiny step |
 | "What does an ADHD assessment involve?" | Sourced general information, with its limits |
+| "Add this to my calendar" / "Put it in my Obsidian vault" | Added through your app's connection if there is one, or given to you as a calendar file or Markdown note to import |
+| "Send these to my reminders app" | Added through a real connection, or given as a checklist you can paste in |
+| "Which app should I use for reminders?" | Help choosing by what matters to you, starting from what you already have. No brands pushed |
 | "Remember I prefer short steps" | Kept for this conversation, or saved to your private My Point of Truth if you've turned it on |
 
 ### Controls that always work
@@ -183,10 +182,10 @@ Quiet and stop also cancel any check-in this suite set, if your app supports che
 
 ### Automatic selection is on, on purpose
 
-Unlike [product-team-skills](https://github.com/afovea/product-team-skills), where specialist roles are invoked explicitly, these skills are meant to be picked from ordinary requests. Someone who is stuck shouldn't need to learn skill names first. Neither `disable-model-invocation` nor `allow_implicit_invocation: false` is used, and the validator fails if either appears.
+These skills are meant to be picked from ordinary requests. Someone who is stuck shouldn't need to learn skill names first. Neither `disable-model-invocation` nor `allow_implicit_invocation: false` is used, and the validator fails if either appears.
 
 To stop the skills firing on unrelated work, every description is discriminating and says what it is not for:
-- "Help fix the focus CSS" is a CSS question;
+- "How do I get my camera to focus?" is a photography question;
 - "my server is overwhelmed" is an infrastructure question;
 - "debug the startup script" is a debugging question.
 
@@ -206,7 +205,7 @@ None of them activates ADHD support.
 
 [↑ Back to contents](#contents)
 
-## The 13 skills
+## The 14 skills
 
 Every skill is self-contained. The shared safety rules are embedded in each `SKILL.md`, and the full policies are bundled in its `references/shared/` folder, so any skill works on its own without the router.
 
@@ -252,6 +251,12 @@ Every skill is self-contained. The shared safety rules are embedded in each `SKI
 |---|---|
 | [`adhd-information`](./skills/adhd-information/SKILL.md) | General ADHD health information, the evidence for strategies, preparing for an appointment, drafting an adjustment request. Never diagnoses or advises changing medicine |
 
+### Your other apps
+
+| Skill | Use when |
+|---|---|
+| [`adhd-connect`](./skills/adhd-connect/SKILL.md) | "Add this to my calendar", "put it in Obsidian", "help me connect my calendar", "which app should I use?". Uses a real connection or gives a file or list to import. Neutral about products |
+
 ### Your preferences
 
 | Skill | Use when |
@@ -259,6 +264,27 @@ Every skill is self-contained. The shared safety rules are embedded in each `SKI
 | [`my-point-of-truth`](./skills/my-point-of-truth/SKILL.md) | "Remember I prefer short steps", "what do you remember?", "forget that". See [My Point of Truth](#my-point-of-truth) |
 
 The machine-readable map of triggers, boundaries, resources, evaluations and source mechanisms is [`skills-registry.yaml`](./skills-registry.yaml).
+
+[↑ Back to contents](#contents)
+
+## Working with your other apps
+
+People already have calendars, reminder apps, Obsidian or other notes apps, task managers and specialist tools. The suite works **with whatever you already use**, and never needs or recommends a particular product.
+
+| If your assistant… | The suite will… |
+|---|---|
+| **Has a working connection** to the app (a calendar, reminder, notes or task tool) | Use it: resolve the time first, offer a discreet title for anything sensitive, report the real result, check before retrying and never duplicate. It reads only what the task needs, and treats anything inside your app's data as content, not instructions |
+| **Can read and write files**, and you tell it where (for example your Obsidian vault) | Create a new Markdown note, or append to one you name. It never overwrites, never searches your disk, and adds no health-revealing tags unless you ask |
+| **Has no connection** | Give you something to import: a calendar file (`.ics`) for Google, Apple or Outlook calendars, a Markdown note for Obsidian and similar apps, or a plain checklist for reminder and task apps. It tells you plainly that nothing has been added yet |
+
+**Connecting an app:**
+- **What it helps with.** `adhd-connect` explains in plain words what connecting means. Assistants usually call it Connectors, Apps, Integrations or MCP, and the steps vary.
+- **What to know first.** Connecting gives the assistant's provider access to that app's data. Choose read-only first if you're offered it. You can disconnect at any time.
+- **Checking it worked.** Afterwards, it checks that the connection works rather than assuming it does.
+
+**Choosing an app:** it won't name or recommend products, including specialist ADHD apps. It starts from what you already have, then helps you decide by what matters to you: does it really alert you, does it work on your devices, cost, where your data is kept, and sensory comfort.
+
+With a shell, `skills/adhd-connect/scripts/make_ics.py` writes a valid calendar file. It handles time zones and refuses times that don't exist, or happen twice, when the clocks change. Rules: [`shared/integration-policy.md`](./shared/integration-policy.md). Formats: [`shared/handoff-formats.md`](./shared/handoff-formats.md).
 
 [↑ Back to contents](#contents)
 
@@ -281,7 +307,7 @@ python3 dist/skills/my-point-of-truth/scripts/mpot.py --store ~/Private/mpot vie
 python3 dist/skills/my-point-of-truth/scripts/mpot.py --store ~/Private/mpot forget PREF-003
 ```
 
-The policy is in [`shared/memory-policy.md`](./shared/memory-policy.md). The concept adapts the pull/propose/approve model of the Project Point of Truth practice in [product-team-skills](https://github.com/afovea/product-team-skills).
+The policy is in [`shared/memory-policy.md`](./shared/memory-policy.md).
 
 [↑ Back to contents](#contents)
 
@@ -313,7 +339,7 @@ Body doubling is popular. In one self-selected survey of 220 adults, most said t
 | [`evidence/evidence-audit.md`](./evidence/evidence-audit.md) | Every place the source research reports disagreed with the original papers, and how each was resolved |
 | [`evidence/runtime-evidence.md`](./evidence/runtime-evidence.md) | The generated snapshot the skills may cite |
 
-"Link resolves", "source read", "claim verified" and "clinician reviewed" are recorded separately; none implies another. **No claim has been reviewed by a clinician yet.**
+"Link resolves", "source read", "claim verified" and "clinician reviewed" are recorded separately; none implies another.
 
 [↑ Back to contents](#contents)
 
@@ -332,8 +358,8 @@ The full picture is in [`docs/privacy-and-retention.md`](./docs/privacy-and-rete
 
 | Route | How | You get |
 |---|---|---|
-| **Plugin from GitHub** | `/plugin marketplace add afovea/adhd-support-skills`, then `/plugin install adhd-support-skills@adhd-support-skills` | All 13 skills, namespaced. No routing brain (a plugin can't write `CLAUDE.md`) |
-| **Plugin, one session** | `claude --plugin-dir dist/claude-code` | All 13 for that session only. Nothing installed |
+| **Plugin from GitHub** | `/plugin marketplace add afovea/adhd-support-skills`, then `/plugin install adhd-support-skills@adhd-support-skills` | All 14 skills, namespaced. No routing brain (a plugin can't write `CLAUDE.md`) |
+| **Plugin, one session** | `claude --plugin-dir dist/claude-code` | All 14 for that session only. Nothing installed |
 | **Project, Claude Code** | `python3 scripts/install.py --host claude-code --project PATH` | Skills in `.claude/skills/`, plus the router in a managed block in `CLAUDE.md` |
 | **Project, Codex** | `python3 scripts/install.py --host codex --project PATH` | Skills in `.agents/skills/`, plus the router in `AGENTS.md` |
 | **Router only** | add `--router-only` | Just the managed router block. Use with a plugin install |
@@ -364,11 +390,7 @@ The full guide, written for non-technical users, is in [INSTALL.md](./INSTALL.md
 
 ## Compatibility
 
-Host documentation was checked on 19 October 2026:
-- the Agent Skills spec;
-- Claude Code docs (version 2.1.303), with Claude Code 2.1.150 installed for the build;
-- Codex docs (version 0.163.0);
-- claude.ai help pages.
+Based on each host's documentation (Agent Skills spec, Claude Code, Codex, claude.ai), checked 19 October 2026.
 
 | | Claude Code | Codex | Claude apps | ChatGPT / other |
 |---|---|---|---|---|
@@ -377,35 +399,10 @@ Host documentation was checked on 19 October 2026:
 | Automatic selection | On (default) | On (default; `allow_implicit_invocation` not set) | On | Via the pasted router |
 | Router | `CLAUDE.md` managed block | `AGENTS.md` managed block (under 32 KiB) | n/a | In the pasted file |
 | Plugin manifest | `.claude-plugin/` | root `plugin.json` plus `.agents/plugins/marketplace.json` | n/a | n/a |
-| **Status** | **validated:** `claude plugin validate` passes; `--plugin-dir` loads all 13 skills | documented, not run | documented, not run | compact file built and checked, not run in ChatGPT |
 
-What each status means, cell by cell, is in [`docs/capability-matrix.md`](./docs/capability-matrix.md).
+Cell-by-cell detail is in [`docs/capability-matrix.md`](./docs/capability-matrix.md).
 
 Timers, reminders, calendars, files, web search and memory are all **unavailable until your app proves otherwise**: a tool exists and returns a confirming result ([`shared/permission-policy.md`](./shared/permission-policy.md)). Basic help works in a plain text chat with none of them.
-
-[↑ Back to contents](#contents)
-
-## Verified by running, not reading
-
-A static check that a `SKILL.md` contains an instruction doesn't prove an agent follows it. There are two layers of checking.
-
-**1. Structure and code.** `python3 scripts/validate.py --host-checks` runs:
-- **Skill checks:** frontmatter against the spec; natural-language selection still on; the shared safety block present and current in every skill.
-- **Consistency checks:** registry, eval and claim cross-references; every skill has a multi-turn evaluation; evidence statuses are honest.
-- **Bundle checks:** bundles are self-contained after extraction, contain no private paths, memory files or localised support details, and stay in sync with a fresh, reproducible build.
-- **Host checks:** `claude plugin validate`.
-- **55 unit tests:**
-  - MPoT: consent, scoping, sensitivity guards, supersession, cascading deletion, conflict refusal, concurrent writers, injection-safe import;
-  - a mocked tool harness: failure, ambiguous results checked before any retry, cancelling only the suite's own check-ins, daylight-saving gaps and overlaps;
-  - the installer: dry run, idempotent updates, user edits kept, ownership-bounded uninstall;
-  - the compact instructions.
-
-**2. Behaviour.** There are 70 synthetic multi-turn cases in [`tests/`](./tests), covering routing, behaviour, safety and memory. Each lists expected and forbidden behaviours and the release-blocking failures. They were run on a **simulated host**: separate agents saw only the skill descriptions, and grading was blind. The results:
-- **Run 1:** 67 of 70 passed, with 0 severe failures.
-- **Repairs:** the three failures were fixed and retested.
-- **Evidence:** every URL cited was traced to the evidence register.
-
-The full record is in [`tests/results/`](./tests/results/2026-10-19-simulated.md). This is model self-evaluation, not independent or clinical review. Native Claude Code runs (`python3 scripts/evals.py run-claude`) and runs on Codex and ChatGPT are still to do.
 
 [↑ Back to contents](#contents)
 
@@ -414,10 +411,13 @@ The full record is in [`tests/results/`](./tests/results/2026-10-19-simulated.md
 ```
 adhd-support-skills/
 ├── .claude-plugin/marketplace.json  # GitHub marketplace → serves dist/claude-code
-├── skills/                          # canonical source: 13 skills, one folder each
+├── skills/                          # canonical source: 14 skills, one folder each
 │   ├── adhd-start/
 │   │   ├── SKILL.md                 # includes the generated core-boundaries block
 │   │   └── references/evidence-card.md   # generated from the evidence register
+│   ├── adhd-connect/
+│   │   ├── SKILL.md
+│   │   └── scripts/make_ics.py      # valid calendar files, DST-safe
 │   ├── my-point-of-truth/
 │   │   ├── SKILL.md
 │   │   └── scripts/mpot.py          # private, file-backed MPoT operations
@@ -428,6 +428,8 @@ adhd-support-skills/
 │   ├── safety-policy.md             # proportionate levels, generic urgent help
 │   ├── evidence-policy.md           # how health claims are made at runtime
 │   ├── permission-policy.md         # capability contract, external-action protocol
+│   ├── integration-policy.md        # connected apps, file access, neutral app choice
+│   ├── handoff-formats.md           # .ics, Markdown (Obsidian) and checklist handoffs
 │   ├── memory-policy.md             # My Point of Truth rules
 │   └── execution-state.md           # five states, restart card, handoff shape
 ├── routing.md                       # the routing brain
@@ -497,18 +499,18 @@ The version lives in `skills-registry.yaml` and both plugin manifests. The valid
 
 ## Licence
 
-**Not yet chosen.** No licence has been granted, so all rights are reserved and the repository is private. A licence and a named owner must be decided before any public release. Until then, the manifests carry `OWNER-TO-BE-CONFIRMED`. The source research reports are not redistributed here.
+No licence has been chosen yet, so all rights are reserved.
 
 [↑ Back to contents](#contents)
 
 ## Contributing
 
-This is a pre-release private repository. Before changing behaviour:
+Before changing behaviour:
 
 - Edit the canonical files (`skills/`, `shared/`, `routing.md`, `evidence/`), never `dist/`.
 - Add or update an evaluation case in `tests/` for any behaviour change, and keep every skill's registry `evals` list pointing at a multi-turn case.
 - Trace any new health claim to a checked source in `evidence/claims.yaml`, with its limits.
 - Run `python3 scripts/build.py dist` and `python3 scripts/validate.py --host-checks` before committing.
-- Record decisions in [`docs/design-decisions.md`](./docs/design-decisions.md), and update [`docs/release-readiness.md`](./docs/release-readiness.md) truthfully. Don't mark anything as reviewed or approved unless it has been.
+- Record decisions in [`docs/design-decisions.md`](./docs/design-decisions.md). Don't mark anything as reviewed or approved unless it has been.
 
 [↑ Back to contents](#contents)

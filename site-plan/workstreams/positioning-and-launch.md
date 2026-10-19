@@ -1,6 +1,6 @@
 # Growth: positioning and launch for the consumer site
 
-Role: Growth Product Marketing Manager. Planning only; nothing here is built or approved.
+Workstream: positioning and launch. Planning only; nothing here is built or approved.
 
 ## Top 3 recommendations
 

@@ -15,15 +15,16 @@ Documentation was accessed on 2026-10-19:
 | Behaviour | Generic text-only host | Claude Code | Codex | claude.ai upload |
 |---|---|---|---|---|
 | Skill format valid (Agent Skills spec) | n/a | validated (structural validator) | validated (same files) | validated (ZIP structure, extracted and checked) |
-| Plugin manifest loads | n/a | **validated**: `--plugin-dir dist/claude-code` loaded all 13 skills, namespaced `adhd-support-skills:*` | documented: root `plugin.json` plus `.agents/plugins/marketplace.json` | n/a |
+| Plugin manifest loads | n/a | **validated**: `--plugin-dir dist/claude-code` loaded all 13 skills (before `adhd-connect` was added), namespaced `adhd-support-skills:*` | documented: root `plugin.json` plus `.agents/plugins/marketplace.json` | n/a |
 | `claude plugin validate` | n/a | run with `scripts/validate.py --host-checks` (see release-readiness) | n/a | n/a |
 | Natural-language selection | unsupported. Use the router instructions file and paste the skill | documented (automatic by default). Behaviour simulated, not run natively, because CLI authentication had been revoked (see release-readiness) | documented (implicit invocation on by default) | documented (auto-trigger) |
 | Explicit invocation | "use the adhd-start skill" plus pasted SKILL.md | `/adhd-start`, or `/adhd-support-skills:adhd-start` for plugin installs (documented) | `$adhd-start` or `/skills` (documented) | Not documented. Describe the request instead |
-| Router block in instruction file | Paste `dist/generic/ADHD-support-instructions.md` (21 KB), or the compact version (about 6.5 KB) where the host limits instruction length (e.g. ChatGPT; untested) | `CLAUDE.md` managed block (installer **validated** in tests) | `AGENTS.md` managed block (installer **validated**; 32 KiB limit respected) | Project instructions, by hand (untested) |
+| Router block in instruction file | Paste `dist/generic/ADHD-support-instructions.md` (about 30 KB), or the compact version (about 7 KB) where the host limits instruction length (e.g. ChatGPT; untested) | `CLAUDE.md` managed block (installer **validated** in tests) | `AGENTS.md` managed block (installer **validated**; 32 KiB limit respected) | Project instructions, by hand (untested) |
 | Self-contained references (`references/shared/`) | validated | validated | validated | validated |
 | Bundled script (`mpot.py`) runs | needs a shell | documented (needs Bash permission) | documented | documented (code execution must be on); untested |
 | Timer / notification tools | unavailable. Manual fallback | Host-dependent (none by default). Fallback **validated** in mocked harness and simulated evals | Host-dependent | Host-dependent |
 | Persistent private memory | session-only plus copyable card | File-backed MPoT if the user picks a folder (**validated** in `test_mpot.py`) | Same | Session-only unless the host offers memory |
+| Connected third-party apps (calendar, reminders, notes, tasks) | unsupported. Portable handoffs (`.ics`, Markdown, checklist) | Host connectors or MCP tools, if the user has connected them (documented; untested) | Same | Host connectors, if available | 
 | Web retrieval | unavailable. Verified snapshot only | Host tool if enabled | Host tool if enabled | Host-dependent |
 | Urgent-help guidance | Generic only: local emergency services, a crisis line where the user lives, a doctor, someone they trust. No numbers or named services | Same | Same | Same |
 | Description length | n/a | ≤1,536 characters shown (documented); ours are under 600 | Up to 2% of context for the whole list (documented) | 200 or 1,024 (conflicting docs). ZIPs use ≤200 |

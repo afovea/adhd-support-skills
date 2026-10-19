@@ -7,7 +7,7 @@
 | Context | Holds | Lifetime | Where |
 |---|---|---|---|
 | Durable user preferences | Approved, scoped working preferences | Until changed, expired or deleted | `MPoT.md` in a private location the user chose, or the host's private memory |
-| Project truth | Facts and decisions belonging to one project | Project lifetime | That project's own records (e.g. a PPoT), never MPoT |
+| Project truth | Facts and decisions belonging to one project | Project lifetime | That project's own records, never MPoT |
 | Session state | Task, next action, restart marker | Current conversation | The conversation only, unless the user asks to save a card |
 
 ## Precedence

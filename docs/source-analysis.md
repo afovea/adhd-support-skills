@@ -9,7 +9,6 @@ What the build inputs contributed, what was rejected, and how each mechanism was
 | `deep-research-report (9).md` — body-doubling agent specification | Design input | Research and design ideas. Not requirements and not clinical evidence |
 | `deep-research-report (10).md` — ADHD-support agent behavioural specification | Design input | Same |
 | `My-Point-of-Truth-Guidance.md` | Concept definition for MPoT | Design authority for the MPoT concept, within the brief's safety and privacy rules |
-| [afovea/product-team-skills](https://github.com/afovea/product-team-skills) at commit `7fccbf51e25aaeb499c034712e59b0eb4ed30a85` (plugin version 1.3.0, committed 9 August 2026) | Architecture reference | Patterns to evaluate, not to copy |
 | Official host documentation, accessed 2026-10-19 | Host facts | See `capability-matrix.md` |
 
 The source files were left unchanged. Nothing from the reports was copied into a runtime prompt without being checked first.
@@ -60,20 +59,3 @@ Every mechanism in the reports maps to a skill or a shared behaviour. The machin
 | Body doubling: roles, contract, failure modes | `adhd-body-double` |
 | Within-person comparison of presence against structure | `evaluation-plan.md` |
 | MPoT: precedence, entry types, statuses, decision log, inbox | `my-point-of-truth`, `memory-policy.md`, `templates/` |
-
-## Reference repository: what was adopted
-
-Inspected: `routing.md`, `skills/ppot/` (SKILL.md, references, assets, `agents/openai.yaml`), `install.sh`, `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.codex-plugin/plugin.json`, `hooks/`, `scripts/verify.sh`, `scripts/package-skills.sh` and `scripts/check-docs.py`.
-
-| Pattern | Decision |
-|---|---|
-| Router as a managed block in CLAUDE.md / AGENTS.md | **Adopted**, with dry run, idempotent update and clean uninstall. Rewritten in Python rather than as a shell script |
-| A pull / propose / approve memory practice (PPoT) | **Adapted** into MPoT, with a private storage location, real deletion, health and crisis guards, and import treated as untrusted |
-| One-ZIP-per-skill download route for claude.ai | **Adopted**, with deterministic ZIPs and descriptions of 200 characters or fewer for upload |
-| Single verification script, also run by CI | **Adopted** as `scripts/validate.py` |
-| `disable-model-invocation: true` / `allow_implicit_invocation: false` (explicit-only roles) | **Rejected.** Natural-language selection is a requirement. The validator fails if either flag appears |
-| Stop-hook gate enforcement | **Rejected.** Nothing in this suite needs a hook, and hooks would add an execution surface |
-| Codex `.codex-plugin/plugin.json` as the primary manifest | **Changed.** Current Codex docs prefer a root `plugin.json`, with `.codex-plugin/` only as a fallback |
-| Routing text written with `.claude/` paths and rewritten by the installer | **Changed.** The router names skills only and contains no file paths, so it needs no rewriting |
-
-No code was copied verbatim from the reference repository. Its licence is MIT. If future work copies any of its code, the MIT notice must be preserved.

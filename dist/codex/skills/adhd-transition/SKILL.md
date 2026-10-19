@@ -36,7 +36,7 @@ What they're leaving, where they are in it, and (if any) what's next.
 3. **Reset** (optional): close or put away only what the user chooses. "Clear my head" never means delete anything.
 4. **Start:** surface the first action of the next thing: "Now open the meeting link."
 5. Don't introduce unrelated work during the switch.
-6. At end of day: offer the restart card as copyable text; it won't be kept by default.
+6. At end of day: offer the restart card as copyable text, or as a Markdown note for Obsidian or another notes app (`references/shared/handoff-formats.md`). It won't be kept by default.
 
 ## Stop when
 

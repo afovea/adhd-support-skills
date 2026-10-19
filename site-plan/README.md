@@ -2,36 +2,27 @@
 
 **Status:** planning draft, 19 October 2026. Nothing has been built or approved. Building depends on the ChatGPT test results (Study 0).
 
-**How this plan was made:** the product team ran it as a Discovery and Definition squad. Six roles worked from one brief:
+**Workstreams:** product framing, UX research, content, experience and accessibility, positioning and launch, and technical and trust. The full detail for each is in [`workstreams/`](workstreams/). This page brings them together, resolves where they disagree, and lists the decisions only you can make.
 
-- Product Manager
-- UX Researcher
-- Content Designer
-- Product Designer with Accessibility
-- Growth PMM
-- Technical Architect with Security
-
-Their full outputs are in [`roles/`](roles/). This page brings them together, resolves where they disagree, and lists the decisions only you can make.
-
-> **Decision, 19 October 2026:** urgent-help guidance is generic and works anywhere. It gives no phone numbers, named services or country questions. This overrides any UK/US crisis-line wording in the role outputs.
+> **Decision, 19 October 2026:** urgent-help guidance is generic and works anywhere. It gives no phone numbers, named services or country questions. This overrides any UK/US crisis-line wording in the workstream files.
 
 ## In one paragraph
 
 Build a small, calm, static site. Its main job is to get a non-technical adult from "what is this?" to a first useful reply in the AI assistant they already use. It should take about five minutes and need no terminal. The site collects nothing about visitors. Every health or evidence sentence on it traces to a claim in `evidence/claims.yaml`. Only install routes we have tested end to end are presented as working. The ChatGPT test gates the build. A licence, a named owner and the external reviews gate the public launch.
 
-## Where all six roles agreed
+## Where all six workstreams agreed
 
 1. **Position it as practical help inside the AI you already use, not as an "ADHD app".** It isn't an app. Regulators judge what a product is from how it is described, so the wording is a medical-device question as well as a branding one. Write headlines in the visitor's words ("I can't start the report"), not ours. Don't ask about diagnosis.
 2. **Install to first success is the product.** Ask one question: "Which app do you already use?". Each answer gets one recommended route, with short numbered steps. Each step has a "What you'll see" note and a "Doesn't match?" fix. The last step is a first message to try. Routes we haven't tested are labelled in plain words, not by colour.
-3. **ChatGPT needs a short version.** The full instructions file is 21 KB, and custom GPT instructions are reportedly limited to about 8,000 characters (not yet confirmed). **Done (build only):** `dist/generic/ADHD-support-instructions-compact.md` is about 6,500 characters. It is a validated build artefact with the core safety block kept verbatim. It has not yet been tested in ChatGPT.
+3. **ChatGPT needs a short version.** The full instructions file is about 30 KB, and custom GPT instructions are reportedly limited to about 8,000 characters (not yet confirmed). **Done (build only):** `dist/generic/ADHD-support-instructions-compact.md` is about 7,200 characters. It is a validated build artefact with the core safety block kept verbatim. It has not yet been tested in ChatGPT.
 4. **Collect nothing.** No cookies, analytics scripts, pixels, third-party fonts or embeds, forms or accounts. Reading ADHD medication or crisis pages is itself a health inference.
 5. **Test that people can install it before testing whether the copy persuades them.** Before launch, test that people read the health limits correctly. If anyone thinks it diagnoses, treats, advises on medicine, is "approved" or watches them, launch is blocked until the wording is fixed.
 
-## Decisions the plan makes where roles differed
+## Decisions the plan makes where workstreams differed
 
 | Topic | Options raised | Plan's choice | Why |
 |---|---|---|---|
-| Sitemap | 7 pages (Content), 8 (Product Manager), or 5 nav items plus footer (Design) | **Nav:** What it does · Try it · Get it · Privacy · Help. **Footer:** Evidence and limits · Urgent help · Accessibility · For developers · About and status | Same content in all three. Design's fixed five-item nav keeps choice low |
+| Sitemap | 7 pages (Content), 8 (Product framing), or 5 nav items plus footer (Design) | **Nav:** What it does · Try it · Get it · Privacy · Help. **Footer:** Evidence and limits · Urgent help · Accessibility · For developers · About and status | Same content in all three. Design's fixed five-item nav keeps choice low |
 | Coding-tool routes | A route card (Content) or a quiet link (Design) | **Quiet link**, "I use a coding tool", leading to a developer page | Keeps the main picker to four plain options |
 | Measurement | None (Technical, Design), or server-side counts plus an anonymous feedback form (Growth) | **None at launch.** Add host-level aggregate counts later only if the privacy review approves. Feedback goes by email or public issues, not a form | A form needs a backend. Zero data is the strongest privacy story |
 | Value proposition | Content offered three | **V1: "Help with the doing part of everyday life, inside the AI assistant you already use."** | It matches Growth's positioning and makes no health claim |
@@ -53,7 +44,7 @@ Build a small, calm, static site. Its main job is to get a non-technical adult f
 
 **Evidence line used everywhere:** "These ideas show up in ADHD guidance and in what adults with ADHD say helps. No one has tested this software."
 
-**Claims rules:** the full allowed / needs care / never table is in [`roles/content-design.md`](roles/content-design.md#4-claims-guardrail-table). Never use: proven, clinically tested, approved, reviewed by clinicians, treats or manages ADHD, therapy, coaching, dopamine, superpower, "find out if you have ADHD", "works in ChatGPT" without a status label, or "for kids".
+**Claims rules:** the full allowed / needs care / never table is in [`workstreams/content-design.md`](workstreams/content-design.md#4-claims-guardrail-table). Never use: proven, clinically tested, approved, reviewed by clinicians, treats or manages ADHD, therapy, coaching, dopamine, superpower, "find out if you have ADHD", "works in ChatGPT" without a status label, or "for kids".
 
 ## Phased plan
 

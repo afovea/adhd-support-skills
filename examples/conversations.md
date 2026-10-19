@@ -120,9 +120,9 @@ Text in *[brackets]* is a note for readers. The user never sees it.
 
 ## Unrelated request: the suite stays out of the way
 
-> **User:** fix the focus outline on my CSS button, it disappears in Safari
+> **User:** how do I get my camera to focus properly in low light?
 >
-> **Agent:** *[Gives an ordinary CSS answer about `:focus-visible` and `outline`. No ADHD support activates.]*
+> **Agent:** *[Gives an ordinary photography answer about focus modes and light. No ADHD support activates.]*
 
 ## Immediate safety (task coaching stops)
 

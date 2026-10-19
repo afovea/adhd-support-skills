@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "adhd-support-skills",
   "version": "0.1.0",
-  "description": "Practical, low-pressure help with organising, choosing, starting, keeping going, getting back to and finishing everyday tasks. 13 skills that are selected from ordinary requests. Not a diagnostic or treatment service.",
+  "description": "Practical, low-pressure help with organising, choosing, starting, keeping going, getting back to and finishing everyday tasks. 14 skills that are selected from ordinary requests, and that work with the calendar, reminder and notes apps you already use. Not a diagnostic or treatment service.",
   "keywords": [
     "adhd",
     "executive-function",

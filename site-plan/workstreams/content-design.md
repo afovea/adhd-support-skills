@@ -1,6 +1,6 @@
 # Content strategy: ADHD Support Skills consumer site
 
-Role: Content Designer. Sources: brief.md, README.md, INSTALL.md, examples/conversations.md, evidence/runtime-evidence.md, evidence/crisis-resources.md, docs/capability-matrix.md.
+Workstream: content. Sources: brief.md, README.md, INSTALL.md, examples/conversations.md, evidence/runtime-evidence.md, evidence/crisis-resources.md, docs/capability-matrix.md.
 
 ## Top 3 recommendations
 

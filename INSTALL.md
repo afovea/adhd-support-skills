@@ -6,7 +6,7 @@ The ready-made files are in `dist/`. If you have the source repository, rebuild 
 
 ## No terminal: ChatGPT (custom GPT or Project)
 
-1. Open `dist/generic/ADHD-support-instructions-compact.md` (about 6,500 characters) and copy all of it.
+1. Open `dist/generic/ADHD-support-instructions-compact.md` (about 7,200 characters) and copy all of it.
 2. In ChatGPT, create a GPT (**Explore GPTs → Create → Configure**) and paste it into **Instructions**, or paste it into a Project's instructions.
 3. Optional: upload the full `dist/generic/ADHD-support-instructions.md` and a few `dist/skills/*/SKILL.md` files as Knowledge, for deeper behaviour.
 

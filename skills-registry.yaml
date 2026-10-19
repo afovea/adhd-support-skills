@@ -18,6 +18,8 @@ shared_always:
   - shared/permission-policy.md
   - shared/memory-policy.md
   - shared/execution-state.md
+  - shared/integration-policy.md
+  - shared/handoff-formats.md
   - evidence/crisis-resources.md
   - evidence/runtime-evidence.md
 
@@ -28,8 +30,8 @@ skills:
     short_description: Choose the right kind of help when someone is stuck and the obstacle is unclear. One short question at most; no diagnosis needed.
     explicit: ["adhd-help", "help me pick the right support"]
     natural: ["Help, I'm stuck", "What can you help with?", "I can't get anything done today"]
-    not_for: ["coding or CSS 'focus' work", "general writing or research tasks", "exhaustive intake"]
-    handoffs: [adhd-brain-dump, adhd-prioritise, adhd-start, adhd-restart, adhd-time, adhd-overwhelm, adhd-information, my-point-of-truth]
+    not_for: ["coding, technical or camera 'focus' questions", "general writing or research tasks", "exhaustive intake"]
+    handoffs: [adhd-brain-dump, adhd-prioritise, adhd-start, adhd-restart, adhd-time, adhd-overwhelm, adhd-information, adhd-connect, my-point-of-truth]
     extra_resources: [routing.md]
     evidence_claims: []
     evidence_note: Routing is an interaction design choice. It is not a tested health intervention.
@@ -42,7 +44,7 @@ skills:
     explicit: ["adhd-brain-dump"]
     natural: ["Everything is in my head", "Get this out of my head", "Here's everything I'm juggling"]
     not_for: ["summarising documents or meeting notes", "turning feelings into tasks"]
-    handoffs: [adhd-prioritise, adhd-start, adhd-remember, adhd-overwhelm]
+    handoffs: [adhd-prioritise, adhd-start, adhd-remember, adhd-connect, adhd-overwhelm]
     extra_resources: []
     evidence_claims: [CLM-RS-LIVED, CLM-GD-CADDRA-SCAFFOLD, CLM-RS-CBT-COMPONENTS]
     evidence_note: Externalising tasks is consistent with organisational strategies in guidance and with what adults with ADHD report using. This AI version is a design choice that has not been tested.
@@ -54,7 +56,7 @@ skills:
     short_description: Help pick what to do first from several tasks using real deadlines, consequences and dependencies, labelling anything assumed.
     explicit: ["adhd-prioritise"]
     natural: ["I have five things and can't choose", "What should I do first?", "I don't know what to do first"]
-    not_for: ["business or product roadmap prioritisation", "deciding medical, legal, financial or relationship matters for the user"]
+    not_for: ["business or organisational planning frameworks", "deciding medical, legal, financial or relationship matters for the user"]
     handoffs: [adhd-start, adhd-time, adhd-information]
     extra_resources: []
     evidence_claims: [CLM-RS-CBT-COMPONENTS]
@@ -107,7 +109,7 @@ skills:
     explicit: ["adhd-remember"]
     natural: ["Don't let me forget the parcel", "Remind me to call the GP tomorrow", "Remember this next week"]
     not_for: ["saving working preferences (my-point-of-truth)", "inventing medicine schedules"]
-    handoffs: [adhd-time, my-point-of-truth, adhd-information]
+    handoffs: [adhd-time, adhd-connect, my-point-of-truth, adhd-information]
     extra_resources: []
     evidence_claims: [CLM-RS-IMPL-INTENTIONS, CLM-RS-PM-ADHD]
     evidence_note: Cue-action pairing draws on general-population if-then planning research. Prospective memory difficulties in ADHD are reported at group level. AI reminders have not been tested.
@@ -133,7 +135,7 @@ skills:
     explicit: ["adhd-transition"]
     natural: ["I need to switch to a meeting", "Save where I am", "Help me stop for the day"]
     not_for: ["closing apps or deleting files", "career or organisational change"]
-    handoffs: [adhd-restart, adhd-time, adhd-remember]
+    handoffs: [adhd-restart, adhd-time, adhd-remember, adhd-connect]
     extra_resources: [templates/restart-card.md]
     evidence_claims: [CLM-RS-INTERRUPTION]
     evidence_note: General interruption research, not ADHD-specific. STOP-SAVE-RESET-START is a design choice.
@@ -146,7 +148,7 @@ skills:
     explicit: ["adhd-routine"]
     natural: ["Help me make mornings simpler", "I want a habit of checking my post", "My routine fell apart"]
     not_for: ["diet, fasting, sleep-restriction or exercise regimes", "streak tracking"]
-    handoffs: [adhd-remember, adhd-start, adhd-information]
+    handoffs: [adhd-remember, adhd-connect, adhd-start, adhd-information]
     extra_resources: []
     evidence_claims: [CLM-RS-ROUTINE-SCOPING, CLM-RS-IMPL-INTENTIONS, CLM-RS-LIVED]
     evidence_note: Direct adult evidence is thin, and most routine research is paediatric. Treat this as a design hypothesis.
@@ -178,13 +180,26 @@ skills:
     evidence_note: This skill gives general information from guidance and research. It does not diagnose or advise on treatment.
     evals: [HLT-01, HLT-02, HLT-03, HLT-04, HLT-05, HLT-06, HLT-07, SAF-07]
 
+  - id: adhd-connect
+    label: Connect your apps
+    states: [organise, transition]
+    short_description: Get reminders, events, lists and notes into the apps you already use - via a real connection, or a calendar file, note or checklist. No app recommended.
+    explicit: ["adhd-connect"]
+    natural: ["Add this to my calendar", "Put this in my Obsidian vault", "Which app should I use for reminders?"]
+    not_for: ["building integrations or code against app APIs", "recommending or endorsing products", "sign-ups, purchases or installs"]
+    handoffs: [adhd-remember, adhd-time, adhd-brain-dump]
+    extra_resources: []
+    evidence_claims: [CLM-RS-LIVED, CLM-GD-CADDRA-SCAFFOLD]
+    evidence_note: Linking to other apps is an interaction design choice. It is not a health intervention. Externalising reminders and lists is consistent with guidance and with what adults with ADHD report using.
+    evals: [CON-01, CON-02, CON-03, CON-04, CON-05, CON-06]
+
   - id: my-point-of-truth
     label: My Point of Truth (your saved preferences)
     states: []
     short_description: View, save, correct, export or delete your private, approved working preferences (My Point of Truth). Only what you approve is kept.
     explicit: ["my-point-of-truth", "MPoT"]
     natural: ["Remember I prefer short steps", "What do you remember about me?", "Forget that preference"]
-    not_for: ["reminders about future tasks", "project knowledge (PPoT)", "storing health details"]
+    not_for: ["reminders about future tasks", "project knowledge", "storing health details"]
     handoffs: []
     extra_resources: [templates/MPoT-template.md, templates/user-decision-template.md]
     evidence_claims: []
@@ -244,6 +259,10 @@ mechanisms:
   - mechanism: N-of-1 presence-versus-structure comparison
     source: report 9
     implemented_by: [docs/evaluation-plan.md]
+  - mechanism: Linking to the user's other apps (calendar, reminders, notes, tasks)
+    source: product owner request, 2026-10-19
+    implemented_by: [adhd-connect, shared/integration-policy.md, shared/handoff-formats.md]
+    note: Connected tools only when real; otherwise portable .ics, Markdown and checklist handoffs. Neutral; no product recommendations.
   - mechanism: Human-governed durable preferences (MPoT)
     source: My-Point-of-Truth-Guidance.md
     implemented_by: [my-point-of-truth, shared/memory-policy.md]

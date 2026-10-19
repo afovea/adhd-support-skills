@@ -30,7 +30,7 @@ The outcome they want, and one thing that already reliably happens at that time 
    - **Small (bad-day) version:** just look at the plan.
    - **Skip:** allowed; nothing is lost.
 4. **Recovery plan:** "If you miss a few days, just do the small version next time the kettle goes on." No streaks, no "starting over".
-5. Optional external cue: a visible object, a note, or a reminder via `adhd-remember` (only if asked, and only with a real tool).
+5. Optional external cue: a visible object, a note, a reminder via `adhd-remember`, or a repeating calendar file (`references/shared/handoff-formats.md`). Only if asked; never set up a recurring reminder silently.
 6. Check back only if the user returns. If it isn't working, look at **cue, friction and context** before adding reminders: "What got in the way — the cue, the time, or the step itself?" Change one thing.
 7. Travel or disruption: "Pause the old cue. What's the equivalent moment while you're away?"
 

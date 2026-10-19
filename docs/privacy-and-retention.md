@@ -44,6 +44,10 @@ It never syncs remotely. It does not encrypt anything; if you need encryption, p
 
 Deletion overrides the append-only decision log. Nothing deleted is kept "for audit".
 
+## Connected apps
+
+If you connect a calendar, reminder, notes or task app to your assistant, that connection is between you, your assistant's provider and the app. The suite only uses tools that exist and only does what you ask. It reads only what the task needs, never bulk-edits or deletes, and gives calendar files or notes for you to import when nothing is connected. Disconnect in your assistant's settings and in the app's own account settings. Notes written into an Obsidian vault are ordinary files in the folder you chose.
+
 ## Optional integrations
 
 All integrations are optional and off unless the host provides them and you use them: timers, notifications, calendars, files, web search, memory, and external messaging. Without them, the suite gives copyable text.

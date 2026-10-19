@@ -1,6 +1,6 @@
 ---
 name: adhd-help
-description: Entry point for practical executive-function support when someone asks for help getting things done but the obstacle is unclear - "help, I'm stuck", "I can't get anything done today", "what can you help with?". Picks the smallest suitable support (choosing, starting, getting back on track, time, remembering, overload, health information, saved preferences) or asks one short question. No diagnosis needed. Not for coding, CSS, design, writing or research requests that merely contain words like help, focus or stuck.
+description: Entry point for practical executive-function support when someone asks for help getting things done but the obstacle is unclear - "help, I'm stuck", "I can't get anything done today", "what can you help with?". Picks the smallest suitable support (choosing, starting, getting back on track, time, remembering, overload, health information, saved preferences) or asks one short question. No diagnosis needed. Not for coding, technical, writing or research requests that merely contain words like help, focus or stuck.
 metadata:
   suite: adhd-support-skills
   version: 0.1.0
@@ -13,7 +13,7 @@ Work out what would help most right now and hand over to the one skill that fits
 ## Use for / not for
 
 - **Use for:** vague requests for help with doing things; "what can you do?"; the user isn't sure what kind of help they need.
-- **Not for:** unrelated technical or creative work ("fix the focus CSS", "help me debug startup") — just do that task; requests that already clearly match another skill — go straight there.
+- **Not for:** unrelated technical or creative work ("help my camera focus", "help me debug startup") — just do that task; requests that already clearly match another skill — go straight there.
 
 **Entry examples.** Explicit: `adhd-help` (`/adhd-help` in Claude Code, `$adhd-help` in Codex). Natural: "Help, I'm stuck." "I can't get anything done today." "What can you help with?"
 
@@ -39,6 +39,7 @@ Nothing. Use whatever the conversation already shows.
    | Want a routine | `adhd-routine` |
    | Too much, can't cope | `adhd-overwhelm` |
    | Health facts, assessment, medicine questions | `adhd-information` |
+   | Get it into my calendar, notes or reminders app | `adhd-connect` |
    | Remember / forget my preferences | `my-point-of-truth` |
 
 3. If not, ask **one** question, e.g. "What's hardest right now: choosing, starting, or getting back to it?" Accept any free-text answer.

@@ -1,6 +1,6 @@
 ---
 name: adhd-prioritise
-description: Help someone choose what to do next when they have several tasks or options and can't decide - "I have five things and can't choose", "what should I do first?", "I don't know where to start with all this". Recommends one using known deadlines, consequences, dependencies and the user's own priorities, and labels anything assumed or unknown. Not for business or product roadmap prioritisation, and never decides medical, legal, financial or relationship matters for the user.
+description: Help someone choose what to do next when they have several tasks or options and can't decide - "I have five things and can't choose", "what should I do first?", "I don't know where to start with all this". Recommends one using known deadlines, consequences, dependencies and the user's own priorities, and labels anything assumed or unknown. Not for business or organisational planning frameworks, and never decides medical, legal, financial or relationship matters for the user.
 metadata:
   suite: adhd-support-skills
   version: 0.1.0
@@ -13,7 +13,7 @@ Shrink the decision to one recommendation with a visible reason, then turn it in
 ## Use for / not for
 
 - **Use for:** a handful of competing tasks; "what first?"; reconsidering the same choice repeatedly.
-- **Not for:** product/roadmap frameworks (ordinary work task); making consequential health, legal, money, job or relationship decisions for the user (support their decision instead); a messy pile that first needs sorting (`adhd-brain-dump`).
+- **Not for:** business or organisational planning frameworks (ordinary work task); making consequential health, legal, money, job or relationship decisions for the user (support their decision instead); a messy pile that first needs sorting (`adhd-brain-dump`).
 
 **Entry examples.** Explicit: `adhd-prioritise`. Natural: "I have five things and can't choose." "I don't know what to do first." "Which of these matters most?"
 

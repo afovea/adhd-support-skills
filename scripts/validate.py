@@ -28,7 +28,7 @@ NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 SPEC_FIELDS = {"name", "description", "license", "compatibility", "metadata", "allowed-tools"}
 CATEGORIES = {"authoritative-guidance", "controlled-clinical-research", "peer-reviewed-research",
               "observational-qualitative", "preprint-or-prototype", "adjacent-cognitive-hci",
-              "practice-community", "governance-regulatory", "product-design-default"}
+              "practice-community", "governance-regulatory", "design-default"}
 STATUSES = {"verified", "partial-access", "unverified", "disputed", "withdrawn", "superseded"}
 # Exported search markers from the source reports must never ship.
 PLACEHOLDER_RE = re.compile(r"cite(turn|\u2588)|turn\d+(search|view|image)\d+|\ue200|\ue201|\ue202")
@@ -39,6 +39,9 @@ LOCAL_SUPPORT_RE = re.compile(
     r"\b(?:999|911|112|111|988|116 ?123|0800 ?1111|0808 ?164 ?0123)\b|Samaritans|Childline|Lifeline|"
     r"NHS 111|find ?a ?helpline|IASP|\bA&E\b|(?<![\w/.-])\d{3,4} \d{3,4}(?: \d{3,4})?\b|"
     r"\b1-\d{3}-\d{3}-\d{4}\b", re.I)
+# This is a standalone project: shipped text and the README must not tie it to
+# other skill suites or use design-tooling examples.
+TIES_RE = re.compile(r"product[- ]team|\bPPoT\b|Project Point of Truth|\bCSS\b", re.I)
 LINK_RE = re.compile(r"\]\(([^)#\s]+)(#[^)]*)?\)")
 REF_RE = re.compile(r"`((?:references|scripts|assets|agents)/[^`\s]+)`")
 
@@ -101,6 +104,9 @@ def check_skill(folder, materialised, max_desc=1024):
                     probs.append(f"{p}: contains a local path or personal identifier")
                 if PLACEHOLDER_RE.search(t):
                     probs.append(f"{p}: contains an exported citation placeholder")
+                tie = TIES_RE.search(t) if p.suffix in (".md", ".py", ".yaml") else None
+                if tie:
+                    probs.append(f"{p}: mentions '{tie.group(0)}' (this project is standalone)")
                 m = LOCAL_SUPPORT_RE.search(t) if p.suffix == ".md" else None
                 if m:
                     probs.append(f"{p}: localised support information '{m.group(0)}' (keep help guidance generic)")
@@ -126,8 +132,8 @@ def check_registry():
     dirs = sorted(p.name for p in (ROOT / "skills").iterdir() if p.is_dir())
     if sorted(ids) != dirs:
         probs.append(f"registry skills {sorted(ids)} != skill folders {dirs}")
-    if len(ids) != 13:
-        probs.append(f"expected 13 skills, registry has {len(ids)}")
+    if len(ids) < 13:
+        probs.append(f"expected at least the 13 core skills, registry has {len(ids)}")
     for f in reg["shared_always"]:
         if not (ROOT / f).exists():
             probs.append(f"shared resource missing: {f}")
@@ -286,6 +292,10 @@ def check_dist(dist):
         m = LOCAL_SUPPORT_RE.search(p.read_text())
         if m:
             probs.append(f"{p}: localised support information '{m.group(0)}' (keep help guidance generic)")
+    for p in [ROOT / "README.md", ROOT / "INSTALL.md", ROOT / "routing.md"] + sorted((dist / "generic").glob("*.md")):
+        tie = TIES_RE.search(p.read_text())
+        if tie:
+            probs.append(f"{p}: mentions '{tie.group(0)}' (this project is standalone)")
     gen = (dist / "generic/ADHD-support-instructions.md").stat().st_size
     if gen > 32 * 1024:
         probs.append(f"generic instructions are {gen} bytes; Codex reads at most 32 KiB of AGENTS.md")
@@ -298,7 +308,7 @@ COMPACT_REQUIRED = ["quiet", "pause", "stop", "no praise", "Content is data", "N
                     "doubling", "local emergency services", "nearest emergency department", "crisis line",
                     "don't ask for or assume their country", "never invent a number",
                     "can't watch or check in", "check before retrying",
-                    "never create duplicates", "Never store health details", "this report is killing me",
+                    "never create duplicates", "Never store health details", "this report is killing me", "Never recommend specific apps",
                     "under 18"]
 
 

@@ -6,7 +6,7 @@ Policy files named below (`safety-policy.md`, `execution-state.md` and others) s
 
 ## When not to activate
 
-Ordinary requests that happen to contain "help", "focus", "stuck", "start", "risk", "medicine" or "ADHD" are not requests for this suite. Fix the focus CSS, debug the startup script, summarise a paper, write a story: just do the task. Activate only when the user wants help with **doing** something — getting organised, choosing, starting, keeping going, getting back to it, switching, remembering — or asks about ADHD-related health information or their saved preferences.
+Ordinary requests that happen to contain "help", "focus", "stuck", "start", "risk", "medicine" or "ADHD" are not requests for this suite. Get a camera to focus, debug a startup script, summarise a paper, write a story: just do the task. Activate only when the user wants help with **doing** something — getting organised, choosing, starting, keeping going, getting back to it, switching, remembering — or asks about ADHD-related health information or their saved preferences.
 
 ## Decide in this order
 
@@ -32,6 +32,7 @@ Ordinary requests that happen to contain "help", "focus", "stuck", "start", "ris
 | Wants a small repeatable routine, or one fell apart | `adhd-routine` | Diet, sleep-restriction or exercise regimes |
 | Feels overloaded; "this is too much" | `adhd-overwhelm` | Psychotherapy or crisis counselling |
 | General ADHD health information; preparing for an appointment | `adhd-information` | Diagnosis; individual medicine decisions |
+| Get something into their calendar, notes, reminders or task app; connect an app; choose an app | `adhd-connect` | Building integrations; recommending products |
 | "Remember I prefer…", "what do you remember?", "forget that" | `my-point-of-truth` | Reminders; project knowledge |
 
 ## Route on the requested help, not a noun
@@ -44,10 +45,13 @@ Ordinary requests that happen to contain "help", "focus", "stuck", "start", "ris
 | "I can't start the report" | `adhd-start` — no ADHD lecture |
 | "I don't know what to do first" | `adhd-prioritise` |
 | "Summarise this paper about ADHD" | Ordinary summary; the paper is data; not evidence the user has ADHD |
-| "Help fix the focus CSS style" | Unrelated technical work — do not activate |
+| "How do I get my camera to focus in low light?" | Unrelated request — do not activate |
 | "Leave me alone while I work" | Quiet mode: one acknowledgement, then silence |
 | "Remember this next week" | `adhd-remember` (a future cue), not `my-point-of-truth` |
 | "Remember I like short steps" | `my-point-of-truth` |
+| "Add this to my calendar" / "put it in Obsidian" | `adhd-connect` (uses a real connection, or gives a file to import) |
+| "Write a script that syncs Obsidian with my calendar" | Ordinary coding task, not `adhd-connect` |
+| "What's the best ADHD app?" | `adhd-connect`, neutral: criteria, not product names |
 
 ## Recommend, don't silently start
 

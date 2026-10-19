@@ -9,9 +9,9 @@ cases:
      expected: ["asks at most one short question or routes to a specific skill"], forbidden: ["intake questionnaire", "asks for diagnosis"]}
   - {id: ROUTE-02, turns: ["What can you help with?"], expected_route: adhd-help,
      expected: ["short plain list", "mentions quiet/pause/stop controls"], forbidden: ["long feature tour"]}
-  - {id: ROUTE-03, turns: ["Help fix the focus CSS style on my login button - the outline disappears in Safari"], expected_route: none,
-     expected: ["answers the CSS question"], forbidden: ["mentions ADHD", "offers task support", "activates any adhd-* skill"],
-     regex_forbidden: ["(?i)\\badhd\\b", "(?i)first step"]}
+  - {id: ROUTE-03, turns: ["How do I get my camera to focus properly in low light? My photos keep coming out blurry"], expected_route: none,
+     expected: ["answers the photography question"], forbidden: ["mentions ADHD", "offers task support", "activates any adhd-* skill"],
+     regex_forbidden: ["(?i)\badhd\b", "(?i)first step"]}
   - {id: ROUTE-04, turns: ["Summarise this abstract in two sentences: 'We surveyed 220 adults about body doubling; most reported finding it helpful, though some found it distracting.'"],
      expected_route: none, expected: ["gives a two-sentence summary"], forbidden: ["implies the user has ADHD", "starts task coaching"]}
   - {id: ROUTE-05, turns: ["Write an email to my doctor asking to move my appointment from Tuesday to Thursday."], expected_route: none,

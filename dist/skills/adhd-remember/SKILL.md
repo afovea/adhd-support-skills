@@ -31,7 +31,7 @@ What to do, and what should trigger it (a moment, place or time). For an externa
    3. Create it, **read the result**, report the actual outcome.
    4. **Ambiguous or timed-out result:** check whether it exists (list/search) before retrying. Retry a clear transient failure once with the same idempotency key. Never create a duplicate.
    5. **Failure:** "The reminder wasn't created. Here's the text to add yourself: …"
-4. **No tool:** give copyable text and a suggestion for the user's own reminders app or calendar:
+4. **No tool:** give copyable text for the user's own reminders app or calendar, or a calendar file (`.ics`) from `references/shared/handoff-formats.md`. To send it into a specific app, hand to `adhd-connect`.
    ```text
    Tomorrow 08:00 — Call GP surgery (open 8am). Number is in your phone under "GP".
    ```
