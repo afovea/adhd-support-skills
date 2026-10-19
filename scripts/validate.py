@@ -237,7 +237,7 @@ def check_sync():
 def check_manifests():
     probs = []
     version = build.registry()["suite"]["version"]
-    for f in ("adapters/claude-code/plugin.json", "adapters/claude-code/marketplace.json",
+    for f in (".claude-plugin/marketplace.json", "adapters/claude-code/plugin.json", "adapters/claude-code/marketplace.json",
               "adapters/codex/plugin.json", "adapters/codex/marketplace.json"):
         try:
             d = json.loads((ROOT / f).read_text())
@@ -348,7 +348,7 @@ def main():
             failed = True
     if a.host_checks:
         if shutil.which("claude"):
-            for target in ("dist/claude-code", "dist/claude-code/.claude-plugin/plugin.json"):
+            for target in (".", "dist/claude-code", "dist/claude-code/.claude-plugin/plugin.json"):
                 r = subprocess.run(["claude", "plugin", "validate", str(ROOT / target)],
                                    capture_output=True, text=True)
                 print(f"{'ok  ' if r.returncode == 0 else 'FAIL'}  claude plugin validate {target}\n        "

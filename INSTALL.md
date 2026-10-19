@@ -38,7 +38,17 @@ Upload is **untested** in this build. The ZIP descriptions are kept to 200 chara
 claude --plugin-dir "dist/claude-code"
 ```
 
-**Option B: plugin, installed from the local marketplace:**
+**Option B: plugin from GitHub** (needs access while the repository is private):
+
+```
+/plugin marketplace add afovea/adhd-support-skills
+```
+
+```
+/plugin install adhd-support-skills@adhd-support-skills
+```
+
+**Option B2: plugin, installed from the local marketplace in a clone:**
 
 ```bash
 claude plugin marketplace add ./dist/claude-code

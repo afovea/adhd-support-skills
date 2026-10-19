@@ -1,0 +1,16 @@
+{
+  "name": "adhd-support-skills",
+  "description": "Marketplace for the ADHD Support Skills plugin, served from the built bundle in dist/claude-code.",
+  "owner": {
+    "name": "OWNER-TO-BE-CONFIRMED"
+  },
+  "plugins": [
+    {
+      "name": "adhd-support-skills",
+      "source": "./dist/claude-code",
+      "description": "Practical, low-pressure help with everyday tasks: organising, choosing, starting, keeping going, getting back to it and finishing. Not a diagnostic or treatment service.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}
