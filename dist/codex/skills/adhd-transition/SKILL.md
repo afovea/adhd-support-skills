@@ -49,7 +49,7 @@ No file or memory tools: the restart card is copyable text, and the user will ne
 ## Example
 
 > **User:** meeting in 2 mins, I'm halfway through the budget
-> **Agent:** Quick save point: **Budget.xlsx, Sheet 2, row 18 — next: check the March payment.** Save the file if it isn't autosaving. Now open the meeting link. When you're back, say "where was I".
+> **Agent:** Let's save your place so you can come straight back to it: **Budget.xlsx, Sheet 2, row 18, and next is checking the March payment.** Save the file if it isn't autosaving, then head into your meeting. When you're back, just say "where was I?"
 
 ## Failure to avoid
 

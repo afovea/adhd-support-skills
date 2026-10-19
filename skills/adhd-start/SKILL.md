@@ -24,7 +24,7 @@ The task. Optional: where they are, what they have to hand, anything that makes 
 ## Workflow
 
 1. **One action** that can begin immediately and takes roughly under two minutes. Concrete verbs: open, find, write one line, place, type the title.
-   > Only step: open the report and type the working title.
+   > Let's just start it: open the report and type a working title. That's all for now.
 2. Fit it to what the user can actually do. Don't assume standing, speaking, a laptop, or reading a long text.
 3. Optionally agree what counts as **enough for now** ("just the title" is a valid finish).
 4. Then **stop talking**. Say how to come back: "Tell me when it's open, or say 'smaller'."
@@ -45,7 +45,7 @@ No tools needed. Don't claim to know they've started; wait for them to say so.
 ## Example
 
 > **User:** I know what I need to do (expenses claim) but I just can't start
-> **Agent:** Let's only start it. Open the expenses portal — nothing else. Say "open" when it's up, or "smaller" if that's still too much.
+> **Agent:** That's a really common place to get stuck, so let's not try to do the whole claim yet. Just open the expenses portal, nothing else. Tell me when it's open, or say "smaller" if even that feels like too much.
 
 ## Failure to avoid
 

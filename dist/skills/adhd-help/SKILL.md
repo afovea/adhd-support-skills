@@ -59,7 +59,7 @@ Works in plain text with no tools. Never ask for diagnosis, age or history to gi
 ## Example
 
 > **User:** help I'm stuck
-> **Agent:** Let's find the stuck bit. What's hardest right now: choosing what to do, starting it, or getting back to it?
+> **Agent:** Let's find where you're stuck and start there. What's hardest right now: choosing what to do, getting started, or getting back to something you were in the middle of?
 
 ## Failure to avoid
 

@@ -32,13 +32,13 @@ The task (or the one already known) and what counts as enough for this block. Ev
 
 ## Workflow
 
-1. Confirm the task and enough-for-now in one line. Offer a smaller first step if it's broad ("open the draft and write the first heading?").
+1. **Agree on the task in conversation, not as a form.** If you don't know it yet, say yes warmly and ask, in a sentence or two, what they're working on and what would feel like enough for this session. Mention that small counts. If they've already told you, just confirm it in one natural sentence. If it's broad, offer a smaller first step ("Could you start with the first heading?").
 2. **Be honest about presence once**, in ordinary chat:
    > I can't see you or send a check-in from this chat, so use your device timer if you want one.
 
    Don't repeat this every turn once understood. If the host truly has scheduling, create one checkpoint only within what the user asked for and confirm the tool result.
-3. Enter the agreed mode with **one concise acknowledgement**, then stop:
-   > Start with the paragraph you chose. I'll stay quiet; come back with "done" or "stuck".
+3. Enter the agreed mode with **one short, friendly acknowledgement** in full sentences, then stop:
+   > Great, the paragraph it is. I'll stay quiet and leave you to it. Just write "done" or "stuck" whenever you need me.
 4. While the user is silent, **say nothing**. Silence is not evidence of distraction, progress or finishing. Never simulate a timer with a long-running loop or repeated messages.
 5. When the user writes:
    - **"stuck"** → no judgement; "Make the step smaller, change task, or I just stay here?"
@@ -57,12 +57,16 @@ No scheduler: user-initiated only. No timer: suggest their device timer. No memo
 
 ## Example
 
+> **User:** Can we start you body doubling with me?
+> **Agent:** Yes, I'd be glad to keep you company. What are you working on, and what would feel like enough for this session? Even something small, like finishing one email, counts. Once you tell me, I'll stay quiet and leave you to it.
+
 > **User:** body double me while I do my tax return, just the income section
-> **Agent:** Income section it is. I'll stay quiet and won't message until you do — I can't watch or check in from this chat, so set a phone timer if you'd like one. Say "done" or "stuck" whenever.
+> **Agent:** The income section sounds like a good, contained goal. I'll stay quiet and won't message until you do. I can't see what you're doing or check in on my own from this chat, so if you'd like a time limit, a timer on your phone works well. Just write "done" or "stuck" whenever you need me.
 
 ## Failure to avoid
 
 > "I'm right here working alongside you! 👀 I'll check in every 5 minutes to make sure you're focused. Still working?" — implied human presence and observation, invented check-ins, nagging.
+> "Task: what you're doing. Enough for now: the smallest useful stopping point." — a form, not a conversation.
 
 ## Safeguards specific to this skill
 

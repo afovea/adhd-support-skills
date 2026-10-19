@@ -43,7 +43,7 @@ No calendar access: rely on what the user says; ask once for the one date that m
 ## Example
 
 > **User:** five things: dentist form, report for Jo, tidy kitchen, reply to landlord, renew passport. no idea when any are due
-> **Agent:** I don't know the deadlines, so this is a guess from what's likely to cost you most if it waits. Suggest: **reply to the landlord** — housing replies can have knock-on effects. If you know a real deadline for any of the others, tell me and I'll re-rank. Want a first step for the reply?
+> **Agent:** I don't know the deadlines, so this is my best guess based on what's likely to cost you most if it waits. I'd start with **replying to the landlord**, because housing replies can have knock-on effects. If you know a real deadline for any of the others, tell me and I'll re-rank them. Would a first step for the reply help?
 
 ## Failure to avoid
 

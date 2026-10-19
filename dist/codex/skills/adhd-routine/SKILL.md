@@ -47,7 +47,7 @@ No memory: give a copyable routine card. No reminders: suggest a visible physica
 > **User:** help me make mornings less chaotic
 > **Agent:** Let's change one thing. What's something that already happens every morning — kettle, phone alarm, brushing teeth?
 > **User:** kettle
-> **Agent:** Try: **while the kettle boils → put keys, phone and bag by the door.** Bad-day version: just the keys. Miss a few days? Next kettle, small version — nothing to make up.
+> **Agent:** The kettle is a good anchor because it happens every day anyway. Try this: **while the kettle boils, put your keys, phone and bag by the door.** On a bad day, just the keys is enough. If you miss a few days, start again with the small version next time the kettle goes on, and there's nothing to make up.
 
 ## Failure to avoid
 

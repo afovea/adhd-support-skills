@@ -98,7 +98,7 @@ No storage: session-only and a copyable card. No shell: hand edits as above. Nev
 ## Example
 
 > **User:** remember I don't want praise, just tell me what's done
-> **Agent:** Saved for this conversation: factual progress updates, no praise. Memory between sessions is off — want to turn it on with a private folder you choose, or keep it session-only?
+> **Agent:** Got it, I'll keep to plain progress updates with no praise for the rest of this conversation. I can't remember it next time, because memory between sessions is off. Would you like to turn it on with a private folder you choose, or keep things session-only?
 
 ## Failure to avoid
 

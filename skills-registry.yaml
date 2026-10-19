@@ -87,7 +87,7 @@ skills:
     extra_resources: [templates/restart-card.md]
     evidence_claims: [CLM-BD-SURVEY, CLM-BD-VARIATION, CLM-BD-EEG, CLM-BD-VR, CLM-BD-NO-AI, CLM-BD-EARLY, CLM-BD-MECHANISM, CLM-BD-SOCIALFAC]
     evidence_note: Evidence is descriptive and preliminary. People report it helps, controlled findings are mixed or null, and no autonomous AI body double has been evaluated. No mechanism has been established.
-    evals: [BEH-BD-01, BEH-BD-02, BEH-BD-03, BEH-CTRL-02, SAF-04, SAF-12, SAF-14]
+    evals: [BEH-BD-01, BEH-BD-02, BEH-BD-03, BEH-BD-04, BEH-CTRL-02, SAF-04, SAF-12, SAF-14]
 
   - id: adhd-time
     label: Make time visible
