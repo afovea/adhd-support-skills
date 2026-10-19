@@ -57,6 +57,29 @@ class MakeIcsTests(unittest.TestCase):
         for physical in out.split("\r\n"):
             self.assertLessEqual(len(physical.encode("utf-8")), 75)
 
+    def test_repeat_with_zone_is_refused_not_drifting(self):
+        # Regression: UTC DTSTART + RRULE drifted an hour after the clock change
+        # and, far from UTC, moved "weekdays" onto the wrong days.
+        for zone in ("Europe/London", "Australia/Sydney"):
+            with self.assertRaises(ics.NeedsDecision):
+                ics.build("Plan", dt.date(2026, 10, 20), "08:00", zone=zone, repeat="weekdays", now=NOW)
+        err = io.StringIO()
+        with contextlib.redirect_stderr(err):
+            code = ics.main(["--title", "Plan", "--date", "2026-10-20", "--time", "08:00",
+                             "--tz", "Europe/London", "--repeat", "weekdays"])
+        self.assertEqual(code, 2)
+        self.assertIn("local time", err.getvalue())
+
+    def test_repeats_stay_on_local_wall_clock_and_local_weekdays(self):
+        ls = lines(ics.build("Plan", dt.date(2026, 10, 20), "08:00", repeat="weekdays", now=NOW))
+        self.assertIn("DTSTART:20261020T080000", ls)          # floating: no Z, no zone
+        self.assertFalse(any(l.startswith("DTSTART") and l.endswith("Z") for l in ls))
+        self.assertIn("RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR", ls)
+
+    def test_one_off_with_zone_still_fixed_in_utc(self):
+        self.assertIn("DTSTART:20261019T210000Z",
+                      ics.build("Call", dt.date(2026, 10, 20), "08:00", zone="Australia/Sydney", now=NOW))
+
     def test_repeat_only_when_asked(self):
         self.assertNotIn("RRULE", ics.build("Plan", dt.date(2026, 10, 20), "08:00", now=NOW))
         self.assertIn("RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",

@@ -5,10 +5,17 @@
         [--minutes 15] [--alarm 10] [--tz Europe/London] [--repeat daily|weekly|weekdays] \
         [--notes "..."] [--out call-gp.ics]
 
-Without --tz the time is "floating": the same wall-clock time wherever the
-device is. With --tz it is fixed to that zone and written in UTC; times that
-don't exist or happen twice on a daylight-saving change are refused so the
-user can choose. Without --out the file is printed. Nothing is sent anywhere.
+Without --tz the time is "floating": local wall-clock time on the device or
+calendar that imports it. With --tz a one-off event is fixed to that zone and
+written in UTC; times that don't exist or happen twice on a daylight-saving
+change are refused so the user can choose.
+
+Repeating events are always written in floating local time, so each repeat
+stays at the same local time across clock changes and "weekdays" means local
+weekdays. --tz with --repeat is refused: a UTC start with a repeat rule would
+drift by an hour after a clock change and can land on the wrong days.
+
+Without --out the file is printed. Nothing is sent anywhere.
 Exit codes: 0 ok, 2 needs a decision from the user.
 """
 import argparse
@@ -57,6 +64,10 @@ def resolve(date, hhmm, zone):
 
 def build(title, date, hhmm, minutes=15, alarm=None, zone=None, repeat=None, notes=None, now=None):
     now = now or dt.datetime.now(dt.timezone.utc)
+    if zone and repeat:
+        raise NeedsDecision("A repeating reminder is written in local time so it follows clock changes. "
+                            "Drop the time zone (it will repeat at that local time on your device), "
+                            "or make a one-off event with the time zone.")
     start_naive = dt.datetime.combine(date, dt.time.fromisoformat(hhmm))
     if zone:
         start = resolve(date, hhmm, zone).astimezone(dt.timezone.utc)

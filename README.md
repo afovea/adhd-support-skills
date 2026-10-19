@@ -284,7 +284,7 @@ People already have calendars, reminder apps, Obsidian or other notes apps, task
 
 **Choosing an app:** it won't name or recommend products, including specialist ADHD apps. It starts from what you already have, then helps you decide by what matters to you: does it really alert you, does it work on your devices, cost, where your data is kept, and sensory comfort.
 
-With a shell, `skills/adhd-connect/scripts/make_ics.py` writes a valid calendar file. It handles time zones and refuses times that don't exist, or happen twice, when the clocks change. Rules: [`shared/integration-policy.md`](./shared/integration-policy.md). Formats: [`shared/handoff-formats.md`](./shared/handoff-formats.md).
+With a shell, `skills/adhd-connect/scripts/make_ics.py` writes a valid calendar file. Repeating reminders stay at the same local time when the clocks change. It refuses times that don't exist, or happen twice, at a clock change. Rules: [`shared/integration-policy.md`](./shared/integration-policy.md). Formats: [`shared/handoff-formats.md`](./shared/handoff-formats.md).
 
 [↑ Back to contents](#contents)
 
@@ -417,7 +417,7 @@ adhd-support-skills/
 │   │   └── references/evidence-card.md   # generated from the evidence register
 │   ├── adhd-connect/
 │   │   ├── SKILL.md
-│   │   └── scripts/make_ics.py      # valid calendar files, DST-safe
+│   │   └── scripts/make_ics.py      # valid calendar files
 │   ├── my-point-of-truth/
 │   │   ├── SKILL.md
 │   │   └── scripts/mpot.py          # private, file-backed MPoT operations

@@ -35,7 +35,7 @@ skills:
     extra_resources: [routing.md]
     evidence_claims: []
     evidence_note: Routing is an interaction design choice. It is not a tested health intervention.
-    evals: [ROUTE-01, ROUTE-02, BEH-HELP-01, BEH-CTRL-01, SEC-01, SEC-02, ROUTE-03, ROUTE-12]
+    evals: [ROUTE-01, ROUTE-02, BEH-HELP-01, BEH-CTRL-01, SEC-01, SEC-02, ROUTE-03, ROUTE-12, SAF-09]
 
   - id: adhd-brain-dump
     label: Get it out of your head
@@ -74,7 +74,7 @@ skills:
     extra_resources: []
     evidence_claims: [CLM-RS-CBT-COMPONENTS, CLM-RS-SOLANTO, CLM-GD-CADDRA-SCAFFOLD]
     evidence_note: Breaking tasks into steps is part of established organisation and planning strategies. The under-two-minute first step is a design default that has not been tested.
-    evals: [BEH-START-01, BEH-START-02, BEH-CTRL-03, SAF-01, SAF-05, SAF-08]
+    evals: [BEH-START-01, BEH-START-02, BEH-CTRL-03, SAF-01, SAF-05, SAF-08, SAF-11, SAF-13]
 
   - id: adhd-body-double
     label: Quiet company while you work
@@ -87,7 +87,7 @@ skills:
     extra_resources: [templates/restart-card.md]
     evidence_claims: [CLM-BD-SURVEY, CLM-BD-VARIATION, CLM-BD-EEG, CLM-BD-VR, CLM-BD-NO-AI, CLM-BD-EARLY, CLM-BD-MECHANISM, CLM-BD-SOCIALFAC]
     evidence_note: Evidence is descriptive and preliminary. People report it helps, controlled findings are mixed or null, and no autonomous AI body double has been evaluated. No mechanism has been established.
-    evals: [BEH-BD-01, BEH-BD-02, BEH-BD-03, BEH-CTRL-02, SAF-04]
+    evals: [BEH-BD-01, BEH-BD-02, BEH-BD-03, BEH-CTRL-02, SAF-04, SAF-12, SAF-14]
 
   - id: adhd-time
     label: Make time visible
@@ -152,7 +152,7 @@ skills:
     extra_resources: []
     evidence_claims: [CLM-RS-ROUTINE-SCOPING, CLM-RS-IMPL-INTENTIONS, CLM-RS-LIVED]
     evidence_note: Direct adult evidence is thin, and most routine research is paediatric. Treat this as a design hypothesis.
-    evals: [BEH-ROU-01]
+    evals: [BEH-ROU-01, SAF-15]
 
   - id: adhd-overwhelm
     label: Too much right now
@@ -165,7 +165,7 @@ skills:
     extra_resources: []
     evidence_claims: [CLM-RS-EMOTION-DYSREG, CLM-GD-AADPA-CBT]
     evidence_note: This skill is ordinary demand reduction, not therapy. Emotion-regulation evidence concerns clinician-delivered CBT and group averages.
-    evals: [BEH-OVR-01, SAF-02, SAF-03]
+    evals: [BEH-OVR-01, SAF-02, SAF-03, SAF-10]
 
   - id: adhd-information
     label: ADHD health information
@@ -191,7 +191,7 @@ skills:
     extra_resources: []
     evidence_claims: [CLM-RS-LIVED, CLM-GD-CADDRA-SCAFFOLD]
     evidence_note: Linking to other apps is an interaction design choice. It is not a health intervention. Externalising reminders and lists is consistent with guidance and with what adults with ADHD report using.
-    evals: [CON-01, CON-02, CON-03, CON-04, CON-05, CON-06]
+    evals: [CON-01, CON-02, CON-03, CON-04, CON-05, CON-06, SAF-16]
 
   - id: my-point-of-truth
     label: My Point of Truth (your saved preferences)

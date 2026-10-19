@@ -35,8 +35,8 @@ END:VCALENDAR
 ```
 
 - **Floating time** (`DTSTART:20261020T080000`, with no `Z`) means "08:00 wherever the device is". This is usually right for personal reminders.
-- **Fixed time zone:** if the event must stay at 08:00 London time even while travelling, use the script with `--tz Europe/London`. It writes the UTC time with a `Z`. The script refuses times that don't exist, or happen twice, on a daylight-saving change, and asks you to choose.
-- **Repeating:** add `RRULE:FREQ=DAILY`, `RRULE:FREQ=WEEKLY` or `RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR`. Only add a repeat when the user asked for one.
+- **Fixed time zone (one-off events only):** if a single event must stay at 08:00 London time even while travelling, use the script with `--tz Europe/London`. It writes the UTC time with a `Z`. The script refuses times that don't exist, or happen twice, on a daylight-saving change, and asks you to choose.
+- **Repeating:** add `RRULE:FREQ=DAILY`, `RRULE:FREQ=WEEKLY` or `RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR`, and **always use floating time** (no `Z`) so each repeat stays at the same local time across clock changes. Never combine a UTC (`Z`) start with a repeat: it drifts an hour after a clock change and can land on the wrong days. Only add a repeat when the user asked for one.
 - **Telling the user:** "Save this as `call-gp.ics` and open it. Your calendar should offer to add it." Never claim it has been added.
 
 ## Notes: Obsidian and other Markdown apps

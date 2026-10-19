@@ -104,8 +104,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-body-double/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-body-double/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -128,8 +128,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-body-double/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-brain-dump/SKILL.md": {
       "sha256": "29acaf6cf1f44b9af7c800cec60cb3c6f88915bf85d87350e9002f7330700408",
@@ -156,8 +156,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-brain-dump/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-brain-dump/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -180,12 +180,12 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-brain-dump/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-connect/SKILL.md": {
-      "sha256": "ae7226fc9e512130d5802e113d26977e83f1ff0b54d0552da8caa433d7cd60b8",
-      "bytes": 7724
+      "sha256": "325a45119e2792934d544a3412cfffaefa9d07628f37c96ad830f33ef695239c",
+      "bytes": 7786
     },
     "claude-code/skills/adhd-connect/agents/openai.yaml": {
       "sha256": "8db226019b6a596754deace17dde19cbb5c53f92770ed9aced7c34693f20a025",
@@ -208,8 +208,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-connect/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-connect/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -232,12 +232,12 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-connect/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-connect/scripts/make_ics.py": {
-      "sha256": "1abd3a50a31376a4a76d510b91942d9fe6a2bdd0197d4446a2e6f7fd7445eed5",
-      "bytes": 4697
+      "sha256": "d9369b6e262ec52d08e331edc3a73b957dbfb312c4d20e4d8bddb3228062d4b9",
+      "bytes": 5335
     },
     "claude-code/skills/adhd-help/SKILL.md": {
       "sha256": "631429c7a7ef357bc14e374b321abc62dc61037d4eb039baf18b5d13cc0dd0f0",
@@ -264,8 +264,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-help/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-help/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -292,8 +292,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-help/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-information/SKILL.md": {
       "sha256": "894da865da8f852a825243dea95989aca5fd64ba78afea9a43912de918a6b08a",
@@ -320,8 +320,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-information/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-information/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -344,8 +344,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-information/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-overwhelm/SKILL.md": {
       "sha256": "121eb5d8513cb2ea354abbb8a84fa0b66e59fa992b332670868e138dac0b5c13",
@@ -372,8 +372,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-overwhelm/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-overwhelm/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -396,8 +396,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-overwhelm/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-prioritise/SKILL.md": {
       "sha256": "8a9468775ad31da7a700a2a945b459ccb3977fc17556a17843108a2407fa6001",
@@ -424,8 +424,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-prioritise/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-prioritise/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -448,8 +448,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-prioritise/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-remember/SKILL.md": {
       "sha256": "5f2071423a56b0d05c07febbc415ade95e481add8bc81c04127d48b5d5329eb6",
@@ -476,8 +476,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-remember/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-remember/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -500,8 +500,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-remember/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-restart/SKILL.md": {
       "sha256": "62bd7205abfb78e3ee449559d85ee217a06720ca777aab17d31cf9cbde623877",
@@ -532,8 +532,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-restart/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-restart/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -556,8 +556,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-restart/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-routine/SKILL.md": {
       "sha256": "1556c9afb372ef4e81fe849dba368d45f6d04e8737356550415852580042ad9a",
@@ -584,8 +584,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-routine/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-routine/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -608,8 +608,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-routine/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-start/SKILL.md": {
       "sha256": "c0f475582f0031ff45e99fd4f47d2d28639db69def6a4ff7e670b2fda5ab4668",
@@ -636,8 +636,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-start/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-start/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -660,8 +660,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-start/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-time/SKILL.md": {
       "sha256": "1e29ac9e7564849d7d78c4ee6cf49e1bf08da9be76d49ee248db7b88a26f06e9",
@@ -688,8 +688,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-time/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-time/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -712,8 +712,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-time/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/adhd-transition/SKILL.md": {
       "sha256": "4c8775f7400f9f0c45c8542e0116e0cb418e1799cc99e83c971e132d70664793",
@@ -744,8 +744,8 @@
       "bytes": 2665
     },
     "claude-code/skills/adhd-transition/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/adhd-transition/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -768,8 +768,8 @@
       "bytes": 32065
     },
     "claude-code/skills/adhd-transition/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/my-point-of-truth/SKILL.md": {
       "sha256": "0190fc193b3245aa600db7a0e7b6871e459b2a83d51e4c7aa7b36cd93f7d7662",
@@ -800,8 +800,8 @@
       "bytes": 2665
     },
     "claude-code/skills/my-point-of-truth/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "claude-code/skills/my-point-of-truth/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -824,8 +824,8 @@
       "bytes": 32065
     },
     "claude-code/skills/my-point-of-truth/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "claude-code/skills/my-point-of-truth/references/user-decision-template.md": {
       "sha256": "3c6f0937ae3c1eef020dc4bad5f90fb2ce821356081f164c1c4cb370225c4287",
@@ -872,8 +872,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-body-double/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-body-double/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -896,8 +896,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-body-double/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-brain-dump/SKILL.md": {
       "sha256": "29acaf6cf1f44b9af7c800cec60cb3c6f88915bf85d87350e9002f7330700408",
@@ -924,8 +924,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-brain-dump/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-brain-dump/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -948,12 +948,12 @@
       "bytes": 32065
     },
     "codex/skills/adhd-brain-dump/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-connect/SKILL.md": {
-      "sha256": "ae7226fc9e512130d5802e113d26977e83f1ff0b54d0552da8caa433d7cd60b8",
-      "bytes": 7724
+      "sha256": "325a45119e2792934d544a3412cfffaefa9d07628f37c96ad830f33ef695239c",
+      "bytes": 7786
     },
     "codex/skills/adhd-connect/agents/openai.yaml": {
       "sha256": "8db226019b6a596754deace17dde19cbb5c53f92770ed9aced7c34693f20a025",
@@ -976,8 +976,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-connect/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-connect/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1000,12 +1000,12 @@
       "bytes": 32065
     },
     "codex/skills/adhd-connect/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-connect/scripts/make_ics.py": {
-      "sha256": "1abd3a50a31376a4a76d510b91942d9fe6a2bdd0197d4446a2e6f7fd7445eed5",
-      "bytes": 4697
+      "sha256": "d9369b6e262ec52d08e331edc3a73b957dbfb312c4d20e4d8bddb3228062d4b9",
+      "bytes": 5335
     },
     "codex/skills/adhd-help/SKILL.md": {
       "sha256": "631429c7a7ef357bc14e374b321abc62dc61037d4eb039baf18b5d13cc0dd0f0",
@@ -1032,8 +1032,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-help/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-help/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1060,8 +1060,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-help/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-information/SKILL.md": {
       "sha256": "894da865da8f852a825243dea95989aca5fd64ba78afea9a43912de918a6b08a",
@@ -1088,8 +1088,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-information/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-information/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1112,8 +1112,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-information/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-overwhelm/SKILL.md": {
       "sha256": "121eb5d8513cb2ea354abbb8a84fa0b66e59fa992b332670868e138dac0b5c13",
@@ -1140,8 +1140,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-overwhelm/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-overwhelm/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1164,8 +1164,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-overwhelm/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-prioritise/SKILL.md": {
       "sha256": "8a9468775ad31da7a700a2a945b459ccb3977fc17556a17843108a2407fa6001",
@@ -1192,8 +1192,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-prioritise/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-prioritise/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1216,8 +1216,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-prioritise/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-remember/SKILL.md": {
       "sha256": "5f2071423a56b0d05c07febbc415ade95e481add8bc81c04127d48b5d5329eb6",
@@ -1244,8 +1244,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-remember/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-remember/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1268,8 +1268,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-remember/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-restart/SKILL.md": {
       "sha256": "62bd7205abfb78e3ee449559d85ee217a06720ca777aab17d31cf9cbde623877",
@@ -1300,8 +1300,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-restart/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-restart/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1324,8 +1324,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-restart/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-routine/SKILL.md": {
       "sha256": "1556c9afb372ef4e81fe849dba368d45f6d04e8737356550415852580042ad9a",
@@ -1352,8 +1352,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-routine/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-routine/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1376,8 +1376,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-routine/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-start/SKILL.md": {
       "sha256": "c0f475582f0031ff45e99fd4f47d2d28639db69def6a4ff7e670b2fda5ab4668",
@@ -1404,8 +1404,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-start/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-start/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1428,8 +1428,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-start/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-time/SKILL.md": {
       "sha256": "1e29ac9e7564849d7d78c4ee6cf49e1bf08da9be76d49ee248db7b88a26f06e9",
@@ -1456,8 +1456,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-time/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-time/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1480,8 +1480,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-time/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/adhd-transition/SKILL.md": {
       "sha256": "4c8775f7400f9f0c45c8542e0116e0cb418e1799cc99e83c971e132d70664793",
@@ -1512,8 +1512,8 @@
       "bytes": 2665
     },
     "codex/skills/adhd-transition/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/adhd-transition/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1536,8 +1536,8 @@
       "bytes": 32065
     },
     "codex/skills/adhd-transition/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/my-point-of-truth/SKILL.md": {
       "sha256": "0190fc193b3245aa600db7a0e7b6871e459b2a83d51e4c7aa7b36cd93f7d7662",
@@ -1568,8 +1568,8 @@
       "bytes": 2665
     },
     "codex/skills/my-point-of-truth/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "codex/skills/my-point-of-truth/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1592,8 +1592,8 @@
       "bytes": 32065
     },
     "codex/skills/my-point-of-truth/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "codex/skills/my-point-of-truth/references/user-decision-template.md": {
       "sha256": "3c6f0937ae3c1eef020dc4bad5f90fb2ce821356081f164c1c4cb370225c4287",
@@ -1604,12 +1604,12 @@
       "bytes": 26768
     },
     "generic/ADHD-support-instructions-compact.md": {
-      "sha256": "a3a13fc24ef9ba6a3904076098b456518796fa0e14b0e31eb83441219ae6b199",
-      "bytes": 7175
+      "sha256": "9234a3fd543315bc7c28faa5671a56bf1ba6ca2ffbab35d027a39abeec32f79c",
+      "bytes": 7359
     },
     "generic/ADHD-support-instructions.md": {
-      "sha256": "57266686500fe3bcd9d62987e6ce519dbee786ed68d52d1d40aed7517da077a9",
-      "bytes": 29917
+      "sha256": "f9f46bfd4ad38fea6f7bbf21f618e0c256905e08f05b813ad75475f19b3edca0",
+      "bytes": 30369
     },
     "generic/routing.md": {
       "sha256": "49e08fffca9fca25d43e51e9de54cf1e3603bcc375e7144409c930ab8dc2d84b",
@@ -1648,8 +1648,8 @@
       "bytes": 2665
     },
     "skills/adhd-body-double/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-body-double/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1672,8 +1672,8 @@
       "bytes": 32065
     },
     "skills/adhd-body-double/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-brain-dump/SKILL.md": {
       "sha256": "29acaf6cf1f44b9af7c800cec60cb3c6f88915bf85d87350e9002f7330700408",
@@ -1700,8 +1700,8 @@
       "bytes": 2665
     },
     "skills/adhd-brain-dump/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-brain-dump/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1724,12 +1724,12 @@
       "bytes": 32065
     },
     "skills/adhd-brain-dump/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-connect/SKILL.md": {
-      "sha256": "ae7226fc9e512130d5802e113d26977e83f1ff0b54d0552da8caa433d7cd60b8",
-      "bytes": 7724
+      "sha256": "325a45119e2792934d544a3412cfffaefa9d07628f37c96ad830f33ef695239c",
+      "bytes": 7786
     },
     "skills/adhd-connect/agents/openai.yaml": {
       "sha256": "8db226019b6a596754deace17dde19cbb5c53f92770ed9aced7c34693f20a025",
@@ -1752,8 +1752,8 @@
       "bytes": 2665
     },
     "skills/adhd-connect/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-connect/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1776,12 +1776,12 @@
       "bytes": 32065
     },
     "skills/adhd-connect/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-connect/scripts/make_ics.py": {
-      "sha256": "1abd3a50a31376a4a76d510b91942d9fe6a2bdd0197d4446a2e6f7fd7445eed5",
-      "bytes": 4697
+      "sha256": "d9369b6e262ec52d08e331edc3a73b957dbfb312c4d20e4d8bddb3228062d4b9",
+      "bytes": 5335
     },
     "skills/adhd-help/SKILL.md": {
       "sha256": "631429c7a7ef357bc14e374b321abc62dc61037d4eb039baf18b5d13cc0dd0f0",
@@ -1808,8 +1808,8 @@
       "bytes": 2665
     },
     "skills/adhd-help/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-help/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1836,8 +1836,8 @@
       "bytes": 32065
     },
     "skills/adhd-help/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-information/SKILL.md": {
       "sha256": "894da865da8f852a825243dea95989aca5fd64ba78afea9a43912de918a6b08a",
@@ -1864,8 +1864,8 @@
       "bytes": 2665
     },
     "skills/adhd-information/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-information/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1888,8 +1888,8 @@
       "bytes": 32065
     },
     "skills/adhd-information/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-overwhelm/SKILL.md": {
       "sha256": "121eb5d8513cb2ea354abbb8a84fa0b66e59fa992b332670868e138dac0b5c13",
@@ -1916,8 +1916,8 @@
       "bytes": 2665
     },
     "skills/adhd-overwhelm/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-overwhelm/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1940,8 +1940,8 @@
       "bytes": 32065
     },
     "skills/adhd-overwhelm/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-prioritise/SKILL.md": {
       "sha256": "8a9468775ad31da7a700a2a945b459ccb3977fc17556a17843108a2407fa6001",
@@ -1968,8 +1968,8 @@
       "bytes": 2665
     },
     "skills/adhd-prioritise/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-prioritise/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -1992,8 +1992,8 @@
       "bytes": 32065
     },
     "skills/adhd-prioritise/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-remember/SKILL.md": {
       "sha256": "5f2071423a56b0d05c07febbc415ade95e481add8bc81c04127d48b5d5329eb6",
@@ -2020,8 +2020,8 @@
       "bytes": 2665
     },
     "skills/adhd-remember/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-remember/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -2044,8 +2044,8 @@
       "bytes": 32065
     },
     "skills/adhd-remember/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-restart/SKILL.md": {
       "sha256": "62bd7205abfb78e3ee449559d85ee217a06720ca777aab17d31cf9cbde623877",
@@ -2076,8 +2076,8 @@
       "bytes": 2665
     },
     "skills/adhd-restart/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-restart/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -2100,8 +2100,8 @@
       "bytes": 32065
     },
     "skills/adhd-restart/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-routine/SKILL.md": {
       "sha256": "1556c9afb372ef4e81fe849dba368d45f6d04e8737356550415852580042ad9a",
@@ -2128,8 +2128,8 @@
       "bytes": 2665
     },
     "skills/adhd-routine/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-routine/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -2152,8 +2152,8 @@
       "bytes": 32065
     },
     "skills/adhd-routine/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-start/SKILL.md": {
       "sha256": "c0f475582f0031ff45e99fd4f47d2d28639db69def6a4ff7e670b2fda5ab4668",
@@ -2180,8 +2180,8 @@
       "bytes": 2665
     },
     "skills/adhd-start/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-start/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -2204,8 +2204,8 @@
       "bytes": 32065
     },
     "skills/adhd-start/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-time/SKILL.md": {
       "sha256": "1e29ac9e7564849d7d78c4ee6cf49e1bf08da9be76d49ee248db7b88a26f06e9",
@@ -2232,8 +2232,8 @@
       "bytes": 2665
     },
     "skills/adhd-time/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-time/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -2256,8 +2256,8 @@
       "bytes": 32065
     },
     "skills/adhd-time/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/adhd-transition/SKILL.md": {
       "sha256": "4c8775f7400f9f0c45c8542e0116e0cb418e1799cc99e83c971e132d70664793",
@@ -2288,8 +2288,8 @@
       "bytes": 2665
     },
     "skills/adhd-transition/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/adhd-transition/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -2312,8 +2312,8 @@
       "bytes": 32065
     },
     "skills/adhd-transition/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/my-point-of-truth/SKILL.md": {
       "sha256": "0190fc193b3245aa600db7a0e7b6871e459b2a83d51e4c7aa7b36cd93f7d7662",
@@ -2344,8 +2344,8 @@
       "bytes": 2665
     },
     "skills/my-point-of-truth/references/shared/handoff-formats.md": {
-      "sha256": "2f621dfaaa87772b07481611d275c310e402492e62f35a0467ea999d8d14c3fe",
-      "bytes": 3684
+      "sha256": "d597038f230fb89149a2fb935962ca700a13c15278c1ab1d9a25cac3e9899167",
+      "bytes": 3937
     },
     "skills/my-point-of-truth/references/shared/integration-policy.md": {
       "sha256": "14b7df6948b3f8f756a692e0b9665249465a09a8bd7391e59da62d63c330455f",
@@ -2368,8 +2368,8 @@
       "bytes": 32065
     },
     "skills/my-point-of-truth/references/shared/safety-policy.md": {
-      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
-      "bytes": 6591
+      "sha256": "92d2108e38304ea96b861f35b09bbe7486c9c06dd6d03628de53511ca1bf630b",
+      "bytes": 6790
     },
     "skills/my-point-of-truth/references/user-decision-template.md": {
       "sha256": "3c6f0937ae3c1eef020dc4bad5f90fb2ce821356081f164c1c4cb370225c4287",
@@ -2380,60 +2380,60 @@
       "bytes": 26768
     },
     "zips/adhd-body-double.zip": {
-      "sha256": "c0deb7a1cf0952e879579ac4913c55d0ed1bb5303bfac3dc0b44b513eb77730a",
-      "bytes": 38926
+      "sha256": "a1bee066b7b9722aab17b9c19a3a4896f98a39166004a2db5f8a17bc816640cb",
+      "bytes": 39116
     },
     "zips/adhd-brain-dump.zip": {
-      "sha256": "4049ccac43932bc1d822fd7fe537ae5f971063206cd6b51736dfbe4d14a841f0",
-      "bytes": 36829
+      "sha256": "a368330f5db309fe1360febfb819718be7cbfe2227d4797a29ed2915a4a85ccb",
+      "bytes": 37019
     },
     "zips/adhd-connect.zip": {
-      "sha256": "18931e56ad1876b18f065317ddbe00f1a63fcc7466c0bd992ce7b28651a92152",
-      "bytes": 39361
+      "sha256": "af9b20420a3870de38302713fb17b9c809e1b1b0768178e563768e2a50a052c5",
+      "bytes": 39771
     },
     "zips/adhd-help.zip": {
-      "sha256": "5e3b4f3dcabae25b2df89f4808efe7605f76df253c7bafa4514a23ee86803457",
-      "bytes": 38170
+      "sha256": "12e0d1a8f3f9477f6301cf54f585996998b039c32a239c7f79edcee4e75083d3",
+      "bytes": 38360
     },
     "zips/adhd-information.zip": {
-      "sha256": "f6371d4d65cac015592eb98557a355b4a9f2459b1c5f0aff3a8c3779be5523ef",
-      "bytes": 39569
+      "sha256": "3caafbe865c689cdb36ecf5db36f66627247a56fa41f59e85a1ca262b6681dfa",
+      "bytes": 39759
     },
     "zips/adhd-overwhelm.zip": {
-      "sha256": "4abe66a7030b0aae3dfc4ba08b2825b42a293a194c56c19c1551e5ecae9d9032",
-      "bytes": 36234
+      "sha256": "d7a9a6fb632f54804cae6497d1803c63dbfda47903f0836d73cf531f06b8bf9f",
+      "bytes": 36424
     },
     "zips/adhd-prioritise.zip": {
-      "sha256": "7a88063040e354919f356e46d1a472f9a21f3a5959b010994f6e4d4d57d51d7f",
-      "bytes": 36151
+      "sha256": "35329f85e0c5bd8d25811d030d31b586e9cb07514a259700fd6c40e7fa2b45b9",
+      "bytes": 36341
     },
     "zips/adhd-remember.zip": {
-      "sha256": "6a9b0ebb4cf6248cf28ca5144bc37cccff1149b2f938e69b69473f5a4229a45d",
-      "bytes": 36911
+      "sha256": "71729e24d2cff915c985ef3197d7cf7347562b51bc55289250da3986420cf45b",
+      "bytes": 37101
     },
     "zips/adhd-restart.zip": {
-      "sha256": "231babbf81020c8cadcd8e01fdf7dc96eb6067d2db12661cd1df496e09eebeeb",
-      "bytes": 36271
+      "sha256": "2442da5f0122ccde3f26c54d05858a4ded37225e164e294b8e5d4afe5dc4333f",
+      "bytes": 36461
     },
     "zips/adhd-routine.zip": {
-      "sha256": "9ce8503ce3f83f6623f906caafe58fd82ff20e1131a25bce5815fc2a09c18b83",
-      "bytes": 36567
+      "sha256": "126c4d68be6938beff41e6146f3469daafb91646004f5178f651f4e216e540e4",
+      "bytes": 36757
     },
     "zips/adhd-start.zip": {
-      "sha256": "ec4fa292acbf41d2921c45dd5f22e19e2399e9cec129eec0f66c0badc2028d1e",
-      "bytes": 36394
+      "sha256": "a8d79c1112cc3ec13bc9b04f65aefb996a5cd28fc21c37ff9578e957af04f107",
+      "bytes": 36584
     },
     "zips/adhd-time.zip": {
-      "sha256": "46c7f4a5be30d772d8e87f744a5e40da9aeb018be919d00b39e06ae31f4f0a31",
-      "bytes": 36314
+      "sha256": "c249fbf3baa3b167513a465540baae4ad3641e5f285c2c9eec42642aed1f48ac",
+      "bytes": 36504
     },
     "zips/adhd-transition.zip": {
-      "sha256": "8c50b66c6eef2daaf147d7cf8b5d9a4d5d21588434a01a53adb50ec45857c45d",
-      "bytes": 36458
+      "sha256": "2402f8ef1d1d301541bd9f395e1c78e61362303d0548059d77f6b2d351aa9c4c",
+      "bytes": 36648
     },
     "zips/my-point-of-truth.zip": {
-      "sha256": "5a00b69540eecf02a35cfbe775c78539fba4510c571f59226d94b338f39dec36",
-      "bytes": 47022
+      "sha256": "88df8d6134685452f08867a7c576a6d9b77311329ba1d785436b1a9c08418c41",
+      "bytes": 47212
     }
   }
 }

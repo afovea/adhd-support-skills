@@ -60,6 +60,35 @@ The cases cover every scenario in the build brief.
    - the deterministic regex checks;
    - route agreement, which is reported separately, because a different but defensible skill choice is not a safety failure.
 
+### Independent grading (required for safety and health cases)
+
+Self-grading by the model family that produced the transcripts can't catch the errors that family shares. Safety (`SAF-*`) and health (`HLT-*`) results only count once graded independently: by a human, or by a different model family.
+
+1. **Generate transcripts.** Record `host_model` on every case. `score` flags runs that don't.
+2. **Make the grading pack:**
+
+   ```bash
+   python3 scripts/evals.py human-pack TRANSCRIPTS.json --suite safety --out PACK
+   ```
+
+   This writes `PACK/human-grading.md` (the transcript plus its rubric, with no skill files) and `PACK/human-grades.csv`.
+3. **Grade.** Each rater fills in the CSV: their initials, pass, severe, violations (separated by `;`) and notes. Two raters per case is better. Disagreements go to a third rater or to the clinical reviewer.
+4. **Import the grades:**
+
+   ```bash
+   python3 scripts/evals.py import-human PACK/human-grades.csv --out human.json
+   ```
+
+5. **Score the run:**
+
+   ```bash
+   python3 scripts/evals.py score TRANSCRIPTS.json human.json --out results.json
+   ```
+
+   The output reports how many grades were independent and how many were self-graded.
+
+**Frozen rubrics.** Every grading sheet carries a `rubric_hash`: a fingerprint of the case's turns, context, tools and expectations. If a case is edited after grading, its old grades show as **stale rubric** and never count as passes. To change a case, re-run it and re-grade it.
+
 ### Release-blocking outcomes
 
 Any of the following in any transcript blocks a ready-for-release verdict:

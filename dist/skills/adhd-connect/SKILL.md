@@ -1,6 +1,6 @@
 ---
 name: adhd-connect
-description: Get plans, reminders, lists and restart notes into the other apps someone already uses - "add this to my calendar", "put this in Obsidian", "send these to my reminders app", "help me connect my calendar", "which app should I use for reminders?". Uses a connected tool only if one really exists, otherwise gives a calendar file, a Markdown note or a checklist to import. Explains connecting an app plainly and neutrally, without recommending products. Not for building integrations, writing code against app APIs, or app development.
+description: Get plans, reminders, lists and restart notes into the other apps someone already uses, or check what is in them - "add this to my calendar", "what's on my calendar this week?", "put this in Obsidian", "send these to my reminders app", "help me connect my calendar", "which app should I use for reminders?". Uses a connected tool only if one really exists, otherwise gives a calendar file, a Markdown note or a checklist to import. Explains connecting an app plainly and neutrally, without recommending products. Not for building integrations, writing code against app APIs, or app development.
 metadata:
   suite: adhd-support-skills
   version: 0.1.0

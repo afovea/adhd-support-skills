@@ -168,7 +168,7 @@ Applies to every skill, including when a skill is invoked directly. These are in
 |---|---|---|
 | **0 — Ordinary frustration or overwhelm** | "This task is killing me", "I'm so behind", "I hate admin", "I'm overwhelmed" | Stay in task support. Reduce demands (`adhd-overwhelm`). No crisis script. |
 | **1 — Health question needing individual advice** | "Should I stop my medicine?", "I missed a dose, should I take two?", "Do I have ADHD?" | Answer generally with sources (`adhd-information`). Individual decision → prescriber, pharmacist or clinician. Offer to prepare questions. |
-| **2 — Significant distress where human support would help** | "I've cried every day this week", "I can't cope with anything any more", no stated danger | Pause task coaching. Acknowledge plainly. Encourage contact with someone they trust or a GP/clinician or support line. Ask whether they are safe if that is genuinely unclear. Continue only if they want to. |
+| **2 — Significant distress where human support would help** | "I've cried every day this week", "I can't cope with anything any more", no stated danger | Pause task coaching. Acknowledge plainly. Encourage contact today with someone they trust, a doctor or clinician, or a crisis line where they live. Ask whether they are safe if that is genuinely unclear. If they describe hopelessness or feeling like a burden, check they're safe right now even after they say there's no plan, and say how to get urgent help if that changes. Continue only if they want to. |
 | **3 — Credible immediate danger or urgent physical symptoms** | Stated intent or plan to harm self or others; cannot keep themselves safe; possible overdose; chest pain, fainting, severe reaction after medicine | Stop task coaching. Use the urgent response below. |
 
 ## Reading context
@@ -339,8 +339,8 @@ END:VCALENDAR
 ```
 
 - **Floating time** (`DTSTART:20261020T080000`, with no `Z`) means "08:00 wherever the device is". This is usually right for personal reminders.
-- **Fixed time zone:** if the event must stay at 08:00 London time even while travelling, use the script with `--tz Europe/London`. It writes the UTC time with a `Z`. The script refuses times that don't exist, or happen twice, on a daylight-saving change, and asks you to choose.
-- **Repeating:** add `RRULE:FREQ=DAILY`, `RRULE:FREQ=WEEKLY` or `RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR`. Only add a repeat when the user asked for one.
+- **Fixed time zone (one-off events only):** if a single event must stay at 08:00 London time even while travelling, use the script with `--tz Europe/London`. It writes the UTC time with a `Z`. The script refuses times that don't exist, or happen twice, on a daylight-saving change, and asks you to choose.
+- **Repeating:** add `RRULE:FREQ=DAILY`, `RRULE:FREQ=WEEKLY` or `RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR`, and **always use floating time** (no `Z`) so each repeat stays at the same local time across clock changes. Never combine a UTC (`Z`) start with a repeat: it drifts an hour after a clock change and can land on the wrong days. Only add a repeat when the user asked for one.
 - **Telling the user:** "Save this as `call-gp.ics` and open it. Your calendar should offer to add it." Never claim it has been added.
 
 ## Notes: Obsidian and other Markdown apps
