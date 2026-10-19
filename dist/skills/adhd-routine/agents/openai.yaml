@@ -1,0 +1,5 @@
+interface:
+  display_name: Build a flexible routine
+  short_description: Design or repair one small, flexible routine anchored to something
+    that already happens, with a smaller version and recovery for missed days.
+  default_prompt: 'Use $adhd-routine: Help me make mornings simpler'

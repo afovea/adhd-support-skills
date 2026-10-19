@@ -1,0 +1,6 @@
+interface:
+  display_name: Too much right now
+  short_description: When everything feels like too much - pause, triage or one small
+    step, in short ordinary language. Moves to safety support only when there is real
+    danger.
+  default_prompt: 'Use $adhd-overwhelm: This is too much'

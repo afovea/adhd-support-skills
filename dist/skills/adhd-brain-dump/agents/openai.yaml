@@ -1,0 +1,5 @@
+interface:
+  display_name: Get it out of your head
+  short_description: Sort a messy head-full of jobs, ideas and worries into NOW /
+    NEXT / LATER / BLOCKED, keeping every item and inventing nothing.
+  default_prompt: 'Use $adhd-brain-dump: Everything is in my head'

@@ -1,0 +1,5 @@
+interface:
+  display_name: Find the right support
+  short_description: Choose the right kind of help when someone is stuck and the obstacle
+    is unclear. One short question at most; no diagnosis needed.
+  default_prompt: 'Use $adhd-help: Help, I''m stuck'

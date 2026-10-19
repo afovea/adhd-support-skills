@@ -1,0 +1,5 @@
+interface:
+  display_name: Make time visible
+  short_description: Make a fixed window of time visible - work, transition and buffer
+    - with a clear stopping point. Timers only if the host really has one.
+  default_prompt: 'Use $adhd-time: I have forty minutes'

@@ -1,0 +1,5 @@
+interface:
+  display_name: Get back to it
+  short_description: Get back into a task after an interruption - restore the last
+    confirmed place and next action, or ask for the least context needed.
+  default_prompt: 'Use $adhd-restart: Where was I?'

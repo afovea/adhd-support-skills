@@ -1,0 +1,5 @@
+interface:
+  display_name: Switch tasks safely
+  short_description: Switch from one task to another, or stop for the day, without
+    losing your place. Saves a restart marker and protects unsaved work.
+  default_prompt: 'Use $adhd-transition: I need to switch to a meeting'

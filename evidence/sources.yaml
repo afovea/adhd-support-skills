@@ -1,0 +1,942 @@
+sources:
+- id: SRC-BD-01
+  title: '"It Was Something I Naturally Found Worked and Heard About Later": An Investigation of Body
+    Doubling with Neurodivergent Participants'
+  authors_or_body: Tessa Eagle, Leya Breanna Baltaxe-Admony, Kathryn E. Ringland (University of California,
+    Santa Cruz)
+  published: ACM Transactions on Accessible Computing, Vol. 17, No. 3, Article 16, October 2024 (received
+    17 Nov 2023; revised 30 May 2024; accepted 6 Aug 2024)
+  url: https://leyabreanna.com/papers/body_double_taccess.pdf
+  doi: 10.1145/3689648
+  category: observational-qualitative
+  design: Online cross-sectional survey (descriptive statistics plus thematic coding of open responses);
+    distributed October 2022 via Twitter, neurodivergent/productivity subreddits and TikTok; no compensation;
+    IRB approved
+  population: Self-selected adults (18-72, mean 34.2, median 31.5; 55.9% female-identifying); 193 (87.7%)
+    identified as neurodivergent; no diagnosis required; ADHD most common self-identified identity (139),
+    autism 82; 30 countries, mostly North America (123) and Europe (58); English-language survey only
+  sample_size: 220 complete responses (from 410 submissions; 187 partial and 3 under-18 removed)
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: 'Author PDF fetched and text extracted locally (glyph-offset decoding, readable). doi.org redirects
+    to dl.acm.org, which returned HTTP 403 to the fetcher. Internal inconsistency: Section 3.2 says 198/220
+    identified as ND, Section 3.4 says 193 (87.7%). Paper does not mention dopamine; it lists mirror neurons,
+    Hawthorne effect, social facilitation and echopraxia as theories others have proposed (Section 2),
+    without testing them.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-02
+  title: 'Reading Between the Lines: Exploring Body Doubling in ADHD Using EEG'
+  authors_or_body: Ryan Schuenke, Sidney R Dickenson, Meredith Moore (Drake University)
+  published: ASSETS '25 (27th International ACM SIGACCESS Conference), Denver; online 22 Oct 2025; pp.
+    1-6
+  url: https://doi.org/10.1145/3663547.3759743
+  doi: 10.1145/3663547.3759743
+  category: peer-reviewed-research
+  design: 'Within-subjects comparison: two ACT reading comprehension assessments, one with a body double
+    and one alone, with consumer EEG/BCI focus and calmness metrics (per abstract)'
+  population: Neurotypical controls and individuals with ADHD, medicated and unmedicated (per abstract);
+    group sizes not seen
+  sample_size: N=26 (per abstract)
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: Full text blocked (ACM DL HTTP 403 to fetcher and curl). Abstract read via OpenAlex record; title/authors
+    confirmed on ASSETS 2025 poster session C page (https://assets25.sigaccess.org/poster_session_c.html),
+    which shows no abstract. ASSETS posters are typically extended abstracts; review depth not confirmed.
+    Body-double instructions (e.g. quiet/neutral) NOT seen.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-03
+  title: Evaluating the Efficacy of Body Doubling for ADHD Using a Brain-Computer Interface
+  authors_or_body: Ryan Schuenke, Meredith Moore (Drake University)
+  published: CCSC Central Plains 2025 poster contest (no date shown on page)
+  url: https://www.ccsc.org/centralplains/2025/talks/talk-poster16/
+  doi: null
+  category: preprint-or-prototype
+  design: 'Poster abstract: unmedicated ADHD, medicated ADHD and neurotypical groups took an ACT Reading
+    Comprehension exam alone and with a body double while wearing a Neurosity Crown BCI'
+  population: Unmedicated ADHD, medicated ADHD, neurotypical
+  sample_size: null
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: Related student-poster abstract by overlapping authors; appears to be the same or an earlier
+    version of the SRC-BD-02 study, but this is not stated on either page. Reports body doubling 'does
+    not have a significant effect on performance, focus, or calm'.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-04
+  title: 'You Are Not Alone: Designing Body Doubling for ADHD in Virtual Reality'
+  authors_or_body: Zinat Ara, Imtiaz Bin Rahim, Puqi Zhou, Liuchuan Yu, Behzad Esmaeili, Lap-Fai Yu, Sungsoo
+    Ray Hong
+  published: arXiv:2509.12153v1 [cs.HC], 15 Sep 2025
+  url: https://arxiv.org/html/2509.12153v1
+  doi: null
+  category: preprint-or-prototype
+  design: 'Formative interviews (n=5) then within-subjects VR experiment, three counterbalanced 20-minute
+    conditions: alone, human double (avatar), ''AI'' double (Wizard-of-Oz, human-operated); post-session
+    surveys and interviews'
+  population: Adults aged 18-31 (5 female, 7 male), mostly university students/staff, screened with ASRS
+    v1.1; a formal diagnosis is not stated as an eligibility requirement
+  sample_size: 12 (summative study)
+  link_resolves: true
+  source_read: partial
+  tested_ai_implementation: false
+  notes: 'Characters 0-100,000 of 122,232 read (main text incl. methods, results, limitations); remainder
+    unread. Not peer reviewed (placeholder DOI). The ''AI'' avatar was secretly controlled by a human
+    operator (one of the authors) while participants were told it was AI-driven (Section 5.2). Task: VR
+    bricklaying copy task with moving-object detection. Task-continuity statistics appear identical to
+    sustained-attention statistics (possible reporting error).'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-05
+  title: A Roadmap of Mixed Reality Body Doubling for Adults with ADHD
+  authors_or_body: Valerie Tan, Kimberly Hegemann, Jens Gerken (TU Dortmund University)
+  published: 'arXiv:2605.07851v1 [cs.HC], 8 May 2026; listed for a CHI ''26 workshop (Co-Living: Reality-Virtuality)'
+  url: https://arxiv.org/html/2605.07851v1
+  doi: null
+  category: preprint-or-prototype
+  design: Short work-in-progress conceptual framework/roadmap built from literature, community sources
+    and author discussion; no new empirical data
+  population: Adults with ADHD (target population; no participants)
+  sample_size: null
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Abstract says 'twelve dimensions'; Section 3.2.4 says '10 distinct dimensions'; about 11 are
+    named. Does not mention dopamine. States body doubling is 'a fairly new and under-researched topic'.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-06
+  title: Design and Evaluation of a Socially Assistive Robot Schoolwork Companion for College Students
+    with ADHD
+  authors_or_body: Amy O'Connell, Ashveen Banga, Jennifer Ayissi, Nikki Yaminrafie, Ellen Ko, Andrew Le,
+    Bailey Cislowski, Maja Mataric (University of Southern California)
+  published: HRI '24, Boulder, CO, 11 Mar 2024, pp. 533-541; arXiv:2401.06289v1, 11 Jan 2024
+  url: https://arxiv.org/html/2401.06289v1
+  doi: 10.1145/3610977.3634929
+  category: peer-reviewed-research
+  design: 'Three-week within-subjects in-dorm field study: week without robot (computer-based system),
+    week with required robot use (50 min/day x 5 days), week with voluntary robot use (condition C); SUS,
+    ESQ-R, NASA-TLX, NARS, interviews'
+  population: University students (18-25; 6 female, 5 male) with self-reported adult ADHD symptoms (ASRS
+    screener score >= 4); no clinical diagnosis required; recruited via mailing lists; $135 gift cards
+  sample_size: 12 recruited, 11 completed
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Read the arXiv version; ACM DL version not accessed (403). Robot 'Blossom' executed hard-coded
+    idle motions at random intervals and 'the participant's actions did not influence Blossom's behavior'
+    (Section 3.3) - framed as a body double/ambient companion, not an autonomous AI or attention-monitoring
+    system. No objective task-performance outcome measured.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-07
+  title: 'Social facilitation: A meta-analysis of 241 studies'
+  authors_or_body: Charles F. Bond, Linda J. Titus
+  published: Psychological Bulletin, 94(2), 265-292, 1983
+  url: https://doi.org/10.1037/0033-2909.94.2.265
+  doi: 10.1037/0033-2909.94.2.265
+  category: adjacent-cognitive-hci
+  design: Meta-analysis of mere-presence effects on task performance and physiology
+  population: General (non-ADHD) human participants across 241 studies
+  sample_size: 241 studies, 'nearly 24,000 subjects'
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: DOI resolves to APA PsycNet (JS-only, unreadable to fetcher); PubMed lists 'No abstract available'.
+    Abstract read via OpenAlex (OCR text). Not about ADHD or body doubling.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-08
+  title: Join Body Doubling
+  authors_or_body: ADDA - Attention Deficit Disorder Association
+  published: undated web page (accessed 2026-10-19)
+  url: https://add.org/body-doubling/
+  doi: null
+  category: practice-community
+  design: Programme page
+  population: ADDA members worldwide (membership condition not explicitly stated)
+  sample_size: null
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Five 90-minute Zoom sessions (Momentum Mondays, Creative Time, Turbo Tuesdays, Productivity Powerhour+,
+    Photo Finish Fridays); cameras and talking optional. Benefit claims (e.g. 'Many people finish in one
+    session what takes them weeks alone') with no evidence cited. No dopamine claim.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-09
+  title: 'The ADHD Body Double: A Unique Tool for Getting Things Done'
+  authors_or_body: Linda Anderson (ADDA; originally 1996, republished 20 Feb 2025)
+  published: 2025-02-20 (republication)
+  url: https://add.org/the-body-double/
+  doi: null
+  category: practice-community
+  design: Practitioner article
+  population: null
+  sample_size: null
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: 'States ''there''s no research to prove its effectiveness''. Proposed explanations: accountability,
+    ''ADHD mirroring'', mirror neurons (noting scientific disagreement), novelty, and speculative energy/chi
+    ideas. No dopamine mention.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-10
+  title: Could a Body Double Help You Increase Your Productivity?
+  authors_or_body: CHADD, ADHD Weekly (no byline)
+  published: ADHD Weekly editions dated 21 Apr 2022, 19 Feb 2025, 17 Apr 2025
+  url: https://chadd.org/adhd-weekly/could-a-body-double-help-you-increase-your-productivity/
+  doi: null
+  category: practice-community
+  design: Newsletter article
+  population: null
+  sample_size: null
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: 'States ''there hasn''t been significant research to validate the benefits or the dynamics of
+    how it works''. Attributes ''activating certain neurotransmitters through behavior'' to Focusmate
+    (a commercial service), not to research. Cautions: doesn''t work for everyone; friends may socialise
+    instead; check-ins take time. Other CHADD pages (''The Power of Body Doubling'', ''Sometimes It Takes
+    Two'') exist but bodies were not readable.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-11
+  title: 'ADHD Body Doubling: What It Is and How It Works'
+  authors_or_body: Psych Central; written by Nancy Lovering, medically reviewed by Jeffrey Ditzell, DO
+  published: '2022-05-11'
+  url: https://www.psychcentral.com/adhd/adhd-body-doubling
+  doi: null
+  category: practice-community
+  design: Consumer health article (interviews and anecdote)
+  population: null
+  sample_size: null
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Says body doubling 'may help people with ADHD by increasing their dopamine levels' - an inference
+    from a 2019 review on dopamine and social behaviour generally (Kopec et al.), not a body-doubling
+    study; also a personal-interview quote. Also says 'there's not a lot of research on ADHD and body
+    doubling' (expert quote). Example of an unsupported dopamine framing.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-BD-12
+  title: What Is 'Body Doubling' and Can It Help With ADHD?
+  authors_or_body: 'Cleveland Clinic Health Essentials (expert: Michael Manos, PhD)'
+  published: '2025-01-06'
+  url: https://health.clevelandclinic.org/body-doubling-for-adhd
+  doi: null
+  category: practice-community
+  design: Consumer health article (expert commentary)
+  population: null
+  sample_size: null
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Frames body doubling as 'external executive functioning' and modelled behaviour; cites no studies;
+    no dopamine or neurotransmitter mention.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-01
+  title: ADHD in adults
+  authors_or_body: NHS (nhs.uk)
+  published: 'Page last reviewed: 19 March 2025; Next review due: 19 March 2028'
+  url: https://www.nhs.uk/conditions/adhd-adults/
+  doi: null
+  category: authoritative-guidance
+  design: patient information
+  population: Adults with or querying ADHD
+  sample_size: null
+  jurisdiction: UK (NHS England)
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Single page with sections (Symptoms; Getting help; What happens at an ADHD assessment; Waiting
+    times; How to manage ADHD incl. Lifestyle, Work/college, Medicines, Talking therapies; Driving; Mental
+    health; Causes; Help and support), not separate sub-pages. Links to an ADHD UK self-screening tool
+    but does NOT state that online tests cannot diagnose ADHD. Lists Samaritans website but shows no phone
+    numbers on this page.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-02
+  title: 'Attention deficit hyperactivity disorder: diagnosis and management (NG87)'
+  authors_or_body: National Institute for Health and Care Excellence (NICE)
+  published: 'Published: 14 March 2018; Last updated: 13 September 2019; Last reviewed: 23 July 2026'
+  url: https://www.nice.org.uk/guidance/ng87
+  doi: null
+  category: authoritative-guidance
+  design: guideline
+  population: Children, young people and adults with ADHD
+  sample_size: null
+  jurisdiction: England (UK)
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: 'WebFetch returned HTTP 403; overview and /chapter/recommendations retrieved in full via direct
+    HTTP GET (curl with browser user-agent) and text-extracted. Overview states the 23 July 2026 review
+    decided not to update the recommendations on adapted trauma-focused treatment (see surveillance decision);
+    "Next review: This guideline will be reviewed if there is new evidence that is likely to change the
+    recommendations." Surveillance decision document itself not read.'
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-03
+  title: 'Australian Evidence-Based Clinical Practice Guideline for ADHD: Cognitive-behavioural interventions
+    (section 4.2.2)'
+  authors_or_body: Australasian ADHD Professionals Association (AADPA)
+  published: No page date or guideline version shown on the page
+  url: https://adhdguideline.aadpa.com.au/non-pharmacological/cognitive-behavioural-interventions/cognitive-behaviour-interventions/
+  doi: null
+  category: authoritative-guidance
+  design: guideline
+  population: Children (5-17) and adults with ADHD
+  sample_size: null
+  jurisdiction: Australia
+  link_resolves: true
+  source_read: partial
+  tested_ai_implementation: false
+  notes: Evidence-to-recommendation text read; the "Recommendations" block extracted empty, so formal
+    recommendation numbers and grades were not captured. Text indicates CBT-type interventions "should
+    be offered" to adults (moderate certainty for self-rated benefit) and adolescents, "could" be offered
+    to children. Guideline publication year not shown on page; not verified.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-04
+  title: How and when to take methylphenidate for adults
+  authors_or_body: NHS (nhs.uk) Medicines A-Z
+  published: 'Page last reviewed: 25 March 2025; Next review due: 25 March 2028'
+  url: https://www.nhs.uk/medicines/methylphenidate-adults/how-and-when-to-take-methylphenidate-for-adults/
+  doi: null
+  category: authoritative-guidance
+  design: patient information
+  population: Adults prescribed methylphenidate
+  sample_size: null
+  jurisdiction: UK (NHS)
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Covers forgotten dose, taking too much, stopping, and who to ask (doctor, pharmacist).
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-05
+  title: Side effects of methylphenidate for adults
+  authors_or_body: NHS (nhs.uk) Medicines A-Z
+  published: 'Page last reviewed: 25 March 2025; Next review due: 25 March 2028'
+  url: https://www.nhs.uk/medicines/methylphenidate-adults/side-effects-of-methylphenidate-for-adults/
+  doi: null
+  category: authoritative-guidance
+  design: patient information
+  population: Adults prescribed methylphenidate
+  sample_size: null
+  jurisdiction: UK (NHS)
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Serious side effects split into 'call GP or 111' and 'call 999 or go to A&E' tiers; anaphylaxis
+    -> 999.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-06
+  title: Canadian ADHD Practice Guidelines, 4.1 Edition
+  authors_or_body: CADDRA - Canadian ADHD Resource Alliance
+  published: 'Citation line: 4.1 Edition, Toronto ON; CADDRA, 2020 (PDF filename dated January 6 2021)'
+  url: https://adhdlearn.caddra.ca/wp-content/uploads/2022/08/Canadian-ADHD-Practice-Guidelines-4.1-January-6-2021.pdf
+  doi: null
+  category: authoritative-guidance
+  design: guideline
+  population: Children, adolescents and adults with ADHD
+  sample_size: null
+  jurisdiction: Canada
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: '122-page PDF downloaded and text-extracted. 4.1 remains the current full edition as of access:
+    CADDRA post dated July 14, 2026 (https://www.caddra.ca/caddra-at-cacap/) says updated Practice Guidelines
+    were previewed at CACAP and readers should watch for release; no new edition released. adhdlearn.caddra.ca/?p=6039
+    returned 404. Scaffolding strategies are in Chapter 4, Table 4.2 Home Interventions (pp. 46-47 printed)
+    plus school/post-secondary/workplace lists.'
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-07
+  title: 'Ethics and governance of artificial intelligence for health: WHO guidance'
+  authors_or_body: World Health Organization
+  published: 28 June 2021 (ISBN 9789240029200)
+  url: https://www.who.int/publications/i/item/9789240029200
+  doi: null
+  category: governance-regulatory
+  design: international guidance
+  population: Not applicable (health AI developers, regulators, health systems)
+  sample_size: null
+  jurisdiction: International
+  link_resolves: true
+  source_read: partial
+  tested_ai_implementation: false
+  notes: 'Publication page confirms title/date but does not list the principles. Six principles verified
+    on WHO news release 28 June 2021 (https://www.who.int/news/item/28-06-2021-who-issues-first-global-report-on-ai-in-health-and-six-guiding-principles-for-its-design-and-use):
+    protecting human autonomy; promoting human well-being and safety and the public interest; ensuring
+    transparency, explainability and intelligibility; fostering responsibility and accountability; ensuring
+    inclusiveness and equity; promoting AI that is responsive and sustainable. Full report PDF not read.'
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-08
+  title: 'Digital mental health technology: qualification and classification'
+  authors_or_body: Medicines and Healthcare products Regulatory Agency (MHRA), GOV.UK
+  published: Published 3 February 2025; Last updated 29 July 2026
+  url: https://www.gov.uk/government/publications/digital-mental-health-technology-qualification-and-classification
+  doi: null
+  category: governance-regulatory
+  design: regulatory guidance
+  population: Manufacturers of digital mental health technology (DMHT)
+  sample_size: null
+  jurisdiction: UK (Great Britain medical device regulation)
+  link_resolves: true
+  source_read: partial
+  tested_ai_implementation: false
+  notes: 'Landing page read. Attached PDF "Digital mental health technology: device characterisation,
+    regulatory qualification and classification" (866 KB, 54 pages) not read. Page names intended purpose
+    and functionality complexity as key characteristics: medical intended purpose plus complex functionality
+    -> regulated as SaMD.'
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-09
+  title: What is special category data?
+  authors_or_body: Information Commissioner's Office (ICO)
+  published: 'Latest update shown: 9 April 2024 (inferences guidance). Banner: under review due to the
+    Data (Use and Access) Act'
+  url: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/special-category-data/what-is-special-category-data/
+  doi: null
+  category: governance-regulatory
+  design: regulatory guidance
+  population: Organisations processing personal data
+  sample_size: null
+  jurisdiction: UK (UK GDPR / DPA 2018)
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Page states guidance is under review due to changes made by the Data (Use and Access) Act; may
+    change. Health data defined to include physical or mental health, past/current/future. Inferred data
+    can be special category where processing aims to infer, or treats someone differently on the basis
+    of, a special-category inference, regardless of confidence in the inference.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-10
+  title: Make Each Step Clear (Cognitive Accessibility Design Pattern)
+  authors_or_body: W3C Web Accessibility Initiative (AG WG, APA WG, COGA TF; UI by EOWG)
+  published: Content first published 29 April 2021; user interface posted January 2022; no last-updated
+    date shown
+  url: https://www.w3.org/WAI/WCAG2/supplemental/patterns/o1p04-clear-steps/
+  doi: null
+  category: adjacent-cognitive-hci
+  design: design pattern (WCAG 2 supplemental guidance, from W3C Working Group Note "Making Content Usable")
+  population: People with cognitive and learning disabilities
+  sample_size: null
+  jurisdiction: International
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Supplemental guidance; not required for WCAG conformance. Not ADHD-specific.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-11
+  title: Where to get urgent help for mental health
+  authors_or_body: NHS (nhs.uk)
+  published: 'Page last reviewed: 26 April 2023; Next review due: 26 April 2026'
+  url: https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/
+  doi: null
+  category: authoritative-guidance
+  design: patient information
+  population: Anyone in England needing urgent mental health help
+  sample_size: null
+  jurisdiction: England
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Next review due date (26 April 2026) has passed as of access; page not marked re-reviewed. Re-check.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-12
+  title: Contact a Samaritan
+  authors_or_body: Samaritans
+  published: No page date captured
+  url: https://www.samaritans.org/how-we-can-help/contact-samaritan/
+  doi: null
+  category: practice-community
+  design: service information
+  population: Anyone needing emotional support
+  sample_size: null
+  jurisdiction: UK and Ireland (branches); ROI dialling of 116 123 not explicitly confirmed on page
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: UK email and letter services closed; web chat pilot only.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-13
+  title: 988 Suicide & Crisis Lifeline
+  authors_or_body: 988 Lifeline (refers to SAMHSA / HHS)
+  published: No page date captured
+  url: https://988lifeline.org/
+  doi: null
+  category: practice-community
+  design: service information
+  population: People in suicidal or emotional crisis
+  sample_size: null
+  jurisdiction: United States (inferred from SAMHSA/HHS references; country not named outright on page)
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Call 988, text 988, chat via chat.988lifeline.org; Spanish text/chat banner. Veterans 'Press
+    1' not seen on page.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-14
+  title: Find A Helpline
+  authors_or_body: ThroughLine Limited
+  published: No page date captured
+  url: https://findahelpline.com
+  doi: null
+  category: practice-community
+  design: international helpline directory
+  population: People seeking crisis helplines worldwide
+  sample_size: null
+  jurisdiction: International
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Self-described as "a public service by ThroughLine"; claims verified helplines in 175+ countries
+    with data kept current daily (site's own claims, not independently verified).
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-GD-15
+  title: Crisis Centres & Helplines
+  authors_or_body: International Association for Suicide Prevention (IASP)
+  published: No page date captured
+  url: https://www.iasp.info/crisis-centres-helplines/
+  doi: null
+  category: practice-community
+  design: resource page
+  population: People seeking crisis support worldwide
+  sample_size: null
+  jurisdiction: International
+  link_resolves: true
+  source_read: full
+  tested_ai_implementation: false
+  notes: Points to Find A Helpline (described there as 150+ countries, a different figure from the 175+
+    on findahelpline.com); names IFOTES, Befrienders Worldwide, Lifeline International. States IASP is
+    not a crisis centre and does not provide direct support.
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-01
+  title: Efficacy of meta-cognitive therapy for adult ADHD
+  authors_or_body: Solanto MV, Marks DJ, Wasserstein J, Mitchell K, Abikoff H, Alvir JM, Kofman MD
+  published: 2010, American Journal of Psychiatry (PMID 20231319; PMC3633586)
+  url: https://doi.org/10.1176/appi.ajp.2009.09081123
+  doi: 10.1176/appi.ajp.2009.09081123
+  category: controlled-clinical-research
+  design: Randomised controlled trial; 12-week group meta-cognitive therapy (time management, organisation,
+    planning) vs supportive psychotherapy
+  population: Adults with ADHD
+  sample_size: '88'
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: greater symptom improvement on independent-evaluator, self-report and informant ratings,
+    and more responders, with meta-cognitive therapy. Report''s n=88 and DOI match.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-02
+  title: 'Cognitive behavioral therapy vs relaxation with educational support for medication-treated adults
+    with ADHD and persistent symptoms: a randomized controlled trial'
+  authors_or_body: Safren SA, Sprich S, Mimiaga MJ, Surman C, Knouse L, Groves M, Otto MW
+  published: 2010, JAMA (PMID 20736471; PMC3641654)
+  url: https://doi.org/10.1001/jama.2010.1192
+  doi: 10.1001/jama.2010.1192
+  category: controlled-clinical-research
+  design: Randomised controlled trial; 12 sessions of CBT vs relaxation with educational support (attention-matched);
+    blinded assessors; 12-month follow-up
+  population: Adults with ADHD on medication with clinically significant residual symptoms
+  sample_size: '86'
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: Full title partly reconstructed from metadata; the tool truncated it after 'adults with ADHD'.
+    Check the exact wording at the DOI. Report's n=86 and DOI match.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-03
+  title: A meta-analysis of the intervention effect of cognitive behavioral therapy on adult ADHD
+  authors_or_body: Liu Y, Zhu F, Yu Y, et al. (12 authors; last author Ren Y)
+  published: 2026, Journal of Affective Disorders vol. 399 (online 2026-01-01; print 2026-04-01; PMID
+    41483880)
+  url: https://doi.org/10.1016/j.jad.2025.121107
+  doi: 10.1016/j.jad.2025.121107
+  category: peer-reviewed-research
+  design: Meta-analysis of randomised controlled trials
+  population: Adults with ADHD
+  sample_size: 14 RCTs; total participants not reported in abstract
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract SMDs: core symptoms -0.45; executive function -0.43; depressive mood -0.23; anxiety/stress
+    -0.24; quality of life 0.12 (ns); self-evaluation -0.30 (ns). No CIs in the abstract. Group format
+    was better for core symptoms and executive function; individual format was better for mood and quality
+    of life. The DOI carries a 2025 suffix, but the journal year is 2026.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-04
+  title: 'Cognitive behavioral therapy effects on global functioning, domain-specific functioning, and
+    quality of life in adult ADHD: A comprehensive meta-analysis'
+  authors_or_body: López-Pinar C, Selaskowski B, Schulze M, Oscarsson M, Fenollar-Cortés J, Sibley MH,
+    Philipsen A, Hirvikoski T
+  published: 2026, Behaviour Research and Therapy vol. 201, article 105026 (online 2026-04-02; PMID 41936228)
+  url: https://doi.org/10.1016/j.brat.2026.105026
+  doi: 10.1016/j.brat.2026.105026
+  category: peer-reviewed-research
+  design: 'Meta-analysis of 70 studies: 38 RCTs, 4 non-randomised trials, 24 single-arm trials, 4 single-case
+    designs'
+  population: Adults with ADHD or clinically significant ADHD symptoms
+  sample_size: 70 studies; 5,152 participants
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: Global functioning SMD 0.47 post-treatment and 0.67 at follow-up (follow-up typically about 3
+    months). Strongest effects were for occupational functioning, moderate for social, limited for academic.
+    Quality-of-life effects were smaller and non-significant at follow-up. Symptom improvement predicted
+    QoL but not functioning. The authors flag risk of bias, reliance on self-report, mostly Western samples
+    and short follow-up. The pooled set mixes controlled and within-subject designs.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-05
+  title: 'Components of cognitive-behavioural therapy for mitigating core symptoms in attention-deficit
+    hyperactivity disorder: a systematic review and network meta-analysis'
+  authors_or_body: Matsumoto K, Hamatani S, Kunisato Y, Mizuno Y
+  published: 2024 (December), BMJ Mental Health (PMID 39732478; PMC11683884; PROSPERO CRD42022323898)
+  url: https://doi.org/10.1136/bmjment-2024-301303
+  doi: 10.1136/bmjment-2024-301303
+  category: peer-reviewed-research
+  design: Systematic review with network and component network meta-analysis of RCTs (searches to 31 March
+    2022)
+  population: People with ADHD. The protocol (Hamatani et al. 2023, BMJ Open, doi 10.1136/bmjopen-2022-068547)
+    targeted adolescents and adults aged 10-60; the abstract does not state the age mix of the included
+    trials
+  sample_size: 43 trials; 3,817 participants
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: Organisational strategies iOR 2.03 (95% CI 1.27-3.24) and third-wave components iOR 1.95 (1.30-2.93)
+    were associated with treatment response. Problem-solving iSMD 0.42 (0.01-0.83) was associated with
+    reduced inattention. The problem-solving CI lower bound is near zero. The title was truncated by the
+    tool, so verify the exact wording. Report's 'Pan et al.' attribution is wrong (see unresolved). The
+    PMC full text was blocked by reCAPTCHA.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-06
+  title: The impact of process- versus outcome-focused episodic future thinking on everyday prospective
+    memory in individuals with and without attention-deficit/hyperactivity disorder (ADHD)
+  authors_or_body: Stelz S, Edel MA, Altgassen M
+  published: '2026 (online 2026-07-20), Journal of Experimental Psychology: Applied, ahead of print (PMID
+    42475007)'
+  url: https://doi.org/10.1037/xap0000586
+  doi: 10.1037/xap0000586
+  category: peer-reviewed-research
+  design: Experiment; random assignment to outcome-focused EFT, process-focused EFT or standard encoding,
+    crossed with ADHD status; modified diary task across three online sessions
+  population: Adults with diagnosed ADHD and controls
+  sample_size: 196 (98 ADHD, 98 controls)
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: the ADHD group had lower everyday prospective memory. EFT outperformed standard encoding.
+    Outcome-focused EFT gave the largest gains, contrary to prediction. Process-focused EFT helped moderately,
+    and only in the ADHD group. No test statistics or effect sizes in the abstract; full text is paywalled.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-07
+  title: Episodic Future Thinking Improves Everyday Prospective Memory Performance in Adults With a Previous
+    Diagnosis of Attention-Deficit/Hyperactivity Disorder by Community Providers
+  authors_or_body: Altgassen M, Heinrich H, Edel MA
+  published: 2026, Journal of Attention Disorders 30(5):705-721 (PMID 41684048)
+  url: https://doi.org/10.1177/10870547261416467
+  doi: 10.1177/10870547261416467
+  category: peer-reviewed-research
+  design: Experiment; EFT vs standard encoding crossed with ADHD status; six-day diary task
+  population: Adults with a previous community-provider ADHD diagnosis and controls
+  sample_size: 127 (63 ADHD, 64 controls)
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: Related study included so it is not confused with SRC-RS-06. EFT improved intention completion
+    vs standard encoding, but the effect was not significant after controlling for verbal ability. No
+    group x condition interaction. The title was truncated in the tool output, so verify the exact wording.
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-08
+  title: 'Attention-Deficit/Hyperactivity Disorder and Monetary Delay Discounting: A Meta-Analysis of
+    Case-Control Studies'
+  authors_or_body: Jackson JN, MacKillop J
+  published: '2016, Biological Psychiatry: Cognitive Neuroscience and Neuroimaging (PMID 27722208)'
+  url: https://doi.org/10.1016/j.bpsc.2016.01.007
+  doi: 10.1016/j.bpsc.2016.01.007
+  category: peer-reviewed-research
+  design: Meta-analysis of case-control studies
+  population: People with ADHD vs controls (mixed ages)
+  sample_size: 21 investigations, 25 comparisons, N = 3,913
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: d = 0.43 (medium), with steeper discounting in ADHD. Age, real vs hypothetical rewards
+    and comorbid conduct/ODD did not significantly moderate it. Minimal heterogeneity, with some evidence
+    of publication bias.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-09
+  title: 'ADHD and the Choice of Small Immediate Over Larger Delayed Rewards: A Comparative Meta-Analysis
+    of Performance on Simple Choice-Delay and Temporal Discounting Paradigms'
+  authors_or_body: Marx I, Hacker T, Yu X, Cortese S, Sonuga-Barke E
+  published: 2021, Journal of Attention Disorders (PMID 29806533)
+  url: https://doi.org/10.1177/1087054718772138
+  doi: 10.1177/1087054718772138
+  category: peer-reviewed-research
+  design: Meta-analysis comparing choice-delay and temporal discounting paradigms
+  population: People with ADHD vs controls (mixed ages)
+  sample_size: 37 group comparisons; 3,763 participants (53% with ADHD)
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: small-to-medium effects in both paradigms. Real rewards roughly doubled the odds ratio
+    in the simple choice paradigm. No numeric pooled effect is given in the abstract.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-10
+  title: 'Daily Routines and Habits in Individuals with Attention Deficit Hyperactivity Disorder: A Scoping
+    Review'
+  authors_or_body: Almudayfir I, Abdulkarim L, Rosenstein R, Yuen HK
+  published: 2026 (June), Behavioral Sciences (Basel) 16(6), article 1000 (PMID 42352833; PMC13295911)
+  url: https://doi.org/10.3390/bs16061000
+  doi: 10.3390/bs16061000
+  category: peer-reviewed-research
+  design: Scoping review (four databases)
+  population: Children, adolescents and adults with ADHD; mostly paediatric samples
+  sample_size: 31 studies (6 intervention studies)
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: difficulties were found in sleep hygiene, feeding, physical activity and sedentary
+    behaviour. Sleep hygiene appeared in more than half of the studies and study habits in only one. No
+    validated routine/habit measure specific to ADHD was found. The evidence is concentrated in paediatric
+    populations, with limited adult research. The ADHD-association PDF mirror returned 404.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-11
+  title: 'Digital health technologies for adults with ADHD: a scoping review'
+  authors_or_body: Schofield FJ et al. (University of Bristol; six authors)
+  published: 2026-02-23, Frontiers in Digital Health vol. 8
+  url: https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1746732/full
+  doi: 10.3389/fdgth.2026.1746732
+  category: peer-reviewed-research
+  design: Scoping review (PRISMA-ScR; OSF-registered protocol; search to December 2025), mapped to the
+    NICE DHT framework
+  population: Adults with ADHD
+  sample_size: 133 studies (from 7,982 records)
+  link_resolves: true
+  source_read: partial
+  tested_ai_implementation: partial
+  notes: 'Category counts: treat 63, drive clinical management 36, diagnose 19, inform 9, promote health
+    5, communicate 1. Evidence gaps: little blinding, low or unreported adherence, few power analyses,
+    heavy self-report, and diagnostic tools compared mainly with healthy controls. Implementation gaps:
+    unclear place in clinical pathways, little lived-experience input, and remote monitoring still needs
+    to show value. Includes ML diagnostic classifiers and a few chatbot tools, but no specific assessment
+    of LLMs. The source itself has internal count inconsistencies (26 vs 27 web/app CBT papers; 53 diagnostic
+    papers vs category sum 55). About 100k of 246k characters were read.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-12
+  title: 'Time Perception in Adult ADHD: Findings from a Decade-A Review'
+  authors_or_body: Mette C
+  published: 2023, International Journal of Environmental Research and Public Health 20(4):3098 (PMID
+    36833791)
+  url: https://doi.org/10.3390/ijerph20043098
+  doi: 10.3390/ijerph20043098
+  category: peer-reviewed-research
+  design: Narrative literature review of the previous ~10 years (PubMed, Medline, PSYNDEX)
+  population: Adults with ADHD
+  sample_size: Number of included studies not stated in abstract
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: very few studies. Time estimation and reproduction results are mixed: some studies
+    show deficits and others no clear association. Methods and diagnostic protocols varied. A search snippet
+    suggested 9 included studies; this was not verified from the abstract, so it is not used.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-13
+  title: 'Emotion dysregulation in adults with attention deficit hyperactivity disorder: a meta-analysis'
+  authors_or_body: Beheshti A, Chavanon ML, Christiansen H
+  published: 2020, BMC Psychiatry 20(1) (PMID 32164655)
+  url: https://doi.org/10.1186/s12888-020-2442-7
+  doi: 10.1186/s12888-020-2442-7
+  category: peer-reviewed-research
+  design: Meta-analysis
+  population: Adults with ADHD vs healthy controls
+  sample_size: 13 studies; N = 2,535
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: general emotion dysregulation g = 1.17 vs controls. Emotional lability g = 1.20 (95%
+    CI 0.57-1.83). ED correlated with symptom severity r = 0.54; negative emotional responses with symptom
+    severity r = 0.63. Moderators could not be tested because of insufficient statistics.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-14
+  title: 'Preparing to resume an interrupted task: effects of prospective goal encoding and retrospective
+    rehearsal'
+  authors_or_body: Trafton JG, Altmann EM, Brock DP, Mintz FE
+  published: 2003, International Journal of Human-Computer Studies 58(5):583-603
+  url: https://doi.org/10.1016/S1071-5819(03)00023-5
+  doi: 10.1016/S1071-5819(03)00023-5
+  category: adjacent-cognitive-hci
+  design: Laboratory experiment; Warning condition (8-s interruption lag) vs Immediate interruption
+  population: General (non-ADHD) participants; exact population and n not confirmed
+  sample_size: not confirmed
+  link_resolves: true
+  source_read: partial
+  tested_ai_implementation: false
+  notes: 'The publisher page returned 403. The interruptions.net PDF is image-scanned and could not be
+    extracted. Abstract content came only from search-result snippets: warned participants prepared more
+    (verbal reports) and resumed faster, and Immediate participants got faster with practice. The manipulation
+    was an advance warning that allowed preparation, not an instructed ''encode your resumption intention''
+    step.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-15
+  title: 'Memory for goals: an activation-based model'
+  authors_or_body: Altmann EM, Trafton JG
+  published: 2002, Cognitive Science 26(1):39-83
+  url: https://doi.org/10.1207/s15516709cog2601_2
+  doi: 10.1207/s15516709cog2601_2
+  category: adjacent-cognitive-hci
+  design: Theoretical/computational model, tested by simulating Tower of Hanoi latency and error data
+  population: General population (non-ADHD) task data
+  sample_size: not applicable / not confirmed
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract (rebuilt from the OpenAlex inverted index; also on PhilPapers): goals are treated as
+    ordinary memory elements governed by activation and associative priming. The constraints are interference
+    from old goals, strengthening time to encode a new goal, and cue priming for retrieving pending goals.
+    Implications drawn for task interruption. Crossref also lists a duplicate record under doi 10.1016/s0364-0213(01)00058-1.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-16
+  title: 'A self-guided internet-delivered intervention for adults with ADHD: results from a randomized
+    controlled trial'
+  authors_or_body: Kenter RMF, Gjestad R, Lundervold AJ, Nordgreen T
+  published: 2023, Internet Interventions (PMID 36969389)
+  url: https://doi.org/10.1016/j.invent.2023.100614
+  doi: 10.1016/j.invent.2023.100614
+  category: controlled-clinical-research
+  design: RCT; self-guided internet intervention (MyADHD) vs online psychoeducation module; 3-month follow-up
+  population: Adults with ADHD (Norway); protocol described self-reported ADHD
+  sample_size: 120 randomised (61 intervention, 59 control)
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: between-group effects favoured the intervention for ADHD symptoms (d = 0.70) and quality
+    of life (d = 0.53), maintained at 3 months. The title was paraphrased in the tool output, so verify
+    the exact wording. Protocol: doi 10.1016/j.invent.2021.100485 (planned n=118).'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-17
+  title: 'Efficacy of an Unguided Digital Intervention for Adults With Attention-Deficit/Hyperactivity
+    Disorder: A Randomized Controlled Trial'
+  authors_or_body: Baumeister A, Schuurmans L, Schöttle D, et al. (last author Philipsen A)
+  published: 2026, Deutsches Ärzteblatt International (PMID 42240305)
+  url: https://doi.org/10.3238/arztebl.m2026.0065
+  doi: 10.3238/arztebl.m2026.0065
+  category: controlled-clinical-research
+  design: Open-label RCT; unguided app plus treatment as usual vs TAU alone; 12 weeks
+  population: Adults with ADHD (Germany); no standardised diagnostic confirmation
+  sample_size: 307 randomised (155 intervention, 152 control)
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Primary outcome was health-related quality of life, not ADHD symptoms: d = 0.54 (90% CI 0.33-0.74),
+    with clinically relevant improvement in 40% vs 27%. App adherence was generally low. The authors note
+    the open-label design, a 10% significance threshold (exploratory), and no long-term conclusions.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-18
+  title: 'The lived experiences of adults with attention-deficit/hyperactivity disorder: A rapid review
+    of qualitative evidence'
+  authors_or_body: Ginapp CM et al.
+  published: 2022-08-11, Frontiers in Psychiatry vol. 13
+  url: https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2022.949321/full
+  doi: 10.3389/fpsyt.2022.949321
+  category: observational-qualitative
+  design: Rapid review of qualitative studies (PubMed, PsycInfo, Embase; October 2021)
+  population: Adults with ADHD
+  sample_size: 35 qualitative studies (per-study n 4-125; no pooled total)
+  link_resolves: true
+  source_read: partial
+  tested_ai_implementation: false
+  notes: 'Results section ''Adapting to symptoms'' reports two kinds of help. Coping skills: regular schedules
+    for sleep, meals, work and relaxation; to-do lists; reminder apps; environment changes. Outside support:
+    partners helping with organisation, accountability from friends or family, workplace reminders from
+    bosses, support groups. Limitations: not exhaustive; single-reviewer appraisal and extraction; mostly
+    male participants; English-only; diagnosis verification often unclear. About 100k of 132k characters
+    were read.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false
+- id: SRC-RS-19
+  title: 'Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes'
+  authors_or_body: Gollwitzer PM, Sheeran P
+  published: 2006, Advances in Experimental Social Psychology, pp. 69-119
+  url: https://doi.org/10.1016/S0065-2601(06)38002-1
+  doi: 10.1016/S0065-2601(06)38002-1
+  category: adjacent-cognitive-hci
+  design: Meta-analysis
+  population: General population (not ADHD-specific)
+  sample_size: 94 independent tests; total participants not seen in abstract
+  link_resolves: true
+  source_read: abstract-only
+  tested_ai_implementation: false
+  notes: 'Abstract: if-then plans had a medium-to-large effect on goal attainment (d = .65). They helped
+    with getting started, shielding goals from distraction, disengaging from failing strategies and conserving
+    capacity. Proposed mechanisms are heightened accessibility of the situational cue and automatic responding.'
+  jurisdiction: null
+  accessed: '2026-10-19'
+  clinician_reviewed: false

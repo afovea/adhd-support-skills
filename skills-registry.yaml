@@ -1,0 +1,249 @@
+# Machine-readable registry for ADHD Support Skills.
+# Canonical skill instructions live in skills/<id>/SKILL.md. This file maps each
+# skill to its triggers, boundaries, shared resources and evaluations, and is
+# checked against the skills by scripts/validate.py.
+
+suite:
+  name: ADHD Support Skills
+  package: adhd-support-skills
+  version: 0.1.0
+  audience: adults (first release); see docs/design-decisions.md
+  clinical_status: not a medical device, diagnostic or treatment service; not clinically validated
+
+# Shared files materialised into every skill as references/shared/<file>.
+shared_always:
+  - shared/interaction-policy.md
+  - shared/safety-policy.md
+  - shared/evidence-policy.md
+  - shared/permission-policy.md
+  - shared/memory-policy.md
+  - shared/execution-state.md
+  - evidence/crisis-resources.md
+  - evidence/runtime-evidence.md
+
+skills:
+  - id: adhd-help
+    label: Find the right support
+    states: [organise]
+    short_description: Choose the right kind of help when someone is stuck and the obstacle is unclear. One short question at most; no diagnosis needed.
+    explicit: ["adhd-help", "help me pick the right support"]
+    natural: ["Help, I'm stuck", "What can you help with?", "I can't get anything done today"]
+    not_for: ["coding or CSS 'focus' work", "general writing or research tasks", "exhaustive intake"]
+    handoffs: [adhd-brain-dump, adhd-prioritise, adhd-start, adhd-restart, adhd-time, adhd-overwhelm, adhd-information, my-point-of-truth]
+    extra_resources: [routing.md]
+    evidence_claims: []
+    evidence_note: Routing is an interaction design choice. It is not a tested health intervention.
+    evals: [ROUTE-01, ROUTE-02, BEH-HELP-01, BEH-CTRL-01, SEC-01, SEC-02, ROUTE-03, ROUTE-12]
+
+  - id: adhd-brain-dump
+    label: Get it out of your head
+    states: [organise]
+    short_description: Sort a messy head-full of jobs, ideas and worries into NOW / NEXT / LATER / BLOCKED, keeping every item and inventing nothing.
+    explicit: ["adhd-brain-dump"]
+    natural: ["Everything is in my head", "Get this out of my head", "Here's everything I'm juggling"]
+    not_for: ["summarising documents or meeting notes", "turning feelings into tasks"]
+    handoffs: [adhd-prioritise, adhd-start, adhd-remember, adhd-overwhelm]
+    extra_resources: []
+    evidence_claims: [CLM-RS-LIVED, CLM-GD-CADDRA-SCAFFOLD, CLM-RS-CBT-COMPONENTS]
+    evidence_note: Externalising tasks is consistent with organisational strategies in guidance and with what adults with ADHD report using. This AI version is a design choice that has not been tested.
+    evals: [BEH-DUMP-01]
+
+  - id: adhd-prioritise
+    label: Choose what's next
+    states: [organise]
+    short_description: Help pick what to do first from several tasks using real deadlines, consequences and dependencies, labelling anything assumed.
+    explicit: ["adhd-prioritise"]
+    natural: ["I have five things and can't choose", "What should I do first?", "I don't know what to do first"]
+    not_for: ["business or product roadmap prioritisation", "deciding medical, legal, financial or relationship matters for the user"]
+    handoffs: [adhd-start, adhd-time, adhd-information]
+    extra_resources: []
+    evidence_claims: [CLM-RS-CBT-COMPONENTS]
+    evidence_note: Organisation and problem-solving are promising components of clinician-delivered CBT. An AI prioritiser has not been tested.
+    evals: [BEH-PRI-01, BEH-PRI-02]
+
+  - id: adhd-start
+    label: Get started
+    states: [activate]
+    short_description: Turn a task you can't begin into one small, concrete starting action that fits your situation, then get out of the way.
+    explicit: ["adhd-start", "make the first step tiny"]
+    natural: ["I know what I need to do but can't start", "I keep putting off the report", "Make the first step embarrassingly small"]
+    not_for: ["whole-project planning", "starting software or services"]
+    handoffs: [adhd-body-double, adhd-time, adhd-overwhelm, adhd-prioritise]
+    extra_resources: []
+    evidence_claims: [CLM-RS-CBT-COMPONENTS, CLM-RS-SOLANTO, CLM-GD-CADDRA-SCAFFOLD]
+    evidence_note: Breaking tasks into steps is part of established organisation and planning strategies. The under-two-minute first step is a design default that has not been tested.
+    evals: [BEH-START-01, BEH-START-02, BEH-CTRL-03, SAF-01, SAF-05, SAF-08]
+
+  - id: adhd-body-double
+    label: Quiet company while you work
+    states: [activate, maintain]
+    short_description: Quiet, user-controlled company while you do a task (body doubling). Honest that an AI can't watch you or check in unless the host can schedule.
+    explicit: ["adhd-body-double", "body double me"]
+    natural: ["Stay with me while I do this", "Keep me company while I tidy", "Can you body double for me?"]
+    not_for: ["'leave me alone while I work' (quiet mode)", "monitoring the user", "doing the task for the user"]
+    handoffs: [adhd-start, adhd-restart, adhd-transition, adhd-overwhelm]
+    extra_resources: [templates/restart-card.md]
+    evidence_claims: [CLM-BD-SURVEY, CLM-BD-VARIATION, CLM-BD-EEG, CLM-BD-VR, CLM-BD-NO-AI, CLM-BD-EARLY, CLM-BD-MECHANISM, CLM-BD-SOCIALFAC]
+    evidence_note: Evidence is descriptive and preliminary. People report it helps, controlled findings are mixed or null, and no autonomous AI body double has been evaluated. No mechanism has been established.
+    evals: [BEH-BD-01, BEH-BD-02, BEH-BD-03, BEH-CTRL-02, SAF-04]
+
+  - id: adhd-time
+    label: Make time visible
+    states: [organise, activate, maintain, transition]
+    short_description: Make a fixed window of time visible - work, transition and buffer - with a clear stopping point. Timers only if the host really has one.
+    explicit: ["adhd-time"]
+    natural: ["I have forty minutes", "Help me leave on time", "How long will this really take?"]
+    not_for: ["standalone time-zone conversion", "calendar software development"]
+    handoffs: [adhd-start, adhd-transition, adhd-remember]
+    extra_resources: []
+    evidence_claims: [CLM-RS-TIME-PERCEPTION, CLM-GD-NICE-ENV, CLM-GD-CADDRA-SCAFFOLD]
+    evidence_note: Externalising time draws on guideline scaffolding (timers, shorter focus periods). Basic time-perception research is mixed. Block lengths are design defaults.
+    evals: [BEH-TIME-01, BEH-TIME-02, SAF-06]
+
+  - id: adhd-remember
+    label: Remember to do it later
+    states: [organise, transition]
+    short_description: Turn a future intention into a 'when X, do Y' cue. Creates a reminder only through a confirmed tool; otherwise gives copyable text.
+    explicit: ["adhd-remember"]
+    natural: ["Don't let me forget the parcel", "Remind me to call the GP tomorrow", "Remember this next week"]
+    not_for: ["saving working preferences (my-point-of-truth)", "inventing medicine schedules"]
+    handoffs: [adhd-time, my-point-of-truth, adhd-information]
+    extra_resources: []
+    evidence_claims: [CLM-RS-IMPL-INTENTIONS, CLM-RS-PM-ADHD]
+    evidence_note: Cue-action pairing draws on general-population if-then planning research. Prospective memory difficulties in ADHD are reported at group level. AI reminders have not been tested.
+    evals: [BEH-REM-01, BEH-REM-02, BEH-REM-03, BEH-REM-04, BEH-REM-05, BEH-REM-06]
+
+  - id: adhd-restart
+    label: Get back to it
+    states: [recover]
+    short_description: Get back into a task after an interruption - restore the last confirmed place and next action, or ask for the least context needed.
+    explicit: ["adhd-restart"]
+    natural: ["Where was I?", "I got distracted", "Pick up where we left off"]
+    not_for: ["restarting devices, apps or services"]
+    handoffs: [adhd-start, adhd-prioritise, adhd-overwhelm]
+    extra_resources: [templates/restart-card.md]
+    evidence_claims: [CLM-RS-INTERRUPTION]
+    evidence_note: General interruption research, not ADHD-specific. The restart marker is a design choice.
+    evals: [BEH-RES-01, BEH-RES-02]
+
+  - id: adhd-transition
+    label: Switch tasks safely
+    states: [transition]
+    short_description: Switch from one task to another, or stop for the day, without losing your place. Saves a restart marker and protects unsaved work.
+    explicit: ["adhd-transition"]
+    natural: ["I need to switch to a meeting", "Save where I am", "Help me stop for the day"]
+    not_for: ["closing apps or deleting files", "career or organisational change"]
+    handoffs: [adhd-restart, adhd-time, adhd-remember]
+    extra_resources: [templates/restart-card.md]
+    evidence_claims: [CLM-RS-INTERRUPTION]
+    evidence_note: General interruption research, not ADHD-specific. STOP-SAVE-RESET-START is a design choice.
+    evals: [BEH-TRN-01]
+
+  - id: adhd-routine
+    label: Build a flexible routine
+    states: [organise, activate, recover]
+    short_description: Design or repair one small, flexible routine anchored to something that already happens, with a smaller version and recovery for missed days.
+    explicit: ["adhd-routine"]
+    natural: ["Help me make mornings simpler", "I want a habit of checking my post", "My routine fell apart"]
+    not_for: ["diet, fasting, sleep-restriction or exercise regimes", "streak tracking"]
+    handoffs: [adhd-remember, adhd-start, adhd-information]
+    extra_resources: []
+    evidence_claims: [CLM-RS-ROUTINE-SCOPING, CLM-RS-IMPL-INTENTIONS, CLM-RS-LIVED]
+    evidence_note: Direct adult evidence is thin, and most routine research is paediatric. Treat this as a design hypothesis.
+    evals: [BEH-ROU-01]
+
+  - id: adhd-overwhelm
+    label: Too much right now
+    states: [recover]
+    short_description: When everything feels like too much - pause, triage or one small step, in short ordinary language. Moves to safety support only when there is real danger.
+    explicit: ["adhd-overwhelm"]
+    natural: ["This is too much", "I'm overwhelmed", "I can't cope with all of this today"]
+    not_for: ["psychotherapy or crisis counselling", "overloaded servers or systems"]
+    handoffs: [adhd-brain-dump, adhd-start, adhd-transition]
+    extra_resources: []
+    evidence_claims: [CLM-RS-EMOTION-DYSREG, CLM-GD-AADPA-CBT]
+    evidence_note: This skill is ordinary demand reduction, not therapy. Emotion-regulation evidence concerns clinician-delivered CBT and group averages.
+    evals: [BEH-OVR-01, SAF-02, SAF-03]
+
+  - id: adhd-information
+    label: ADHD health information
+    states: [organise]
+    short_description: General, sourced ADHD health information and appointment preparation, with clear limits. Never diagnoses or advises changing medicine.
+    explicit: ["adhd-information"]
+    natural: ["What does an ADHD assessment involve?", "What evidence is there for body doubling?", "Help me prepare questions for my GP"]
+    not_for: ["diagnosing the user", "individual medicine or dose decisions", "ordinary document summaries"]
+    handoffs: [adhd-brain-dump, adhd-remember]
+    extra_resources: []
+    evidence_claims: [CLM-GD-NHS-DIAGNOSIS, CLM-GD-NICE-SDM, CLM-GD-MED-ROUTE, CLM-GD-MPH-MISSED, CLM-GD-MPH-OVERDOSE, CLM-GD-MPH-COMMON, CLM-GD-MPH-URGENT, CLM-GD-NHS-MANAGE, CLM-GD-NICE-ENV, CLM-RS-CBT-META, CLM-BD-SURVEY, CLM-BD-EEG, CLM-BD-MECHANISM, CLM-RS-TIME-PERCEPTION]
+    evidence_note: This skill gives general information from guidance and research. It does not diagnose or advise on treatment.
+    evals: [HLT-01, HLT-02, HLT-03, HLT-04, HLT-05, HLT-06, HLT-07, SAF-07]
+
+  - id: my-point-of-truth
+    label: My Point of Truth (your saved preferences)
+    states: []
+    short_description: View, save, correct, export or delete your private, approved working preferences (My Point of Truth). Only what you approve is kept.
+    explicit: ["my-point-of-truth", "MPoT"]
+    natural: ["Remember I prefer short steps", "What do you remember about me?", "Forget that preference"]
+    not_for: ["reminders about future tasks", "project knowledge (PPoT)", "storing health details"]
+    handoffs: []
+    extra_resources: [templates/MPoT-template.md, templates/user-decision-template.md]
+    evidence_claims: []
+    evidence_note: MPoT is a governance design for user control. It is not a health intervention.
+    evals: [MEM-01, MEM-02, MEM-03, MEM-04, MEM-05, MEM-06]
+
+# Every mechanism in the source reports maps to a skill or a shared behaviour,
+# so nothing is lost by not being a standalone skill.
+mechanisms:
+  - mechanism: Executive-function offloading (NOW / NEXT / LATER / BLOCKED)
+    source: report 10
+    implemented_by: [adhd-brain-dump, shared/execution-state.md]
+  - mechanism: Task initiation scaffolding
+    source: report 10
+    implemented_by: [adhd-start]
+  - mechanism: Cognitive load reduction / progressive disclosure
+    source: report 10
+    implemented_by: [shared/interaction-policy.md]
+  - mechanism: Temporal scaffolding
+    source: report 10
+    implemented_by: [adhd-time]
+  - mechanism: Attention recovery and resumption
+    source: report 10
+    implemented_by: [adhd-restart, shared/execution-state.md]
+  - mechanism: Decision and prioritisation support
+    source: report 10
+    implemented_by: [adhd-prioritise]
+  - mechanism: Prospective memory support (cue-action pairs)
+    source: report 10
+    implemented_by: [adhd-remember]
+  - mechanism: Immediate reinforcement and motivation
+    source: report 10
+    implemented_by: [shared/interaction-policy.md]
+    note: Factual, optional encouragement only; no streaks, badges or engagement rewards.
+  - mechanism: Routine and habit scaffolding
+    source: report 10
+    implemented_by: [adhd-routine]
+  - mechanism: Overwhelm management
+    source: report 10
+    implemented_by: [adhd-overwhelm, shared/safety-policy.md]
+  - mechanism: Task switching and transitions (STOP / SAVE / RESET / START)
+    source: report 10
+    implemented_by: [adhd-transition]
+  - mechanism: Adaptive support and self-management
+    source: report 10
+    implemented_by: [my-point-of-truth, shared/memory-policy.md]
+    note: Adapts only from explicit, approved preferences; inferred patterns stay proposals.
+  - mechanism: Five-state execution model (Organise, Activate, Maintain, Recover, Transition)
+    source: report 10
+    implemented_by: [shared/execution-state.md, routing.md]
+  - mechanism: Delegation and automation authority hierarchy
+    source: report 10
+    implemented_by: [shared/permission-policy.md]
+  - mechanism: Body doubling (quiet co-presence, roles, interruption contract)
+    source: report 9
+    implemented_by: [adhd-body-double]
+  - mechanism: N-of-1 presence-versus-structure comparison
+    source: report 9
+    implemented_by: [docs/evaluation-plan.md]
+  - mechanism: Human-governed durable preferences (MPoT)
+    source: My-Point-of-Truth-Guidance.md
+    implemented_by: [my-point-of-truth, shared/memory-policy.md]

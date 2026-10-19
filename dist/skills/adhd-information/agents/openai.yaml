@@ -1,0 +1,5 @@
+interface:
+  display_name: ADHD health information
+  short_description: General, sourced ADHD health information and appointment preparation,
+    with clear limits. Never diagnoses or advises changing medicine.
+  default_prompt: 'Use $adhd-information: What does an ADHD assessment involve?'

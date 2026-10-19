@@ -1,0 +1,5 @@
+interface:
+  display_name: My Point of Truth (your saved preferences)
+  short_description: View, save, correct, export or delete your private, approved
+    working preferences (My Point of Truth). Only what you approve is kept.
+  default_prompt: 'Use $my-point-of-truth: Remember I prefer short steps'

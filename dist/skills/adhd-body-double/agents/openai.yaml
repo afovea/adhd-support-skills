@@ -1,0 +1,5 @@
+interface:
+  display_name: Quiet company while you work
+  short_description: Quiet, user-controlled company while you do a task (body doubling).
+    Honest that an AI can't watch you or check in unless the host can schedule.
+  default_prompt: 'Use $adhd-body-double: Stay with me while I do this'

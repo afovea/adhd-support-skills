@@ -1,0 +1,5 @@
+interface:
+  display_name: Choose what's next
+  short_description: Help pick what to do first from several tasks using real deadlines,
+    consequences and dependencies, labelling anything assumed.
+  default_prompt: 'Use $adhd-prioritise: I have five things and can''t choose'

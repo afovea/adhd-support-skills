@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+# Never commit personal memory. MPoT belongs in a private folder outside any repo.
+MPoT.md
+MPoT-inbox.md
+user-decisions.md
+.mpot-state.json

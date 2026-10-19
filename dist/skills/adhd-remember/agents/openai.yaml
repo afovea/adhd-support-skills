@@ -1,0 +1,5 @@
+interface:
+  display_name: Remember to do it later
+  short_description: Turn a future intention into a 'when X, do Y' cue. Creates a
+    reminder only through a confirmed tool; otherwise gives copyable text.
+  default_prompt: 'Use $adhd-remember: Don''t let me forget the parcel'

@@ -1,0 +1,947 @@
+claims:
+- id: CLM-BD-DEFINITION
+  statement: In a 2024 survey study, neurodivergent community members roughly defined body doubling as
+    using the presence of others to start, stay focused on, or accomplish a task; the other person can
+    be in the same room or remote, live or recorded, known or a stranger, and need not be doing the same
+    task.
+  sources:
+  - SRC-BD-01
+  locator: Abstract; Section 4.1 'What Is Body Doubling?' (pp. 16:12-16:13)
+  supports: A community-derived working definition the agent can use when explaining the term.
+  does_not_establish: Effectiveness; a clinical or diagnostic definition.
+  limitations: Self-selected online sample recruited via social media; English only.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: New peer-reviewed definitional work or consensus statement on body doubling.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-01
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-SURVEY
+  statement: In one self-selected online survey of 220 adults (most identifying as neurodivergent, ADHD
+    the most common self-identification, no diagnosis required), 186 said they were somewhat more likely
+    or more likely to finish tasks when another person was present, and 108 said more likely. This is
+    self-report with no comparison condition.
+  sources:
+  - SRC-BD-01
+  locator: Section 4.3 'Use Cases' and Fig. 7 (p. 16:14); Sections 3.2-3.4 for sample
+  supports: Many people who already engage with body-doubling communities perceive it as helpful for task
+    completion.
+  does_not_establish: That body doubling causally improves task completion; that it helps people with
+    clinically diagnosed ADHD; prevalence or effect size in the general ADHD population.
+  limitations: Self-selection and recruitment via body-doubling-aware social media; self-report; mostly
+    US/EU, mostly female-identifying; 198 vs 193 ND count inconsistency within paper.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Controlled or longitudinal study measuring task completion with vs without a body double.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-02
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-VARIATION
+  statement: 'Body doubling is not one-size-fits-all: survey respondents reported it varies by person,
+    task, mood and availability, and some found another person''s presence more distracting, a source
+    of judgement fears or guilt-driven accountability (four respondents), or hard to arrange with a partner
+    who was not ''too chatty''; the authors note high-accountability formats can feel stressful or overwhelming.'
+  sources:
+  - SRC-BD-01
+  locator: Section 4.4.3 (p. 16:17); Section 4.5.1 (pp. 16:17-16:18); Section 5 Discussion (p. 16:19)
+  supports: Offering body doubling as optional, low-pressure and adjustable, and checking in on whether
+    it is helping.
+  does_not_establish: Frequency of harms; that any format is harmful.
+  limitations: Qualitative counts from open responses; not systematically elicited negatives.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Studies reporting adverse experiences or dependence with body doubling or AI companions.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-03
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-MODEL
+  statement: 'Eagle et al. propose (as a descriptive model, not a tested one) that body doubling varies
+    along two continua: space/time (from live and co-located to pre-recorded and elsewhere) and mutuality
+    (from an aware partner you are accountable to, to ambient companionship from people unaware of their
+    role).'
+  sources:
+  - SRC-BD-01
+  locator: Section 5.3 'Mapping Body Doubling' and Fig. 9 (pp. 16:21-16:22)
+  supports: Design framing for offering presence options of differing liveness and accountability.
+  does_not_establish: That any region of the model is more effective.
+  limitations: Authors' interpretive model derived from survey themes.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Empirical tests of model dimensions (e.g. Tan et al. roadmap follow-up).
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-04
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-EEG
+  statement: A small 2025 ASSETS study (N=26; neurotypical, medicated ADHD and unmedicated ADHD participants)
+    found no statistically significant differences between body-doubling and solo conditions on ACT reading
+    comprehension or EEG-derived focus and calmness metrics; the authors report no consistent negative
+    impacts and 'promising trends' for unmedicated ADHD participants.
+  sources:
+  - SRC-BD-02
+  - SRC-BD-03
+  locator: SRC-BD-02 abstract (via OpenAlex); SRC-BD-03 poster abstract
+  supports: Stating that controlled lab evidence so far does not show a measurable performance benefit
+    on a reading test.
+  does_not_establish: That body doubling does not work (underpowered null); effects on task initiation
+    or completion; what the body double was instructed to do.
+  limitations: Abstract only; full text inaccessible; small sample split across three groups; single reading
+    task; consumer EEG metrics. The 'quiet, neutral double' instruction described in the source report
+    could not be verified (full text inaccessible).
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Full text becomes accessible; replication with task-initiation outcomes.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-05
+  source_read: abstract-only
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-VR
+  statement: In a non-peer-reviewed VR preprint (12 ASRS-screened adults, 20-minute bricklaying task),
+    working with a human avatar or an 'AI' avatar both produced more bricks per minute (10.82 and 11.06)
+    than working alone (8.49), with no difference between the two; the 'AI' double was secretly operated
+    by a human (Wizard-of-Oz), so this does not test an autonomous AI.
+  sources:
+  - SRC-BD-04
+  locator: Section 5.2 (Wizard-of-Oz); Section 6.1.1-6.1.2 (sample, ASRS); Section 6.2.1 (efficiency);
+    Section 7.2 (limitations)
+  supports: Perceived-AI presence can be studied as a body double in VR; short-term efficiency gains in
+    one task.
+  does_not_establish: Effects of a real autonomous AI; long-term or real-world benefit; effects in clinically
+    diagnosed ADHD; accuracy gains (behavioural accuracy and object detection were not significant).
+  limitations: n=12; one session per condition; construction-inspired task; operator was an author; participants
+    deceived about AI; preprint.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Peer-reviewed version published or a study with an autonomous AI body double.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-06
+  source_read: partial
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-ROBOT
+  statement: In a three-week in-dorm study of 11 college students with self-reported ADHD symptoms, 10
+    of 11 chose to keep using a small companion robot when use was voluntary, and usability was rated
+    high (mean SUS 83.86); the robot only made pre-programmed idle motions at random times and did not
+    respond to the student, and no objective task-performance outcome was measured.
+  sources:
+  - SRC-BD-06
+  locator: Abstract; Section 3.3 (robot behaviour); Section 3.4 (design, participants); Section 4.1 (10
+    of 11, SUS); Section 5.1 (limitations)
+  supports: Acceptability and voluntary uptake of a non-human ambient presence in a small sample.
+  does_not_establish: Efficacy for schoolwork or ADHD symptoms (ESQ-R, NASA-TLX showed no significant
+    change); effects of an AI or attention-monitoring system.
+  limitations: n=11; self-reported symptoms; no no-motion control; recording may have changed behaviour;
+    possible demand effects.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Follow-up with responsive/autonomous robot or AI and outcome measures.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-07
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-SOCIALFAC
+  statement: 'In general (non-ADHD) research, a 1983 meta-analysis of 241 studies with nearly 24,000 participants
+    found the mere presence of others had small effects: it sped up simple tasks and slowed complex ones,
+    impaired accuracy on complex tasks and only slightly improved accuracy on simple tasks (a finding
+    vulnerable to unpublished null results).'
+  sources:
+  - SRC-BD-07
+  locator: Abstract
+  supports: Background that social presence can help or hinder depending on task complexity; caution about
+    using presence for complex tasks.
+  does_not_establish: Anything specific to ADHD, body doubling or AI presence; effects on task initiation.
+  limitations: Abstract only; 1983 literature; effects account for roughly 0.3%-3% of variance.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Access to full text, or a newer social facilitation meta-analysis.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-08
+  source_read: abstract-only
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-MECHANISM
+  statement: No source reviewed here tested or established a neurochemical (for example dopamine) mechanism
+    for body doubling. The research papers either do not mention dopamine or list other untested theories
+    (mirror neurons, Hawthorne effect, social facilitation, accountability); consumer pages that mention
+    dopamine or neurotransmitters present it as speculation, an inference from general social-behaviour
+    research, or a claim attributed to a commercial service.
+  sources:
+  - SRC-BD-01
+  - SRC-BD-05
+  - SRC-BD-09
+  - SRC-BD-10
+  - SRC-BD-11
+  - SRC-BD-12
+  locator: SRC-BD-01 Section 2 (theories); SRC-BD-05 full text (no dopamine); SRC-BD-10 (Focusmate attribution);
+    SRC-BD-11 (dopamine inference from Kopec et al. 2019 review)
+  supports: The agent should not say body doubling 'boosts dopamine' or works through any established
+    brain mechanism; it may say why it works is not known.
+  does_not_establish: That no such mechanism exists, or that no study anywhere has tested one - the search
+    was targeted, not systematic.
+  limitations: Absence-of-evidence claim based on the sources listed and web searches on 2026-10-19; no
+    PubMed systematic search performed.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Any study measuring neurochemical or neural correlates of body doubling; systematic
+    search by clinical reviewer.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-09
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-EARLY
+  statement: 'Research on body doubling is limited and early: a 2026 work-in-progress roadmap describes
+    it as ''a fairly new and under-researched topic'', and ADHD organisations ADDA and CHADD both state
+    that research proving its effectiveness is lacking.'
+  sources:
+  - SRC-BD-05
+  - SRC-BD-09
+  - SRC-BD-10
+  locator: SRC-BD-05 Introduction/Conclusion; SRC-BD-09 body text; SRC-BD-10 body text
+  supports: Framing body doubling to users as a commonly reported strategy worth trying, not an evidence-based
+    treatment.
+  does_not_establish: That it is ineffective.
+  limitations: Statements of evidence gaps by roadmap authors and advocacy organisations, not a systematic
+    review.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Publication of a systematic review or RCT on body doubling.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-10
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-NO-AI
+  statement: 'None of the studies reviewed here evaluated an autonomous AI body double: the VR ''AI''
+    was human-operated (Wizard-of-Oz), the robot used random pre-programmed motions, and the roadmap reports
+    no new data.'
+  sources:
+  - SRC-BD-04
+  - SRC-BD-05
+  - SRC-BD-06
+  locator: SRC-BD-04 Section 5.2; SRC-BD-06 Section 3.3; SRC-BD-05 full text
+  supports: Any AI body-doubling feature in the plugin is untested by this evidence and should be described
+    as an experiment, not a validated intervention.
+  does_not_establish: That AI body doubling is ineffective or harmful.
+  limitations: Scoped to sources in this fragment; other AI body-doubling studies may exist.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Any study of an autonomous AI/LLM body double with outcome measures.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-11
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-BD-PRACTICE
+  statement: ADDA runs regular 90-minute Zoom body-doubling sessions where cameras and talking are optional;
+    this shows the practice is offered by an ADHD organisation, not that it is proven effective.
+  sources:
+  - SRC-BD-08
+  locator: add.org/body-doubling/ session list
+  supports: Signposting a human, community body-doubling option.
+  does_not_establish: Effectiveness; that sessions are open to non-members; current schedule beyond access
+    date.
+  limitations: Programme page; benefit claims on page are uncited; schedule may change.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Page change or schedule change; re-check every 6 months.
+  reviewer_role: evidence maintainer (clinical reviewer for health claims)
+  legacy_fragment_id: CLM-BD-12
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-NHS-DIAGNOSIS
+  statement: In the UK, ADHD should only be diagnosed by a specialist (e.g. psychiatrist or other appropriately
+    qualified healthcare professional) after a full clinical and psychosocial assessment; a GP may refer
+    to an ADHD specialist.
+  sources:
+  - SRC-GD-02
+  - SRC-GD-01
+  locator: NICE NG87 rec 1.3.1 [2008]; NHS 'Getting help with ADHD' and 'What happens at an ADHD assessment'
+  supports: Runtime must not diagnose or imply diagnosis; signpost to GP/specialist assessment.
+  does_not_establish: Assessment pathways, waiting times or eligibility outside England/UK; anything about
+    the accuracy of any specific screening tool.
+  limitations: UK/England jurisdiction; rec dates from 2008.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NICE NG87 update or surveillance decision; NHS page review date 19 March 2028
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-01
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-NHS-ONLINE-TEST
+  statement: NHS adult ADHD information does not itself state that online tests cannot diagnose ADHD;
+    it links to an ADHD UK self-screening tool.
+  sources:
+  - SRC-GD-01
+  locator: NHS 'Getting help with ADHD' (external link list)
+  supports: Do not attribute an 'online tests cannot diagnose' statement to the NHS page; the diagnostic
+    boundary should be sourced from NICE 1.3.1 instead.
+  does_not_establish: That online tests are or are not valid; any claim about the ADHD UK tool.
+  limitations: Absence-of-statement finding on one page; other NHS pages not checked.
+  tested_ai_implementation: false
+  status: unverified
+  accessed: 2026-10-19
+  review_trigger: NHS page review (19 March 2028) or wording change
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-02
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-NICE-ENV
+  statement: NICE describes environmental modifications as changes to the environment, tailored to an
+    assessment of the person's needs, such as changes to seating, lighting and noise, reducing distractions
+    (e.g. headphones), shorter periods of focus with movement breaks, and reinforcing verbal requests
+    with written instructions.
+  sources:
+  - SRC-GD-02
+  locator: 'NICE NG87 Recommendations, ''Terms used in this guideline: Environmental modifications'';
+    referenced in recs 1.4.3, 1.4.12, 1.5.13, 1.5.15'
+  supports: Offering general, user-chosen environment and task-structure ideas (distraction reduction,
+    short focus blocks with breaks, written steps) as information, not as treatment.
+  does_not_establish: Effectiveness of any specific modification or of AI-delivered suggestions; that
+    these replace clinical care (rec 1.5.15 positions them before medication review in adults, within
+    a clinical pathway).
+  limitations: Definition, not a standalone numbered rec; England jurisdiction; clinical-pathway context.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NICE NG87 update
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-03
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-NICE-SDM
+  statement: NICE recommends a holistic shared treatment plan and regularly discussing with people with
+    ADHD how they want to be involved in treatment decisions, including benefits and harms of non-drug
+    and drug treatments and their preferences.
+  sources:
+  - SRC-GD-02
+  locator: NICE NG87 recs 1.5.2, 1.5.3, 1.5.4 [2018]
+  supports: Runtime framing that treatment choices are made by the person with their clinician; the tool
+    supports preparing questions, not deciding.
+  does_not_establish: Any role for AI in shared decision-making.
+  limitations: Clinician-facing; England jurisdiction.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NICE NG87 update
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-04
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-MED-ROUTE
+  statement: In the UK, ADHD medicines are started and monitored by an ADHD specialist; questions about
+    how to take a medicine or remember doses can go to a pharmacist, and stopping should be discussed
+    with the doctor first.
+  sources:
+  - SRC-GD-01
+  - SRC-GD-02
+  - SRC-GD-04
+  locator: NHS ADHD adults 'Medicines'; NICE NG87 rec 1.7.2; NHS methylphenidate 'How and when to take'
+    (stopping, help remembering)
+  supports: Routing all medicine questions (dose, timing, stopping, switching) to prescriber or pharmacist;
+    no dosing advice from the tool.
+  does_not_establish: Prescribing arrangements outside the UK; advice for any specific medicine other
+    than as stated.
+  limitations: UK; shared care arrangements vary.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NHS page review dates (March 2028); NICE update
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-05
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-MPH-MISSED
+  statement: For methylphenidate (adults), NHS advice for a forgotten dose is to skip it and take the
+    next dose at the usual time, and not to take 2 doses to make up for it; an alarm or a pharmacist can
+    help with remembering.
+  sources:
+  - SRC-GD-04
+  locator: NHS methylphenidate for adults, 'How and when to take' > 'If you forget to take it'
+  supports: Quoting/linking the NHS page only when a user asks specifically about missed methylphenidate
+    doses, with prompt to confirm with prescriber/pharmacist.
+  does_not_establish: Missed-dose advice for any other ADHD medicine, formulation-specific or individual
+    instructions, or non-UK advice.
+  limitations: Bounded to methylphenidate, adults, NHS; individual prescriber instructions take precedence.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NHS page review due 25 March 2028
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-06
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-MPH-OVERDOSE
+  statement: NHS advises getting medical advice after taking more methylphenidate than prescribed even
+    without symptoms (111 online/phone), and calling 999 or going to A&E for a fit/seizure or fast, slow
+    or irregular heartbeat.
+  sources:
+  - SRC-GD-04
+  locator: NHS methylphenidate for adults, 'How and when to take' > 'If you take too much'
+  supports: Immediate signposting to 111/999 (UK) on any mention of excess dose; no reassurance or assessment
+    by the tool.
+  does_not_establish: Overdose thresholds; routing outside the UK.
+  limitations: UK numbers only; methylphenidate only.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NHS page review due 25 March 2028
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-07
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-MPH-URGENT
+  statement: For methylphenidate (adults), NHS lists serious side effects to report to a GP or 111 straight
+    away (e.g. mood changes, palpitations, hallucinations, new facial tics) and ones needing 999 or A&E
+    (e.g. chest pain, stroke symptoms, fits, thoughts of harming yourself or others; anaphylaxis -> 999).
+  sources:
+  - SRC-GD-05
+  locator: NHS 'Side effects of methylphenidate for adults' > 'Serious side effects' and 'Serious allergic
+    reaction'
+  supports: 'Escalation routing: the tool stops and signposts urgent care when a user reports such symptoms.'
+  does_not_establish: Side-effect frequencies beyond 'uncommon (<1 in 100)'; triage by the tool; non-UK
+    routing.
+  limitations: Methylphenidate only; UK services.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NHS page review due 25 March 2028
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-08
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-NHS-MANAGE
+  statement: NHS lists ways to manage adult ADHD including lifestyle changes, work/study adjustments,
+    medicines and talking therapies such as CBT or mindfulness.
+  sources:
+  - SRC-GD-01
+  locator: NHS ADHD in adults 'How to manage ADHD'
+  supports: General description of the range of support options, with signposting to clinicians.
+  does_not_establish: Which option suits any individual; effectiveness of self-help delivered by an AI
+    tool.
+  limitations: UK patient information.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: NHS page review due 19 March 2028
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-09
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-AADPA-CBT
+  statement: The Australian guideline text indicates cognitive-behavioural interventions should be offered
+    to adults with ADHD as an option to consider, ideally ADHD-specific and strengths-based.
+  sources:
+  - SRC-GD-03
+  locator: AADPA guideline 4.2.2 Cognitive-behavioural interventions, evidence-to-recommendation text
+    (adults)
+  supports: Mentioning that structured psychological therapy is a recognised option to discuss with a
+    clinician.
+  does_not_establish: Formal recommendation number/grade (not captured); that AI coaching is CBT or equivalent.
+  limitations: Australia; recommendation block not extracted; no page date.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: AADPA guideline revision; successful read of recommendation block
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-10
+  source_read: partial
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-CADDRA-SCAFFOLD
+  statement: CADDRA's guideline lists practical external supports such as structure and routines, visual
+    reminders, timers/apps for deadlines, chunking larger tasks into smaller steps with deadlines, and
+    planned movement breaks during prolonged tasks.
+  sources:
+  - SRC-GD-06
+  locator: CADDRA 4.1 Edition, Chapter 4, Table 4.2 Home Interventions (printed pp. 46-47)
+  supports: Offering timers, reminders, routines, chunking and break prompts as general practical strategies.
+  does_not_establish: Effectiveness of these strategies when delivered by AI; that they are treatment.
+  limitations: Canada; 4.1 Edition (2020) with update announced July 2026 but not released; strategies
+    are practice-based lists.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Release of updated CADDRA Practice Guidelines (announced July 2026)
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-GD-11
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-MHRA-SAMD
+  statement: MHRA guidance states a digital mental health technology is regulated as software as a medical
+    device if it is intended to have a medical purpose and its functionality is considered complex; intended
+    purpose is set by the manufacturer.
+  sources:
+  - SRC-GD-08
+  locator: GOV.UK DMHT qualification and classification landing page (summary); full PDF not read
+  supports: Keeping the plugin's stated intended purpose non-medical (general information, organisation
+    support) and avoiding diagnostic/treatment claims to stay outside SaMD scope.
+  does_not_establish: That the plugin is or is not a medical device; classification details from the 54-page
+    PDF.
+  limitations: UK (GB) regulation; PDF not read; landing page updated 29 July 2026.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: GOV.UK page update; MHRA software/AI regulation changes
+  reviewer_role: privacy/legal reviewer
+  legacy_fragment_id: CLM-GD-12
+  source_read: partial
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-ICO-SPECIAL
+  statement: Under UK GDPR, data concerning health (including mental health) is special category data,
+    and inferences about health can be special category data where processing aims to infer it or treats
+    people differently on that basis.
+  sources:
+  - SRC-GD-09
+  locator: ICO 'What is special category data?' > health data; inferences
+  supports: Treating user disclosures about ADHD, symptoms or medication, and any inferred health status,
+    as special category data requiring an Article 9 condition and minimisation.
+  does_not_establish: Final post-Data (Use and Access) Act 2025 position; lawful basis for this product.
+  limitations: UK; page states guidance is under review due to the Data (Use and Access) Act.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: ICO publishes revised guidance after Data (Use and Access) Act review
+  reviewer_role: privacy/legal reviewer
+  legacy_fragment_id: CLM-GD-13
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-WHO-AUTONOMY
+  statement: 'WHO''s first of six principles for AI in health is protecting human autonomy: humans should
+    remain in control of health-care systems and medical decisions, with privacy, confidentiality and
+    informed consent protected.'
+  sources:
+  - SRC-GD-07
+  locator: WHO news release 28 June 2021 (six guiding principles); publication page 9789240029200
+  supports: Design rule that the user decides; the tool suggests, never decides, and seeks informed consent
+    for data use.
+  does_not_establish: Binding legal obligations; specific implementation requirements (full report not
+    read).
+  limitations: International non-binding guidance; principles verified from news release, not full report.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: WHO publishes updated AI-for-health ethics guidance
+  reviewer_role: privacy/legal reviewer
+  legacy_fragment_id: CLM-GD-14
+  source_read: partial
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-W3C-STEPS
+  statement: 'W3C cognitive accessibility guidance recommends making each step clear: show where the user
+    is, completed steps, the current step and pending steps, and avoid hiding completed steps or choices.'
+  sources:
+  - SRC-GD-10
+  locator: W3C WAI 'Make Each Step Clear', Objective 1 (Help users understand what things are and how
+    to use them)
+  supports: Output format for multi-step task breakdowns (numbered steps, progress state, re-orientation
+    after distraction).
+  does_not_establish: ADHD-specific benefit; WCAG conformance requirement (supplemental only).
+  limitations: Not ADHD-specific; design pattern rather than empirical evidence.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: W3C COGA pattern revision
+  reviewer_role: accessibility reviewer
+  legacy_fragment_id: CLM-GD-15
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-SOLANTO
+  statement: In one randomised trial of 88 adults with ADHD (Solanto et al., 2010), a 12-week group meta-cognitive
+    therapy targeting time management, organisation and planning reduced ADHD symptoms more than supportive
+    psychotherapy. This is clinician-delivered group therapy evidence, not evidence that this software
+    works.
+  sources:
+  - SRC-RS-01
+  locator: Abstract (Europe PMC record, PMID 20231319)
+  supports: Structured, therapist-led skills training in time management and organisation can reduce adult
+    ADHD symptoms relative to an attention control.
+  does_not_establish: That AI-delivered prompts, self-guided use, or this plugin replicate the effect;
+    long-term durability; effects outside group therapy.
+  limitations: Single trial; abstract-only reading; therapist delivery.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: New RCTs or meta-analyses of meta-cognitive therapy; any claim of AI equivalence.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-01
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-SAFREN
+  statement: One randomised trial of 86 medication-treated adults with persistent ADHD symptoms (Safren
+    et al., 2010) found 12 sessions of CBT reduced symptoms more than relaxation with educational support,
+    with gains maintained at 12 months. This concerns therapist-delivered CBT, not this software.
+  sources:
+  - SRC-RS-02
+  locator: Abstract (Europe PMC record, PMID 20736471)
+  supports: Individual CBT adds benefit over an attention-matched control for adults already on medication.
+  does_not_establish: Benefit for unmedicated adults; effectiveness of digital or AI-delivered CBT-style
+    prompts; safety of this plugin.
+  limitations: Single trial; abstract-only reading; specialist setting.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Replication or updated systematic reviews.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-02
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-CBT-META
+  statement: A 2026 meta-analysis of 14 RCTs (Liu et al., Journal of Affective Disorders) reported small-to-moderate
+    improvements with CBT in adults with ADHD for core symptoms (SMD -0.45) and executive function (SMD
+    -0.43), but not for quality of life or self-evaluation. This is about clinician-delivered CBT, not
+    this software.
+  sources:
+  - SRC-RS-03
+  locator: Abstract (PMID 41483880)
+  supports: CBT for adult ADHD is associated with modest pooled improvements in core symptoms and executive
+    function.
+  does_not_establish: That any AI or self-help tool produces these effects; improvement in quality of
+    life; long-term effects.
+  limitations: Abstract lacks CIs and total N; heterogeneity and risk of bias not checked; format moderators
+    (group vs individual) differed by outcome.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Full-text check of CIs, heterogeneity and trial quality; newer meta-analyses.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-03
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-CBT-FUNCTION
+  statement: A 2026 meta-analysis of 70 studies with 5,152 participants (López-Pinar et al., Behaviour
+    Research and Therapy) found CBT for adult ADHD was associated with moderate gains in global functioning
+    (SMD 0.47 post-treatment, 0.67 at follow-up), with the strongest effects for occupational functioning.
+    Many included studies were uncontrolled, and this is not evidence for this software.
+  sources:
+  - SRC-RS-04
+  locator: Abstract (PMID 41936228)
+  supports: CBT may improve everyday functioning, particularly at work, beyond symptom change.
+  does_not_establish: Causal effects from the uncontrolled studies; effects of AI or digital self-help;
+    durable benefits beyond short follow-up (~3 months typical).
+  limitations: Mixed designs (only 38 of 70 RCTs); self-report heavy; mostly Western samples; risk of
+    bias flagged by authors.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Full text read for design-specific estimates; new functioning-outcome trials.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-04
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-CBT-COMPONENTS
+  statement: A component network meta-analysis of 43 trials and 3,817 participants (Matsumoto et al.,
+    2024, BMJ Mental Health) found that CBT packages including organisational strategies were associated
+    with higher treatment response, and problem-solving components with reduced inattention. These are
+    associations from trial-level modelling of therapist-delivered CBT, possibly including adolescents,
+    not evidence for this software.
+  sources:
+  - SRC-RS-05
+  locator: Abstract (PMID 39732478)
+  supports: Organisational-strategy content is a plausible active ingredient in CBT for ADHD.
+  does_not_establish: Causation at the component level; adult-only effects; that organisational prompts
+    from an AI assistant are effective.
+  limitations: Component effects are model-based associations; the problem-solving CI lower bound is 0.01;
+    searches end March 2022; age mix of trials not confirmed. Protocol eligibility spanned ages 10-60;
+    do not describe as adult-only. Authors are Matsumoto et al., not as named in the source report.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Confirm age eligibility from full text; updated component NMAs.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-05
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-PM-ADHD
+  statement: In a 2026 experiment with 196 adults (98 with ADHD), Stelz, Edel and Altgassen found lower
+    everyday prospective memory in the ADHD group, and found that episodic future thinking (vividly imagining
+    carrying out an intention) at encoding improved performance compared with standard encoding. This
+    is lab-assigned encoding instruction over three sessions, not evidence for this software.
+  sources:
+  - SRC-RS-06
+  - SRC-RS-07
+  locator: SRC-RS-06 abstract (PMID 42475007); SRC-RS-07 abstract (PMID 41684048)
+  supports: Prompting people to imagine future intention execution is a candidate technique for remembering
+    intentions, including in adults with ADHD.
+  does_not_establish: Effect sizes (not in abstract); durability; effects when prompted by an AI tool;
+    that a 'process' focus is better (outcome focus did best).
+  limitations: Single experiment; abstract only. A separate 2026 study (n=127, SRC-RS-07) found its EFT
+    benefit was not significant after controlling for verbal ability, so the evidence is not uniform.
+    A second 2026 study with a similar design (Altgassen et al., n=127) found the episodic-future-thinking
+    benefit was not significant after controlling for verbal ability; findings are mixed.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Full-text effect sizes; replications.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-06
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-DELAY
+  statement: Meta-analyses find that, on average, people with ADHD choose smaller immediate rewards over
+    larger delayed ones more than controls (Jackson & MacKillop 2016, d = 0.43; Marx et al. 2021, small-to-medium
+    effects). This is a group-average laboratory finding, not a statement about any individual and not
+    evidence for this software.
+  sources:
+  - SRC-RS-08
+  - SRC-RS-09
+  locator: Abstracts (PMID 27722208; PMID 29806533)
+  supports: Designs that reduce delay or add near-term feedback are theoretically motivated for ADHD.
+  does_not_establish: That any particular reward or nudge design improves outcomes; individual-level prediction;
+    adult-only effects (mixed-age samples).
+  limitations: Mixed ages; publication bias noted by Jackson & MacKillop; paradigm-dependent effects.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Newer adult-specific meta-analyses.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-07
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-ROUTINE-SCOPING
+  statement: A 2026 scoping review of 31 studies (Almudayfir et al., Behavioral Sciences) found that research
+    on daily routines and habits in ADHD is concentrated in paediatric populations, with limited adult
+    research and no validated ADHD-specific routine/habit measure. Routine-support features for adults
+    therefore rest on thin direct evidence.
+  sources:
+  - SRC-RS-10
+  locator: Abstract (PMID 42352833)
+  supports: Stating that adult routine/habit evidence is a gap.
+  does_not_establish: That routine features help or harm adults with ADHD; any efficacy of this software.
+  limitations: Scoping review (no effect estimates); abstract only; only 6 intervention studies.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: New adult routine/habit intervention studies.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-08
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-DIGITAL-REVIEW
+  statement: A 2026 scoping review of 133 studies of digital health technologies for adults with ADHD
+    (Schofield et al., Frontiers in Digital Health) found the field is mostly early-stage, with frequent
+    lack of blinding, low or unreported adherence, heavy self-report, and unclear routes into clinical
+    practice. It did not specifically assess large language models, and it is not evidence for this software.
+  sources:
+  - SRC-RS-11
+  locator: Abstract, Results and Discussion (Frontiers full text, partially read)
+  supports: Caution about overclaiming benefit for digital ADHD tools; the case for lived-experience co-design
+    and implementation planning.
+  does_not_establish: That digital tools are ineffective; anything about LLM-based assistants specifically.
+  limitations: Scoping review without pooled effects; the source has minor internal count inconsistencies;
+    partially read.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Systematic reviews with effect estimates; LLM-specific trials.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-09
+  source_read: partial
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-TIME-PERCEPTION
+  statement: 'A 2023 review of a decade of adult ADHD time-perception research (Mette) found few studies
+    and mixed results for time estimation and reproduction: some studies show deficits and others no clear
+    difference. Time-blindness should not be presented as an established universal deficit.'
+  sources:
+  - SRC-RS-12
+  locator: Abstract (PMID 36833791)
+  supports: Hedged wording about time perception in adults with ADHD.
+  does_not_establish: That time-perception support features help; the size of any deficit.
+  limitations: Narrative review; small evidence base; heterogeneous methods; abstract only.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Newer adult meta-analysis of timing.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-10
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-EMOTION-DYSREG
+  statement: A 2020 meta-analysis (Beheshti et al., BMC Psychiatry; 13 studies, N = 2,535) found emotion
+    dysregulation was markedly elevated on average in adults with ADHD compared with controls (g = 1.17),
+    and correlated with ADHD symptom severity (r = 0.54). This is a group average, not a diagnosis of
+    any user, and not evidence for this software.
+  sources:
+  - SRC-RS-13
+  locator: Abstract (PMID 32164655)
+  supports: Acknowledging that emotional difficulties are common in adult ADHD and designing for them.
+  does_not_establish: That any emotion-support feature is effective or safe; causality between symptoms
+    and dysregulation.
+  limitations: 13 studies; self-report measures; moderators untestable; cross-sectional correlations.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Updated meta-analyses.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-11
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-INTERRUPTION
+  statement: Interruption research in general (non-ADHD) participants suggests that a brief warning before
+    an interruption, which gives time to prepare, is associated with faster resumption (Trafton et al.,
+    2003). Memory-for-goals theory (Altmann & Trafton, 2002) holds that suspended goals decay and are
+    retrieved through cues. This is adjacent cognitive evidence. It has not been tested in ADHD or with
+    this software.
+  sources:
+  - SRC-RS-14
+  - SRC-RS-15
+  locator: SRC-RS-14 abstract snippets via web search only; SRC-RS-15 abstract (OpenAlex/PhilPapers)
+  supports: Theoretical rationale for 'leave yourself a note on where you were' resumption cues.
+  does_not_establish: Effects in ADHD; effect sizes; that an AI-prompted resumption note reduces resumption
+    cost.
+  limitations: Trafton 2003 abstract and methods not fully read; sample unconfirmed; manipulation was
+    warning/interruption lag, not explicit intention encoding; lab tasks.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Obtain Trafton 2003 full text; look for ADHD-specific interruption studies.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-12
+  source_read: partial
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-DIGITAL-RCTS
+  statement: 'Two RCTs of self-guided or unguided digital programmes for adults with ADHD reported benefits:
+    Kenter et al. (2023; n=120) for symptoms and quality of life vs online psychoeducation, and Baumeister
+    et al. (2026; n=307) for quality of life when an unguided app was added to usual care, with low adherence.
+    These were structured programmes, not this AI software.'
+  sources:
+  - SRC-RS-16
+  - SRC-RS-17
+  locator: Abstracts (PMID 36969389; PMID 42240305)
+  supports: Digital self-help can plausibly benefit some adults with ADHD.
+  does_not_establish: Efficacy of LLM/AI assistants; symptom effects in the 2026 trial (primary outcome
+    QoL); long-term effects.
+  limitations: 'Kenter: self-reported ADHD per protocol, small n. Baumeister: open-label, exploratory
+    10% alpha, no standardised diagnostics, low adherence. Baumeister et al. primary outcome was quality
+    of life (not symptoms); open-label, exploratory alpha, low adherence.'
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: Full-text checks; replication; any AI-assistant RCT.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-13
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-LIVED
+  statement: A 2022 rapid review of 35 qualitative studies (Ginapp et al.) reported that adults with ADHD
+    describe using regular schedules, to-do lists and reminder apps, and being helped by partners, friends,
+    family and workplace reminders. These are self-reported coping strategies, not evidence that they
+    work or that this software helps.
+  sources:
+  - SRC-RS-18
+  locator: Results, 'Adapting to symptoms' (Coping skills; Outside support)
+  supports: Framing features around strategies adults with ADHD already report using.
+  does_not_establish: Efficacy of any strategy; generalisability (mostly male, English-language, Europe/North
+    America/Asia samples).
+  limitations: Rapid review; single-reviewer appraisal; variable diagnosis verification.
+  tested_ai_implementation: false
+  status: verified
+  accessed: 2026-10-19
+  review_trigger: Newer full systematic qualitative syntheses.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-14
+  source_read: partial
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-RS-IMPL-INTENTIONS
+  statement: In general-population research, forming if-then plans (implementation intentions) had a medium-to-large
+    average effect on goal attainment across 94 tests (Gollwitzer & Sheeran, 2006, d = .65). This is adjacent
+    evidence for cue-action pairing. It is not ADHD-specific and not evidence for this software.
+  sources:
+  - SRC-RS-19
+  locator: Abstract (Semantic Scholar record)
+  supports: Theoretical basis for offering if-then cue-action prompts.
+  does_not_establish: Effect in ADHD; effect when an AI suggests the plan; durability.
+  limitations: Older (2006) meta-analysis; abstract only; publication bias and heterogeneity not checked
+    in this register.
+  tested_ai_implementation: false
+  status: partial-access
+  accessed: 2026-10-19
+  review_trigger: ADHD-specific implementation-intention studies; updated meta-analyses.
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: CLM-RS-15
+  source_read: abstract-only
+  status_note: Wording checked against the abstract only; full text not read.
+  link_resolves: true
+  clinician_reviewed: false
+- id: CLM-GD-MPH-COMMON
+  statement: For methylphenidate in adults, the NHS lists common side effects (more than 1 in 100 people)
+    as headaches, trouble sleeping, loss of appetite (with possible weight loss in the first few months),
+    stomach ache, dry mouth and feeling or being sick, and advises telling a doctor if they bother you
+    or don't go away.
+  sources:
+  - SRC-GD-05
+  locator: NHS 'Side effects of methylphenidate for adults' > 'Common side effects of methylphenidate'
+  supports: General UK patient-information list of common side effects for this one medicine.
+  does_not_establish: Individual risk, other ADHD medicines, other formulations or other countries' labelling.
+  limitations: UK, adults, methylphenidate only. Read via a fetch summary on the access date; re-check
+    before quoting the advice wording.
+  tested_ai_implementation: false
+  status: verified
+  accessed: '2026-10-19'
+  review_trigger: NHS page next review due 25 March 2028, or any page change
+  reviewer_role: clinical reviewer
+  legacy_fragment_id: null
+  source_read: full
+  link_resolves: true
+  clinician_reviewed: false

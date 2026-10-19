@@ -1,0 +1,5 @@
+interface:
+  display_name: Get started
+  short_description: Turn a task you can't begin into one small, concrete starting
+    action that fits your situation, then get out of the way.
+  default_prompt: 'Use $adhd-start: I know what I need to do but can''t start'
