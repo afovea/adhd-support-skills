@@ -13,6 +13,8 @@
 
 Their full outputs are in [`roles/`](roles/). This page brings them together, resolves where they disagree, and lists the decisions only you can make.
 
+> **Decision, 19 October 2026:** urgent-help guidance is generic and works anywhere. It gives no phone numbers, named services or country questions. This overrides any UK/US crisis-line wording in the role outputs.
+
 ## In one paragraph
 
 Build a small, calm, static site. Its main job is to get a non-technical adult from "what is this?" to a first useful reply in the AI assistant they already use. It should take about five minutes and need no terminal. The site collects nothing about visitors. Every health or evidence sentence on it traces to a claim in `evidence/claims.yaml`. Only install routes we have tested end to end are presented as working. The ChatGPT test gates the build. A licence, a named owner and the external reviews gate the public launch.
@@ -47,7 +49,7 @@ Build a small, calm, static site. Its main job is to get a non-technical adult f
 | Privacy | Trust | The site collects nothing. Memory is off by default. Deletion is real. Your assistant app keeps its own history |
 | Help | Fix or stop | Organised by symptom ("The text is too long to paste"). Uninstall is as easy to find as install |
 | Evidence and limits | Honesty | Three sections: backed by guidance, early or uncertain, not tested. Not reviewed by a clinician yet |
-| Urgent help | Safety | Location-neutral guidance first, then verified UK and US lines, with the date they were checked. Never a pop-up |
+| Urgent help | Safety | Generic guidance that works anywhere: local emergency services, a crisis line where you live (search for "crisis line" with your country's name), a doctor, someone you trust. No numbers or named services. Never a pop-up |
 
 **Evidence line used everywhere:** "These ideas show up in ADHD guidance and in what adults with ADHD say helps. No one has tested this software."
 
@@ -74,7 +76,7 @@ Build a small, calm, static site. Its main job is to get a non-technical adult f
 - In the final research round, no participant misreads the health limits, and participants can say how to stop it and what is stored.
 - No cookies, storage or third-party requests (checked in the browser network panel). Headers and CSP are verified on the live domain.
 - WCAG 2.2 AA plus COGA patterns, tested manually with keyboard, NVDA, VoiceOver, voice control and 400% zoom.
-- Crisis resources re-verified within 30 days of launch. Licence, owner and version shown on About and on every download.
+- Urgent-help wording clinically reviewed and kept generic (no numbers or named services). Licence, owner and version shown on About and on every download.
 - Uninstall tested on every route, with copy saying the assistant app's own history isn't erased.
 
 ## Main risks
@@ -96,7 +98,7 @@ Build a small, calm, static site. Its main job is to get a non-technical adult f
 | 2 | **Licence and named owner** | Any public download | Choose before Phase 3 |
 | 3 | **Name and domain**: keep "ADHD Support Skills" or choose a consumer name | Copy, domain, impersonation risk | Decide in Phase 1 |
 | 4 | **Value proposition** V1, V2 or V3 | Copy | V1 |
-| 5 | **Launch geography**: UK only, or UK and US | Crisis resources, review jurisdictions | UK and US. Only those have verified resources |
+| 5 | **Launch geography and language** | Review jurisdictions, translations | Global, English first. Urgent-help guidance is generic, so it doesn't limit where the site can launch. Legal and regulatory reviews still depend on where it's marketed |
 | 6 | **Measurement**: none, or host aggregate counts | Privacy notice, DPIA | None at launch |
 | 7 | **Help channel** and who staffs it | Help page | A role mailbox, with an auto-reply asking people not to send health details |
 | 8 | **Hosting**: Cloudflare Pages or Netlify (US) versus a UK/EU server | Headers, logs, transfers | Cloudflare Pages or Netlify, with the transfer basis covered in the DPIA |

@@ -57,7 +57,7 @@ All integrations are optional and off unless the host provides them and you use 
 
 ## When the host lacks a safety or capability mechanism
 
-- No crisis lookup: verified resources are given for a stated country, or location-neutral emergency guidance otherwise.
+- Urgent help: the suite gives only generic guidance on finding help locally. It never looks up or names local services.
 - No scheduler: no check-ins or reminders are promised.
 - No memory: session-only, with a copyable card.
 - No permission controls: the suite relies on its instructions, which **are not enforcement**.

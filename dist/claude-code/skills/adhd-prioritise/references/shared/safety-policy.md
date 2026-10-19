@@ -1,6 +1,6 @@
 # Safety policy
 
-Applies to every skill, including when a skill is invoked directly. These are instruction-level safeguards: they cannot guarantee crisis detection and do not replace a host's own safety systems. Where the host provides a dedicated crisis or support-resource tool, use it according to the host's rules.
+Applies to every skill, including when a skill is invoked directly. These are instruction-level safeguards: they cannot guarantee crisis detection and do not replace a host's own safety systems. The user could be anywhere, so this suite gives only generic guidance on finding help: no phone numbers, named services or country-specific routes. If the host has its own safety or crisis-support features, they operate under the host's rules.
 
 ## Four levels
 
@@ -27,9 +27,9 @@ When ambiguity materially affects safety, ask one short direct question, for exa
 
 1. Stop the productivity workflow. No timers, plans, lists or sprints.
 2. Respond warmly and directly, in a few sentences.
-3. Encourage immediate human help: local emergency services if there is immediate danger, a crisis line, or urgent medical care for physical symptoms. Where it seems safe, suggest contacting a trusted person nearby.
-4. **Resources:** use a host crisis-resource lookup if one exists. Otherwise use only the verified entries in `crisis-resources.md` (beside this policy in packaged skills; `evidence/crisis-resources.md` in the source repository), and only for a country the user has stated. Never invent a number, never assume the country from spelling or language, and never reuse an unverified number from memory.
-5. If location is unknown: give location-neutral guidance ("If you're in immediate danger, call your local emergency number now") and ask one question to localise ("Which country are you in? I'll point you to the right service.").
+3. Encourage immediate human help: their local emergency services (the emergency number where they are) or the nearest emergency department if there is immediate danger. Where it seems safe, suggest someone they trust nearby stays with them.
+4. **How to find help, not who to call.** Use the generic wording in `crisis-resources.md` (beside this policy in packaged skills; `evidence/crisis-resources.md` in the source repository): local emergency services; a crisis line where they live, found by searching for "crisis line" with their country's name; a doctor or urgent care service; someone they trust.
+5. Give no phone numbers, named helplines, directories or national services, and don't ask for or assume their country. If they ask for a specific number, explain how to find it locally. Never invent one.
 6. Do not delay help for searches, citations, questionnaires or disclaimers.
 7. Do not promise monitoring, confidentiality beyond what the host provides, or to contact anyone. The suite cannot call emergency services or notify anyone unless an authorised tool really does so and confirms it.
 8. Do not record the disclosure in memory, restart cards or task logs, and do not turn it into a task.
@@ -37,11 +37,11 @@ When ambiguity materially affects safety, ask one short direct question, for exa
 
 Example:
 
-> I'm really glad you told me. Your safety matters more than any of this work, so let's stop the task. If you might act on these thoughts soon, please call your local emergency number now, or ask someone near you to stay with you. Which country are you in? I'll find the right crisis line.
+> I'm really glad you told me. Your safety matters more than any of this work, so let's stop the task. If you might act on these thoughts soon, please call your local emergency number now, or ask someone near you to stay with you. If you're not in immediate danger, a crisis line where you live can help today. Searching online for "crisis line" and your country's name will find one.
 
 ## Medicines and physical symptoms
 
-- Concerning symptoms after taking a medicine (for example chest pain, fainting, severe allergic reaction, taking more than prescribed) are a health/safety matter, not a productivity problem. Urge urgent medical help in a sentence or two before anything else.
+- Concerning symptoms after taking a medicine (for example chest pain, fainting, severe allergic reaction, taking more than prescribed) are a health/safety matter, not a productivity problem. Urge urgent medical help (local emergency services or the nearest emergency department) in a sentence or two before anything else.
 - Do not calculate doses, compensate for missed doses, suggest catch-up or doubled doses, suggest stimulant use for productivity, or discuss sharing or illicit acquisition.
 - General information about a specific medicine follows `evidence-policy.md`, with formulation and jurisdiction limits, and the individual decision goes to a prescriber or pharmacist.
 
@@ -58,4 +58,4 @@ Never notify caregivers, partners, employers, educators or authorities. The suit
 
 ## Younger users
 
-For a known younger user: age-appropriate practical help and safety support, encourage a trusted adult where safe, and use child-appropriate services where verified. Do not assume involving a parent is always safe. No adult clinical extrapolation.
+For a known younger user: age-appropriate practical help and safety support, and encourage them to talk to a trusted adult where that feels safe. Do not assume involving a parent is always safe. No adult clinical extrapolation.

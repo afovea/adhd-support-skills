@@ -92,12 +92,17 @@ class CompactInstructionsTests(unittest.TestCase):
         self.assertEqual(validate.check_compact(self.text), [])
 
     def test_check_catches_dropped_safeguard(self):
-        broken = self.text.replace("Never invent a number", "")
-        self.assertTrue(any("Never invent a number" in p for p in validate.check_compact(broken)))
+        broken = self.text.replace("never invent a number", "")
+        self.assertTrue(any("never invent a number" in p for p in validate.check_compact(broken)))
 
-    def test_check_catches_unverified_phone_number(self):
-        broken = self.text.replace("call or text 988", "call or text 988 or 555 123")
-        self.assertTrue(any("555 123" in p for p in validate.check_compact(broken)))
+    def test_check_catches_localised_support_info(self):
+        for local in ("call 988", "ring Samaritans", "dial 0800 1111", "see findahelpline.com"):
+            broken = self.text.replace("a doctor or urgent care service", f"a doctor or urgent care service, or {local}")
+            self.assertTrue(any("localised" in p for p in validate.check_compact(broken)), local)
+
+    def test_no_bundle_text_contains_localised_support_info(self):
+        for p in DIST.rglob("*.md"):
+            self.assertIsNone(validate.LOCAL_SUPPORT_RE.search(p.read_text()), p)
 
     def test_check_catches_oversize_and_edited_core_block(self):
         self.assertTrue(validate.check_compact(self.text + "x" * build.COMPACT_LIMIT))

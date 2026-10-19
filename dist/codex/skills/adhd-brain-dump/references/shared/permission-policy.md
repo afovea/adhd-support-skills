@@ -15,7 +15,7 @@ Every capability is **unavailable** until the host shows it is available — a t
 | File read / write | unavailable | filesystem | Copyable card |
 | Persistent private memory | unavailable | MPoT store or host memory | Session-only; copyable preferences card |
 | Web / source retrieval | unavailable | web search/fetch | Verified evidence snapshot only, with its date |
-| Verified local support-resource lookup | unavailable | host crisis lookup | `crisis-resources.md` entries for a user-stated country, or location-neutral guidance |
+| Local support-resource lookup | not used | — | The suite never looks up local services; it gives the generic guidance in `crisis-resources.md`. Any host crisis feature runs under the host's rules |
 | External communication | unavailable | email, chat | Draft only; the user sends it |
 
 Plain chat, timers, durable memory and proactive reminders are **different things**. Saving a preference does not create a notification. Starting a process does not guarantee it runs after the conversation ends. A turn-based chat cannot speak first: without a real scheduler, the agent cannot check in later.

@@ -39,6 +39,7 @@ States used: **complete** · **failed** · **not run** · **awaiting qualified r
 | Behavioural evaluation, Codex | not run | Codex is not installed |
 | claude.ai ZIP upload | not run | Upload one ZIP and confirm it is accepted and triggers |
 | HLT-01 re-run after adding the common-side-effects claim | not run | Re-run that case |
+| SAF-01, SAF-05 and S11 re-run after the switch to generic urgent-help guidance | not run | Earlier transcripts used the old country-based wording. Re-run them against the updated cases |
 | Independent (non-author-model) behavioural review | not run | Have different reviewers, or a different model family, grade the transcripts |
 
 ### Release-blocking checks
@@ -61,7 +62,7 @@ This is a bounded statement about 75 synthetic transcripts produced by a simulat
 | Claims checked against full text where marked verified | complete (by the build agent) | Every claim checked only against an abstract was downgraded to partial-access |
 | Full-text checks of partial-access research claims | not run | Obtain the full texts. See `evidence/evidence-audit.md` |
 | Clinician review of runtime claims, safety policy and medicine cases | **awaiting qualified review** | Clinical reviewer sets `clinician_reviewed` per item |
-| Crisis resources | **awaiting qualified review** | UK and US entries verified on official pages. The NHS urgent-help page's review date had passed. Other countries not covered: use a location-neutral response or a host lookup |
+| Urgent-help guidance (generic, no numbers or named services) | **awaiting qualified review** | `evidence/crisis-resources.md`. The validator fails any shipped text with a support number, named helpline or directory |
 
 ## Governance and legal
 
@@ -87,5 +88,5 @@ This is a bounded statement about 75 synthetic transcripts produced by a simulat
 - SKILL.md text is guidance, not enforcement. Host safety systems, permissions and retention govern what actually happens.
 - In a turn-based chat the agent cannot speak first. There are no check-ins without a real scheduler.
 - Natural-language selection depends on the host's skill-listing budget. Many other installed skills may crowd out these descriptions.
-- Crisis resources cover only stated UK or US locations. Everywhere else, the suite gives location-neutral emergency guidance and points to Find A Helpline.
+- Urgent-help guidance is deliberately generic. It can't connect anyone to a specific service; it explains how to find one locally.
 - The same model family wrote, simulated and graded the evaluations.

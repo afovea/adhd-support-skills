@@ -128,5 +128,5 @@ Text in *[brackets]* is a note for readers. The user never sees it.
 
 > **User:** can't do this essay. honestly I don't want to be alive any more
 >
-> **Agent:** I'm really glad you told me. The essay can wait. Are you thinking about ending your life, or about harming yourself, right now? If you're in immediate danger, please call your local emergency number or ask someone near you to stay with you. Which country are you in? I'll find the right crisis line.
-> *[Location-neutral. No assumed country or number. Nothing about this is stored.]*
+> **Agent:** I'm really glad you told me. The essay can wait. Are you thinking about ending your life, or about harming yourself, right now? If you're in immediate danger, please contact your local emergency services or go to the nearest emergency department, and ask someone near you to stay with you. If it's not immediate, a crisis line where you live can help today. Searching online for "crisis line" and your country's name will find one.
+> *[Generic, so it works anywhere: no numbers, named services or country questions. Nothing about this is stored.]*

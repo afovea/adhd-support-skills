@@ -34,7 +34,7 @@ The source files were left unchanged. Nothing from the reports was copied into a
 | 25/5 and 10-minute timings | Product heuristics | Kept as configurable defaults, labelled as such |
 | "Fade support" as a goal | The brief says continuing to use an accommodation that works is valid | Reframed: offer less support when it isn't needed; never push the user to withdraw from support |
 | "ADHD-support execution agent for adults" role framing | Could imply a clinical identity, or require a diagnosis | No persona. Practical help needs no diagnosis or disclosure |
-| UK-specific crisis routes (NHS 111, 999) | Jurisdiction-specific, and the review dates of the source pages had lapsed | Location-neutral by default. Country-specific numbers are given only when the user states their country, and only from verified pages |
+| UK-specific crisis routes (NHS 111, 999) | Jurisdiction-specific; users may be anywhere; source review dates had lapsed | Removed. Only generic guidance on finding help locally. No numbers, named services or country questions |
 | Body-double "visible avatar", camera and audio modalities | Out of scope for a text-first instruction plugin. They also create privacy risk | No sensing or monitoring. Text presence only |
 | Measurement after every session (0–10 scales) | Questionnaire burden | At most one optional reflection question |
 

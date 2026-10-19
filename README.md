@@ -84,7 +84,7 @@ Some of the ideas here, such as breaking tasks down, external reminders, timers 
 | `skills/` | Canonical skills, one `SKILL.md` each, plus a generated evidence card. MPoT includes `scripts/mpot.py` |
 | `shared/` | Interaction, safety, evidence, permission and memory policies; execution state; core boundaries |
 | `routing.md` · `skills-registry.yaml` | The router, and the machine-readable registry (triggers, boundaries, resources, evals, mechanism map) |
-| `evidence/` | Sources, claims, audit, verified crisis resources, generated runtime snapshot |
+| `evidence/` | Sources, claims, audit, generic urgent-help guidance, generated runtime snapshot |
 | `templates/` | MPoT, decision-log and restart-card templates |
 | `adapters/` | Claude Code and Codex manifests; generic setup guide |
 | `scripts/` | `build.py`, `validate.py`, `install.py`, `evals.py`, `capability_ops.py` |

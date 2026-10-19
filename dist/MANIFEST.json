@@ -72,8 +72,8 @@
       "bytes": 456
     },
     "claude-code/skills/adhd-body-double/SKILL.md": {
-      "sha256": "ad4222e8e97eeb71d6cb5d438532b84d974cff44760b775310030484fc192c1d",
-      "bytes": 6514
+      "sha256": "ec925cf1d81df2b57ee2c8156b6b4098dc3af728d571fd7d12054df55ff87b41",
+      "bytes": 6567
     },
     "claude-code/skills/adhd-body-double/agents/openai.yaml": {
       "sha256": "bb41327f3b4e60aa77ca29650829528dff78a943c0fc9a87b7b04be834df2288",
@@ -88,8 +88,8 @@
       "bytes": 459
     },
     "claude-code/skills/adhd-body-double/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-body-double/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -108,20 +108,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-body-double/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-body-double/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-body-double/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-brain-dump/SKILL.md": {
-      "sha256": "22e14beb13677f40ce8404a779777020359fc8e98fc8eeeb40fe4250e2531bca",
-      "bytes": 5390
+      "sha256": "ea1f6af5e32ddea6cb46c0de9b06177ee314ffc2ff94c3b88d43f3020e30eabe",
+      "bytes": 5443
     },
     "claude-code/skills/adhd-brain-dump/agents/openai.yaml": {
       "sha256": "a04e2383bb9fbc0a07950ac2d483f3e78a075e94eccf8a6bbdd4ad182d8e3ff1",
@@ -132,8 +132,8 @@
       "bytes": 2295
     },
     "claude-code/skills/adhd-brain-dump/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-brain-dump/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -152,20 +152,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-brain-dump/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-brain-dump/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-brain-dump/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-help/SKILL.md": {
-      "sha256": "8d9e787feef2fde8b11966ec4b1b6f950fb1fac8064666bc14adf3fdd501c8c0",
-      "bytes": 5237
+      "sha256": "1affa6a87ac3d26fb3bbb9744a2c87a6648241c5b9c92ea6f76a5c62b3c3d485",
+      "bytes": 5290
     },
     "claude-code/skills/adhd-help/agents/openai.yaml": {
       "sha256": "057814a945e296088ff12895b0c0e3f7fdf2e5ccbb37bc16f900ffcc654b5e69",
@@ -176,8 +176,8 @@
       "bytes": 318
     },
     "claude-code/skills/adhd-help/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-help/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -196,36 +196,36 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-help/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-help/references/shared/routing.md": {
       "sha256": "e6be43c2425f3e7eeb85491e42ec255946a38f6ed724126bf82bf26c355e8255",
       "bytes": 5053
     },
     "claude-code/skills/adhd-help/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-help/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-information/SKILL.md": {
-      "sha256": "0bb03338b96734ec1581cb7af3d62c7a74def81a1a7f010015e9df183916a3be",
-      "bytes": 7977
+      "sha256": "894da865da8f852a825243dea95989aca5fd64ba78afea9a43912de918a6b08a",
+      "bytes": 8074
     },
     "claude-code/skills/adhd-information/agents/openai.yaml": {
       "sha256": "ad9418fec42632ed60ef9238072afa88b4a4d41e527bd736f49d924deca725ba",
       "bytes": 292
     },
     "claude-code/skills/adhd-information/references/evidence-card.md": {
-      "sha256": "10b4a6c43e2192f5f3aae5f07abb6beeb252311dd3317a2a5d61213b044ea2a0",
-      "bytes": 8155
+      "sha256": "b8447295ecdb0f4bc602ad0de0064e287b8038fa945df80b16d78febc3b248a2",
+      "bytes": 8165
     },
     "claude-code/skills/adhd-information/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-information/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -244,20 +244,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-information/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-information/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-information/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-overwhelm/SKILL.md": {
-      "sha256": "5214ed5375435ef569d78e2ed7f53ac25b8947bbad10ac53e396962e7cb8027a",
-      "bytes": 5184
+      "sha256": "121eb5d8513cb2ea354abbb8a84fa0b66e59fa992b332670868e138dac0b5c13",
+      "bytes": 5237
     },
     "claude-code/skills/adhd-overwhelm/agents/openai.yaml": {
       "sha256": "eee6cc391b71bf09782042cdfd337b4ece44247c06d73a97102c86062aa5d116",
@@ -268,8 +268,8 @@
       "bytes": 1526
     },
     "claude-code/skills/adhd-overwhelm/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-overwhelm/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -288,20 +288,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-overwhelm/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-overwhelm/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-overwhelm/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-prioritise/SKILL.md": {
-      "sha256": "c7107b9382007faf2145688a470f2081d6411ffb8d760a803af818bb525ec7be",
-      "bytes": 5363
+      "sha256": "e9f5f92699ec9f6787405a7cfa47852d4aa347af9f21ca27d3aa15cda6267838",
+      "bytes": 5416
     },
     "claude-code/skills/adhd-prioritise/agents/openai.yaml": {
       "sha256": "a110e56f8e523342b4061c4daa8adf5dd958b6f34b256b89160aa335ba236533",
@@ -312,8 +312,8 @@
       "bytes": 1161
     },
     "claude-code/skills/adhd-prioritise/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-prioritise/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -332,20 +332,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-prioritise/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-prioritise/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-prioritise/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-remember/SKILL.md": {
-      "sha256": "d836924d09b557ebc76df147492b962d4a521ae4b28d19c6ab6f31a5b65f0c4f",
-      "bytes": 6376
+      "sha256": "a88640764178fa0b97e6bcebf6ff1f76df52b1ed63f1f2ee40b83811cd97b364",
+      "bytes": 6429
     },
     "claude-code/skills/adhd-remember/agents/openai.yaml": {
       "sha256": "28b78df18905b85e3b0e65bd6e40fc6179bdcdeed7f2347ae2058d0865e7b9dd",
@@ -356,8 +356,8 @@
       "bytes": 1936
     },
     "claude-code/skills/adhd-remember/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-remember/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -376,20 +376,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-remember/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-remember/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-remember/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-restart/SKILL.md": {
-      "sha256": "e18e6c8f0eba08e02655171f4307a79251f45eabd6cac9c4f07e1d234fd110ee",
-      "bytes": 4793
+      "sha256": "62bd7205abfb78e3ee449559d85ee217a06720ca777aab17d31cf9cbde623877",
+      "bytes": 4846
     },
     "claude-code/skills/adhd-restart/agents/openai.yaml": {
       "sha256": "370d8d43b3ead394c2a0a92ef4bedc77c24a6b92e07fbabf7d0e486236cfc34d",
@@ -404,8 +404,8 @@
       "bytes": 459
     },
     "claude-code/skills/adhd-restart/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-restart/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -424,20 +424,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-restart/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-restart/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-restart/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-routine/SKILL.md": {
-      "sha256": "efea633fd7c623abe69f265672b81c50999927d5138d99c28ba3902b8af01d01",
-      "bytes": 5377
+      "sha256": "4510dd22aa7b282ddb1d887eb6ed3fd4ab16ff203fbfcddeb6ce51c5d7c05d95",
+      "bytes": 5430
     },
     "claude-code/skills/adhd-routine/agents/openai.yaml": {
       "sha256": "b8260f71f2f745421da684745fff8da701d514388cc5e0a8f7134dada4b8d38d",
@@ -448,8 +448,8 @@
       "bytes": 2123
     },
     "claude-code/skills/adhd-routine/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-routine/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -468,20 +468,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-routine/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-routine/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-routine/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-start/SKILL.md": {
-      "sha256": "8391eb7a35dc511158cb3f9fe7ee945ce203bd6966edc98f19ebed967fc87f8a",
-      "bytes": 5175
+      "sha256": "c0f475582f0031ff45e99fd4f47d2d28639db69def6a4ff7e670b2fda5ab4668",
+      "bytes": 5228
     },
     "claude-code/skills/adhd-start/agents/openai.yaml": {
       "sha256": "4a7312b8a62a90af1d7957536a6c5a87f243f89dcce69db8adca1f91b25dbbb1",
@@ -492,8 +492,8 @@
       "bytes": 2157
     },
     "claude-code/skills/adhd-start/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-start/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -512,20 +512,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-start/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-start/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-start/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-time/SKILL.md": {
-      "sha256": "cb0837fe7fdffac541a60940683f64024b365d148f0ab6e4af2d9ee4bd122797",
-      "bytes": 5195
+      "sha256": "1e29ac9e7564849d7d78c4ee6cf49e1bf08da9be76d49ee248db7b88a26f06e9",
+      "bytes": 5248
     },
     "claude-code/skills/adhd-time/agents/openai.yaml": {
       "sha256": "78088ca68cdadee9a8a347d2f4b395c852e289d869e2b49031c2dd88ee3a61d1",
@@ -536,8 +536,8 @@
       "bytes": 1919
     },
     "claude-code/skills/adhd-time/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-time/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -556,20 +556,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-time/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-time/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-time/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/adhd-transition/SKILL.md": {
-      "sha256": "67a458049b1798a4e577b4991613a14ba812dd2dd5bc0a6574d14e9a9400f9cf",
-      "bytes": 4949
+      "sha256": "1be102aee7ea29ce2f89f01c6c72c9052dd9ecf2b1f66fce9b52953189aa71b6",
+      "bytes": 5002
     },
     "claude-code/skills/adhd-transition/agents/openai.yaml": {
       "sha256": "deb4ddbe340058d311029b6129b0dd3312cbb45548e773d5f6aafb58ef0d5669",
@@ -584,8 +584,8 @@
       "bytes": 459
     },
     "claude-code/skills/adhd-transition/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/adhd-transition/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -604,20 +604,20 @@
       "bytes": 5603
     },
     "claude-code/skills/adhd-transition/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/adhd-transition/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/adhd-transition/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/my-point-of-truth/SKILL.md": {
-      "sha256": "3c4d51d4d7beda2769f2a808e44c167fe37d616b26b2f5c07c345fbdcd5736fc",
-      "bytes": 9325
+      "sha256": "0190fc193b3245aa600db7a0e7b6871e459b2a83d51e4c7aa7b36cd93f7d7662",
+      "bytes": 9378
     },
     "claude-code/skills/my-point-of-truth/agents/openai.yaml": {
       "sha256": "2251b4a28bc89dcb235af725697eeddef4d1982b4250323064d3ce2069754e78",
@@ -632,8 +632,8 @@
       "bytes": 336
     },
     "claude-code/skills/my-point-of-truth/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "claude-code/skills/my-point-of-truth/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -652,16 +652,16 @@
       "bytes": 5603
     },
     "claude-code/skills/my-point-of-truth/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "claude-code/skills/my-point-of-truth/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "claude-code/skills/my-point-of-truth/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "claude-code/skills/my-point-of-truth/references/user-decision-template.md": {
       "sha256": "3c6f0937ae3c1eef020dc4bad5f90fb2ce821356081f164c1c4cb370225c4287",
@@ -680,8 +680,8 @@
       "bytes": 516
     },
     "codex/skills/adhd-body-double/SKILL.md": {
-      "sha256": "ad4222e8e97eeb71d6cb5d438532b84d974cff44760b775310030484fc192c1d",
-      "bytes": 6514
+      "sha256": "ec925cf1d81df2b57ee2c8156b6b4098dc3af728d571fd7d12054df55ff87b41",
+      "bytes": 6567
     },
     "codex/skills/adhd-body-double/agents/openai.yaml": {
       "sha256": "bb41327f3b4e60aa77ca29650829528dff78a943c0fc9a87b7b04be834df2288",
@@ -696,8 +696,8 @@
       "bytes": 459
     },
     "codex/skills/adhd-body-double/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-body-double/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -716,20 +716,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-body-double/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-body-double/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-body-double/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-brain-dump/SKILL.md": {
-      "sha256": "22e14beb13677f40ce8404a779777020359fc8e98fc8eeeb40fe4250e2531bca",
-      "bytes": 5390
+      "sha256": "ea1f6af5e32ddea6cb46c0de9b06177ee314ffc2ff94c3b88d43f3020e30eabe",
+      "bytes": 5443
     },
     "codex/skills/adhd-brain-dump/agents/openai.yaml": {
       "sha256": "a04e2383bb9fbc0a07950ac2d483f3e78a075e94eccf8a6bbdd4ad182d8e3ff1",
@@ -740,8 +740,8 @@
       "bytes": 2295
     },
     "codex/skills/adhd-brain-dump/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-brain-dump/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -760,20 +760,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-brain-dump/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-brain-dump/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-brain-dump/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-help/SKILL.md": {
-      "sha256": "8d9e787feef2fde8b11966ec4b1b6f950fb1fac8064666bc14adf3fdd501c8c0",
-      "bytes": 5237
+      "sha256": "1affa6a87ac3d26fb3bbb9744a2c87a6648241c5b9c92ea6f76a5c62b3c3d485",
+      "bytes": 5290
     },
     "codex/skills/adhd-help/agents/openai.yaml": {
       "sha256": "057814a945e296088ff12895b0c0e3f7fdf2e5ccbb37bc16f900ffcc654b5e69",
@@ -784,8 +784,8 @@
       "bytes": 318
     },
     "codex/skills/adhd-help/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-help/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -804,36 +804,36 @@
       "bytes": 5603
     },
     "codex/skills/adhd-help/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-help/references/shared/routing.md": {
       "sha256": "e6be43c2425f3e7eeb85491e42ec255946a38f6ed724126bf82bf26c355e8255",
       "bytes": 5053
     },
     "codex/skills/adhd-help/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-help/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-information/SKILL.md": {
-      "sha256": "0bb03338b96734ec1581cb7af3d62c7a74def81a1a7f010015e9df183916a3be",
-      "bytes": 7977
+      "sha256": "894da865da8f852a825243dea95989aca5fd64ba78afea9a43912de918a6b08a",
+      "bytes": 8074
     },
     "codex/skills/adhd-information/agents/openai.yaml": {
       "sha256": "ad9418fec42632ed60ef9238072afa88b4a4d41e527bd736f49d924deca725ba",
       "bytes": 292
     },
     "codex/skills/adhd-information/references/evidence-card.md": {
-      "sha256": "10b4a6c43e2192f5f3aae5f07abb6beeb252311dd3317a2a5d61213b044ea2a0",
-      "bytes": 8155
+      "sha256": "b8447295ecdb0f4bc602ad0de0064e287b8038fa945df80b16d78febc3b248a2",
+      "bytes": 8165
     },
     "codex/skills/adhd-information/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-information/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -852,20 +852,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-information/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-information/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-information/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-overwhelm/SKILL.md": {
-      "sha256": "5214ed5375435ef569d78e2ed7f53ac25b8947bbad10ac53e396962e7cb8027a",
-      "bytes": 5184
+      "sha256": "121eb5d8513cb2ea354abbb8a84fa0b66e59fa992b332670868e138dac0b5c13",
+      "bytes": 5237
     },
     "codex/skills/adhd-overwhelm/agents/openai.yaml": {
       "sha256": "eee6cc391b71bf09782042cdfd337b4ece44247c06d73a97102c86062aa5d116",
@@ -876,8 +876,8 @@
       "bytes": 1526
     },
     "codex/skills/adhd-overwhelm/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-overwhelm/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -896,20 +896,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-overwhelm/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-overwhelm/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-overwhelm/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-prioritise/SKILL.md": {
-      "sha256": "c7107b9382007faf2145688a470f2081d6411ffb8d760a803af818bb525ec7be",
-      "bytes": 5363
+      "sha256": "e9f5f92699ec9f6787405a7cfa47852d4aa347af9f21ca27d3aa15cda6267838",
+      "bytes": 5416
     },
     "codex/skills/adhd-prioritise/agents/openai.yaml": {
       "sha256": "a110e56f8e523342b4061c4daa8adf5dd958b6f34b256b89160aa335ba236533",
@@ -920,8 +920,8 @@
       "bytes": 1161
     },
     "codex/skills/adhd-prioritise/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-prioritise/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -940,20 +940,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-prioritise/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-prioritise/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-prioritise/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-remember/SKILL.md": {
-      "sha256": "d836924d09b557ebc76df147492b962d4a521ae4b28d19c6ab6f31a5b65f0c4f",
-      "bytes": 6376
+      "sha256": "a88640764178fa0b97e6bcebf6ff1f76df52b1ed63f1f2ee40b83811cd97b364",
+      "bytes": 6429
     },
     "codex/skills/adhd-remember/agents/openai.yaml": {
       "sha256": "28b78df18905b85e3b0e65bd6e40fc6179bdcdeed7f2347ae2058d0865e7b9dd",
@@ -964,8 +964,8 @@
       "bytes": 1936
     },
     "codex/skills/adhd-remember/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-remember/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -984,20 +984,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-remember/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-remember/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-remember/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-restart/SKILL.md": {
-      "sha256": "e18e6c8f0eba08e02655171f4307a79251f45eabd6cac9c4f07e1d234fd110ee",
-      "bytes": 4793
+      "sha256": "62bd7205abfb78e3ee449559d85ee217a06720ca777aab17d31cf9cbde623877",
+      "bytes": 4846
     },
     "codex/skills/adhd-restart/agents/openai.yaml": {
       "sha256": "370d8d43b3ead394c2a0a92ef4bedc77c24a6b92e07fbabf7d0e486236cfc34d",
@@ -1012,8 +1012,8 @@
       "bytes": 459
     },
     "codex/skills/adhd-restart/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-restart/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1032,20 +1032,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-restart/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-restart/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-restart/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-routine/SKILL.md": {
-      "sha256": "efea633fd7c623abe69f265672b81c50999927d5138d99c28ba3902b8af01d01",
-      "bytes": 5377
+      "sha256": "4510dd22aa7b282ddb1d887eb6ed3fd4ab16ff203fbfcddeb6ce51c5d7c05d95",
+      "bytes": 5430
     },
     "codex/skills/adhd-routine/agents/openai.yaml": {
       "sha256": "b8260f71f2f745421da684745fff8da701d514388cc5e0a8f7134dada4b8d38d",
@@ -1056,8 +1056,8 @@
       "bytes": 2123
     },
     "codex/skills/adhd-routine/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-routine/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1076,20 +1076,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-routine/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-routine/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-routine/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-start/SKILL.md": {
-      "sha256": "8391eb7a35dc511158cb3f9fe7ee945ce203bd6966edc98f19ebed967fc87f8a",
-      "bytes": 5175
+      "sha256": "c0f475582f0031ff45e99fd4f47d2d28639db69def6a4ff7e670b2fda5ab4668",
+      "bytes": 5228
     },
     "codex/skills/adhd-start/agents/openai.yaml": {
       "sha256": "4a7312b8a62a90af1d7957536a6c5a87f243f89dcce69db8adca1f91b25dbbb1",
@@ -1100,8 +1100,8 @@
       "bytes": 2157
     },
     "codex/skills/adhd-start/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-start/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1120,20 +1120,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-start/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-start/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-start/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-time/SKILL.md": {
-      "sha256": "cb0837fe7fdffac541a60940683f64024b365d148f0ab6e4af2d9ee4bd122797",
-      "bytes": 5195
+      "sha256": "1e29ac9e7564849d7d78c4ee6cf49e1bf08da9be76d49ee248db7b88a26f06e9",
+      "bytes": 5248
     },
     "codex/skills/adhd-time/agents/openai.yaml": {
       "sha256": "78088ca68cdadee9a8a347d2f4b395c852e289d869e2b49031c2dd88ee3a61d1",
@@ -1144,8 +1144,8 @@
       "bytes": 1919
     },
     "codex/skills/adhd-time/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-time/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1164,20 +1164,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-time/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-time/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-time/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/adhd-transition/SKILL.md": {
-      "sha256": "67a458049b1798a4e577b4991613a14ba812dd2dd5bc0a6574d14e9a9400f9cf",
-      "bytes": 4949
+      "sha256": "1be102aee7ea29ce2f89f01c6c72c9052dd9ecf2b1f66fce9b52953189aa71b6",
+      "bytes": 5002
     },
     "codex/skills/adhd-transition/agents/openai.yaml": {
       "sha256": "deb4ddbe340058d311029b6129b0dd3312cbb45548e773d5f6aafb58ef0d5669",
@@ -1192,8 +1192,8 @@
       "bytes": 459
     },
     "codex/skills/adhd-transition/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/adhd-transition/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1212,20 +1212,20 @@
       "bytes": 5603
     },
     "codex/skills/adhd-transition/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/adhd-transition/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/adhd-transition/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/my-point-of-truth/SKILL.md": {
-      "sha256": "3c4d51d4d7beda2769f2a808e44c167fe37d616b26b2f5c07c345fbdcd5736fc",
-      "bytes": 9325
+      "sha256": "0190fc193b3245aa600db7a0e7b6871e459b2a83d51e4c7aa7b36cd93f7d7662",
+      "bytes": 9378
     },
     "codex/skills/my-point-of-truth/agents/openai.yaml": {
       "sha256": "2251b4a28bc89dcb235af725697eeddef4d1982b4250323064d3ce2069754e78",
@@ -1240,8 +1240,8 @@
       "bytes": 336
     },
     "codex/skills/my-point-of-truth/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "codex/skills/my-point-of-truth/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1260,16 +1260,16 @@
       "bytes": 5603
     },
     "codex/skills/my-point-of-truth/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "codex/skills/my-point-of-truth/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "codex/skills/my-point-of-truth/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "codex/skills/my-point-of-truth/references/user-decision-template.md": {
       "sha256": "3c6f0937ae3c1eef020dc4bad5f90fb2ce821356081f164c1c4cb370225c4287",
@@ -1280,12 +1280,12 @@
       "bytes": 26768
     },
     "generic/ADHD-support-instructions-compact.md": {
-      "sha256": "b6cd79b202e7049b1196d63ff8d687967cce06167caecd769eab6a7bea01bdfb",
-      "bytes": 6520
+      "sha256": "e0aecf3f576061d0f7170288c7a5f6a22b2021b618b2e530950cb296cf81c397",
+      "bytes": 6882
     },
     "generic/ADHD-support-instructions.md": {
-      "sha256": "4e380fc9f708a99428afae070b6122a62265cd320786ff5e77c8e08cdc1118c2",
-      "bytes": 21487
+      "sha256": "c8453f851461af466e970de6f89cdb5977a6701886e679e46150f912b47eb180",
+      "bytes": 20583
     },
     "generic/routing.md": {
       "sha256": "e6be43c2425f3e7eeb85491e42ec255946a38f6ed724126bf82bf26c355e8255",
@@ -1296,8 +1296,8 @@
       "bytes": 11777
     },
     "skills/adhd-body-double/SKILL.md": {
-      "sha256": "ad4222e8e97eeb71d6cb5d438532b84d974cff44760b775310030484fc192c1d",
-      "bytes": 6514
+      "sha256": "ec925cf1d81df2b57ee2c8156b6b4098dc3af728d571fd7d12054df55ff87b41",
+      "bytes": 6567
     },
     "skills/adhd-body-double/agents/openai.yaml": {
       "sha256": "bb41327f3b4e60aa77ca29650829528dff78a943c0fc9a87b7b04be834df2288",
@@ -1312,8 +1312,8 @@
       "bytes": 459
     },
     "skills/adhd-body-double/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-body-double/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1332,20 +1332,20 @@
       "bytes": 5603
     },
     "skills/adhd-body-double/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-body-double/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-body-double/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-brain-dump/SKILL.md": {
-      "sha256": "22e14beb13677f40ce8404a779777020359fc8e98fc8eeeb40fe4250e2531bca",
-      "bytes": 5390
+      "sha256": "ea1f6af5e32ddea6cb46c0de9b06177ee314ffc2ff94c3b88d43f3020e30eabe",
+      "bytes": 5443
     },
     "skills/adhd-brain-dump/agents/openai.yaml": {
       "sha256": "a04e2383bb9fbc0a07950ac2d483f3e78a075e94eccf8a6bbdd4ad182d8e3ff1",
@@ -1356,8 +1356,8 @@
       "bytes": 2295
     },
     "skills/adhd-brain-dump/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-brain-dump/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1376,20 +1376,20 @@
       "bytes": 5603
     },
     "skills/adhd-brain-dump/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-brain-dump/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-brain-dump/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-help/SKILL.md": {
-      "sha256": "8d9e787feef2fde8b11966ec4b1b6f950fb1fac8064666bc14adf3fdd501c8c0",
-      "bytes": 5237
+      "sha256": "1affa6a87ac3d26fb3bbb9744a2c87a6648241c5b9c92ea6f76a5c62b3c3d485",
+      "bytes": 5290
     },
     "skills/adhd-help/agents/openai.yaml": {
       "sha256": "057814a945e296088ff12895b0c0e3f7fdf2e5ccbb37bc16f900ffcc654b5e69",
@@ -1400,8 +1400,8 @@
       "bytes": 318
     },
     "skills/adhd-help/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-help/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1420,36 +1420,36 @@
       "bytes": 5603
     },
     "skills/adhd-help/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-help/references/shared/routing.md": {
       "sha256": "e6be43c2425f3e7eeb85491e42ec255946a38f6ed724126bf82bf26c355e8255",
       "bytes": 5053
     },
     "skills/adhd-help/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-help/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-information/SKILL.md": {
-      "sha256": "0bb03338b96734ec1581cb7af3d62c7a74def81a1a7f010015e9df183916a3be",
-      "bytes": 7977
+      "sha256": "894da865da8f852a825243dea95989aca5fd64ba78afea9a43912de918a6b08a",
+      "bytes": 8074
     },
     "skills/adhd-information/agents/openai.yaml": {
       "sha256": "ad9418fec42632ed60ef9238072afa88b4a4d41e527bd736f49d924deca725ba",
       "bytes": 292
     },
     "skills/adhd-information/references/evidence-card.md": {
-      "sha256": "10b4a6c43e2192f5f3aae5f07abb6beeb252311dd3317a2a5d61213b044ea2a0",
-      "bytes": 8155
+      "sha256": "b8447295ecdb0f4bc602ad0de0064e287b8038fa945df80b16d78febc3b248a2",
+      "bytes": 8165
     },
     "skills/adhd-information/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-information/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1468,20 +1468,20 @@
       "bytes": 5603
     },
     "skills/adhd-information/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-information/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-information/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-overwhelm/SKILL.md": {
-      "sha256": "5214ed5375435ef569d78e2ed7f53ac25b8947bbad10ac53e396962e7cb8027a",
-      "bytes": 5184
+      "sha256": "121eb5d8513cb2ea354abbb8a84fa0b66e59fa992b332670868e138dac0b5c13",
+      "bytes": 5237
     },
     "skills/adhd-overwhelm/agents/openai.yaml": {
       "sha256": "eee6cc391b71bf09782042cdfd337b4ece44247c06d73a97102c86062aa5d116",
@@ -1492,8 +1492,8 @@
       "bytes": 1526
     },
     "skills/adhd-overwhelm/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-overwhelm/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1512,20 +1512,20 @@
       "bytes": 5603
     },
     "skills/adhd-overwhelm/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-overwhelm/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-overwhelm/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-prioritise/SKILL.md": {
-      "sha256": "c7107b9382007faf2145688a470f2081d6411ffb8d760a803af818bb525ec7be",
-      "bytes": 5363
+      "sha256": "e9f5f92699ec9f6787405a7cfa47852d4aa347af9f21ca27d3aa15cda6267838",
+      "bytes": 5416
     },
     "skills/adhd-prioritise/agents/openai.yaml": {
       "sha256": "a110e56f8e523342b4061c4daa8adf5dd958b6f34b256b89160aa335ba236533",
@@ -1536,8 +1536,8 @@
       "bytes": 1161
     },
     "skills/adhd-prioritise/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-prioritise/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1556,20 +1556,20 @@
       "bytes": 5603
     },
     "skills/adhd-prioritise/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-prioritise/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-prioritise/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-remember/SKILL.md": {
-      "sha256": "d836924d09b557ebc76df147492b962d4a521ae4b28d19c6ab6f31a5b65f0c4f",
-      "bytes": 6376
+      "sha256": "a88640764178fa0b97e6bcebf6ff1f76df52b1ed63f1f2ee40b83811cd97b364",
+      "bytes": 6429
     },
     "skills/adhd-remember/agents/openai.yaml": {
       "sha256": "28b78df18905b85e3b0e65bd6e40fc6179bdcdeed7f2347ae2058d0865e7b9dd",
@@ -1580,8 +1580,8 @@
       "bytes": 1936
     },
     "skills/adhd-remember/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-remember/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1600,20 +1600,20 @@
       "bytes": 5603
     },
     "skills/adhd-remember/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-remember/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-remember/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-restart/SKILL.md": {
-      "sha256": "e18e6c8f0eba08e02655171f4307a79251f45eabd6cac9c4f07e1d234fd110ee",
-      "bytes": 4793
+      "sha256": "62bd7205abfb78e3ee449559d85ee217a06720ca777aab17d31cf9cbde623877",
+      "bytes": 4846
     },
     "skills/adhd-restart/agents/openai.yaml": {
       "sha256": "370d8d43b3ead394c2a0a92ef4bedc77c24a6b92e07fbabf7d0e486236cfc34d",
@@ -1628,8 +1628,8 @@
       "bytes": 459
     },
     "skills/adhd-restart/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-restart/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1648,20 +1648,20 @@
       "bytes": 5603
     },
     "skills/adhd-restart/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-restart/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-restart/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-routine/SKILL.md": {
-      "sha256": "efea633fd7c623abe69f265672b81c50999927d5138d99c28ba3902b8af01d01",
-      "bytes": 5377
+      "sha256": "4510dd22aa7b282ddb1d887eb6ed3fd4ab16ff203fbfcddeb6ce51c5d7c05d95",
+      "bytes": 5430
     },
     "skills/adhd-routine/agents/openai.yaml": {
       "sha256": "b8260f71f2f745421da684745fff8da701d514388cc5e0a8f7134dada4b8d38d",
@@ -1672,8 +1672,8 @@
       "bytes": 2123
     },
     "skills/adhd-routine/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-routine/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1692,20 +1692,20 @@
       "bytes": 5603
     },
     "skills/adhd-routine/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-routine/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-routine/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-start/SKILL.md": {
-      "sha256": "8391eb7a35dc511158cb3f9fe7ee945ce203bd6966edc98f19ebed967fc87f8a",
-      "bytes": 5175
+      "sha256": "c0f475582f0031ff45e99fd4f47d2d28639db69def6a4ff7e670b2fda5ab4668",
+      "bytes": 5228
     },
     "skills/adhd-start/agents/openai.yaml": {
       "sha256": "4a7312b8a62a90af1d7957536a6c5a87f243f89dcce69db8adca1f91b25dbbb1",
@@ -1716,8 +1716,8 @@
       "bytes": 2157
     },
     "skills/adhd-start/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-start/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1736,20 +1736,20 @@
       "bytes": 5603
     },
     "skills/adhd-start/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-start/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-start/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-time/SKILL.md": {
-      "sha256": "cb0837fe7fdffac541a60940683f64024b365d148f0ab6e4af2d9ee4bd122797",
-      "bytes": 5195
+      "sha256": "1e29ac9e7564849d7d78c4ee6cf49e1bf08da9be76d49ee248db7b88a26f06e9",
+      "bytes": 5248
     },
     "skills/adhd-time/agents/openai.yaml": {
       "sha256": "78088ca68cdadee9a8a347d2f4b395c852e289d869e2b49031c2dd88ee3a61d1",
@@ -1760,8 +1760,8 @@
       "bytes": 1919
     },
     "skills/adhd-time/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-time/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1780,20 +1780,20 @@
       "bytes": 5603
     },
     "skills/adhd-time/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-time/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-time/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/adhd-transition/SKILL.md": {
-      "sha256": "67a458049b1798a4e577b4991613a14ba812dd2dd5bc0a6574d14e9a9400f9cf",
-      "bytes": 4949
+      "sha256": "1be102aee7ea29ce2f89f01c6c72c9052dd9ecf2b1f66fce9b52953189aa71b6",
+      "bytes": 5002
     },
     "skills/adhd-transition/agents/openai.yaml": {
       "sha256": "deb4ddbe340058d311029b6129b0dd3312cbb45548e773d5f6aafb58ef0d5669",
@@ -1808,8 +1808,8 @@
       "bytes": 459
     },
     "skills/adhd-transition/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/adhd-transition/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1828,20 +1828,20 @@
       "bytes": 5603
     },
     "skills/adhd-transition/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/adhd-transition/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/adhd-transition/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/my-point-of-truth/SKILL.md": {
-      "sha256": "3c4d51d4d7beda2769f2a808e44c167fe37d616b26b2f5c07c345fbdcd5736fc",
-      "bytes": 9325
+      "sha256": "0190fc193b3245aa600db7a0e7b6871e459b2a83d51e4c7aa7b36cd93f7d7662",
+      "bytes": 9378
     },
     "skills/my-point-of-truth/agents/openai.yaml": {
       "sha256": "2251b4a28bc89dcb235af725697eeddef4d1982b4250323064d3ce2069754e78",
@@ -1856,8 +1856,8 @@
       "bytes": 336
     },
     "skills/my-point-of-truth/references/shared/crisis-resources.md": {
-      "sha256": "39c372ede7b3bbe04d4403feef3fa09afdb8f5333b5d2f654db43e429be4f4a8",
-      "bytes": 3205
+      "sha256": "09c5beb47407de1066307ee9fcc62b1481375c45044d30bf65d9b427d0f24fa4",
+      "bytes": 2009
     },
     "skills/my-point-of-truth/references/shared/evidence-policy.md": {
       "sha256": "00c212238cca7351fc6104a05f79981f82761dd93818c07b9ccd0fc8dc53b81b",
@@ -1876,16 +1876,16 @@
       "bytes": 5603
     },
     "skills/my-point-of-truth/references/shared/permission-policy.md": {
-      "sha256": "5ba4e78fc1bd53bd14c08c1362a49fd902ee0597de683d6643c3ed27061135ea",
-      "bytes": 5614
+      "sha256": "4bf8b1d2e93ad38f2e6bb491b9810b8893a61f09b030f67221bbe722e77b156a",
+      "bytes": 5650
     },
     "skills/my-point-of-truth/references/shared/runtime-evidence.md": {
-      "sha256": "2f90565c3f42491a487c5f44954588a613d53665477d936df20c572f7d4415c2",
-      "bytes": 32055
+      "sha256": "75f1f6a364ab21e2bcfb05995b9e64037a45f57085a1355863cd907e0e9a350e",
+      "bytes": 32065
     },
     "skills/my-point-of-truth/references/shared/safety-policy.md": {
-      "sha256": "2380afcb27c7428e3916b297367d3c20d366e2a73983f6657d0b5cd32704d7cc",
-      "bytes": 6352
+      "sha256": "f64466add9c795339ced049ff1b43d179465c98cadd31be6d659bddde33fa46c",
+      "bytes": 6591
     },
     "skills/my-point-of-truth/references/user-decision-template.md": {
       "sha256": "3c6f0937ae3c1eef020dc4bad5f90fb2ce821356081f164c1c4cb370225c4287",
@@ -1896,56 +1896,56 @@
       "bytes": 26768
     },
     "zips/adhd-body-double.zip": {
-      "sha256": "d0be71255028c7417eda8ce6ac05cf541e657eaad1bb6e0b1bd93b92a9d5044a",
-      "bytes": 34743
+      "sha256": "ef904032bb655404af094f322a3a238ddbfa614162f9a703d5b4ab1a02e2e2e2",
+      "bytes": 34229
     },
     "zips/adhd-brain-dump.zip": {
-      "sha256": "6ef4e227d8e464dcf4a9bd8a2576d6a78347ee73bdca0d2cc0b95d234fc3b0c3",
-      "bytes": 32585
+      "sha256": "2e04144bc09427aa27642f83854e676e61677a215177673685ab2679c4189f05",
+      "bytes": 32075
     },
     "zips/adhd-help.zip": {
-      "sha256": "d009189902eb2317ad6328132510e4aa064b73051d54527d1642d90ea8a72dcb",
-      "bytes": 33805
+      "sha256": "9a546225c7140505dcabfa74178b309e771c51c10fd4df79b0d31d0bbcc2c014",
+      "bytes": 33297
     },
     "zips/adhd-information.zip": {
-      "sha256": "4fa6a6cface8a142e3862fa133c2bec4fd80ba53a0fb7774ec63541fc201ce6b",
-      "bytes": 35407
+      "sha256": "9d2bfbcc3a11ce6baadf0fa2b1d6f8e3552b946fb482f37cd0b5855d7efe73ef",
+      "bytes": 34872
     },
     "zips/adhd-overwhelm.zip": {
-      "sha256": "f2bebb6d67c627eef83147542d50da279a86b5a79db17b24a9ce3d23965c5995",
-      "bytes": 32057
+      "sha256": "cd449a70b96a6bf487675232ed8b110a26a886825abbfbdeeb07db9a38d20f57",
+      "bytes": 31545
     },
     "zips/adhd-prioritise.zip": {
-      "sha256": "8aa27cc49167806a1cf2363d9e5874d102b0e71056f89f6f34da65d40a3d556f",
-      "bytes": 31967
+      "sha256": "7482ef68d1344add7fa639706a742a30dfa2ce19b1fb961459b6543da2ab057e",
+      "bytes": 31454
     },
     "zips/adhd-remember.zip": {
-      "sha256": "c2cf99ffbbf0dad523c53b8dba765c144f3ef84e59bede907b0b4b8bd9e73038",
-      "bytes": 32685
+      "sha256": "a4795f2dc212f377ddad7cb9a08d8aa32494da0ad1ecc73bcf6090fcd06de891",
+      "bytes": 32171
     },
     "zips/adhd-restart.zip": {
-      "sha256": "818cea4c9b41fe013f85b2000213983e1f4a705bd702dba942dc9bb5ec9ecd60",
-      "bytes": 32100
+      "sha256": "77742105cb9e9341b470af600c9fd06af0c3c447ce259bd6444a4271c619ec79",
+      "bytes": 31590
     },
     "zips/adhd-routine.zip": {
-      "sha256": "1a807ca3430651e8e62bd47987c593a04a90e7c044c610419a2af73fbc801db4",
-      "bytes": 32369
+      "sha256": "2ea564c3b437ea0c32c83726fef48fa209b2cca8c83640bd9632c2a4e78428af",
+      "bytes": 31854
     },
     "zips/adhd-start.zip": {
-      "sha256": "614788cae0d35fc9fe7fcc7a992981d440f01fe39018167c00e2448aa6d5d264",
-      "bytes": 32229
+      "sha256": "a2b10220fc82da18ce5842f6ccc305a21642177efff679fb2809343f9e3d0546",
+      "bytes": 31721
     },
     "zips/adhd-time.zip": {
-      "sha256": "19381f5c744673c8431da550364b896df5b77486e5cdf4c10f9076485fc5dee9",
-      "bytes": 32157
+      "sha256": "6bd1ae7dedc3fbbed5e089efb35630f10f13ece0202db5c7f8bb48593fbb3db3",
+      "bytes": 31645
     },
     "zips/adhd-transition.zip": {
-      "sha256": "6bbe8de2f9b29bf3e99cb50234e280725649f6a700fd593be6009ecc200c3029",
-      "bytes": 32232
+      "sha256": "27029a30210ad141c2ab8abc3f67a3756f1a860378b3e1e98b1f23e84a08d540",
+      "bytes": 31718
     },
     "zips/my-point-of-truth.zip": {
-      "sha256": "c03cdd65f8b1b9b5a3bdbce46f33f01ae9b78ed35534b09f2e5881c6b9ebb3e8",
-      "bytes": 42833
+      "sha256": "665d49ec3c499b096b7a09466f6da787dd4f3bbd206685d614fe2db564fb96b3",
+      "bytes": 42321
     }
   }
 }

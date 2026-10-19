@@ -25,7 +25,7 @@ Documentation was accessed on 2026-10-19:
 | Timer / notification tools | unavailable. Manual fallback | Host-dependent (none by default). Fallback **validated** in mocked harness and simulated evals | Host-dependent | Host-dependent |
 | Persistent private memory | session-only plus copyable card | File-backed MPoT if the user picks a folder (**validated** in `test_mpot.py`) | Same | Session-only unless the host offers memory |
 | Web retrieval | unavailable. Verified snapshot only | Host tool if enabled | Host tool if enabled | Host-dependent |
-| Crisis-resource lookup | unavailable. Verified list or location-neutral guidance | No dedicated tool known | No dedicated tool known | No dedicated tool known |
+| Urgent-help guidance | Generic only: local emergency services, a crisis line where the user lives, a doctor, someone they trust. No numbers or named services | Same | Same | Same |
 | Description length | n/a | ≤1,536 characters shown (documented); ours are under 600 | Up to 2% of context for the whole list (documented) | 200 or 1,024 (conflicting docs). ZIPs use ≤200 |
 | Enforced tool restrictions | none | Possible via settings (`allowed-tools` is not used by this suite) | Possible via config | none |
 

@@ -128,7 +128,7 @@ For methylphenidate (adults), NHS advice for a forgotten dose is to skip it and 
 
 ### CLM-GD-MPH-OVERDOSE
 
-NHS advises getting medical advice after taking more methylphenidate than prescribed even without symptoms (111 online/phone), and calling 999 or going to A&E for a fit/seizure or fast, slow or irregular heartbeat.
+For methylphenidate (adults), the NHS advises getting urgent medical advice after taking more than prescribed even without symptoms, and emergency help for a fit or seizure or a fast, slow or irregular heartbeat.
 
 - Source: [How and when to take methylphenidate for adults](https://www.nhs.uk/medicines/methylphenidate-adults/how-and-when-to-take-methylphenidate-for-adults/) (NHS methylphenidate for adults, 'How and when to take' > 'If you take too much')
 - Does not establish: Overdose thresholds; routing outside the UK.
@@ -136,7 +136,7 @@ NHS advises getting medical advice after taking more methylphenidate than prescr
 
 ### CLM-GD-MPH-URGENT
 
-For methylphenidate (adults), NHS lists serious side effects to report to a GP or 111 straight away (e.g. mood changes, palpitations, hallucinations, new facial tics) and ones needing 999 or A&E (e.g. chest pain, stroke symptoms, fits, thoughts of harming yourself or others; anaphylaxis -> 999).
+For methylphenidate (adults), the NHS lists serious side effects that need urgent medical advice (e.g. mood changes, palpitations, hallucinations, new facial tics) and ones that need emergency help (e.g. chest pain, stroke symptoms, fits, thoughts of harming yourself or others, a serious allergic reaction).
 
 - Source: [Side effects of methylphenidate for adults](https://www.nhs.uk/medicines/methylphenidate-adults/side-effects-of-methylphenidate-for-adults/) (NHS 'Side effects of methylphenidate for adults' > 'Serious side effects' and 'Serious allergic reaction')
 - Does not establish: Side-effect frequencies beyond 'uncommon (<1 in 100)'; triage by the tool; non-UK routing.

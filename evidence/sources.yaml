@@ -467,7 +467,9 @@ sources:
   link_resolves: true
   source_read: full
   tested_ai_implementation: false
-  notes: Next review due date (26 April 2026) has passed as of access; page not marked re-reviewed. Re-check.
+  notes: 'Next review due date (26 April 2026) has passed as of access; page not marked re-reviewed. Re-check.
+    Not used at runtime: from 2026-10-19 the suite gives only generic urgent-help guidance (no numbers
+    or named services) because users may be anywhere. Kept as a record of what was checked.'
   accessed: '2026-10-19'
   clinician_reviewed: false
 - id: SRC-GD-12
@@ -484,7 +486,9 @@ sources:
   link_resolves: true
   source_read: full
   tested_ai_implementation: false
-  notes: UK email and letter services closed; web chat pilot only.
+  notes: 'UK email and letter services closed; web chat pilot only. Not used at runtime: from 2026-10-19
+    the suite gives only generic urgent-help guidance (no numbers or named services) because users may
+    be anywhere. Kept as a record of what was checked.'
   accessed: '2026-10-19'
   clinician_reviewed: false
 - id: SRC-GD-13
@@ -501,8 +505,10 @@ sources:
   link_resolves: true
   source_read: full
   tested_ai_implementation: false
-  notes: Call 988, text 988, chat via chat.988lifeline.org; Spanish text/chat banner. Veterans 'Press
-    1' not seen on page.
+  notes: 'Call 988, text 988, chat via chat.988lifeline.org; Spanish text/chat banner. Veterans ''Press
+    1'' not seen on page. Not used at runtime: from 2026-10-19 the suite gives only generic urgent-help
+    guidance (no numbers or named services) because users may be anywhere. Kept as a record of what was
+    checked.'
   accessed: '2026-10-19'
   clinician_reviewed: false
 - id: SRC-GD-14
@@ -519,8 +525,10 @@ sources:
   link_resolves: true
   source_read: full
   tested_ai_implementation: false
-  notes: Self-described as "a public service by ThroughLine"; claims verified helplines in 175+ countries
-    with data kept current daily (site's own claims, not independently verified).
+  notes: 'Self-described as "a public service by ThroughLine"; claims verified helplines in 175+ countries
+    with data kept current daily (site''s own claims, not independently verified). Not used at runtime:
+    from 2026-10-19 the suite gives only generic urgent-help guidance (no numbers or named services) because
+    users may be anywhere. Kept as a record of what was checked.'
   accessed: '2026-10-19'
   clinician_reviewed: false
 - id: SRC-GD-15
@@ -537,9 +545,11 @@ sources:
   link_resolves: true
   source_read: full
   tested_ai_implementation: false
-  notes: Points to Find A Helpline (described there as 150+ countries, a different figure from the 175+
+  notes: 'Points to Find A Helpline (described there as 150+ countries, a different figure from the 175+
     on findahelpline.com); names IFOTES, Befrienders Worldwide, Lifeline International. States IASP is
-    not a crisis centre and does not provide direct support.
+    not a crisis centre and does not provide direct support. Not used at runtime: from 2026-10-19 the
+    suite gives only generic urgent-help guidance (no numbers or named services) because users may be
+    anywhere. Kept as a record of what was checked.'
   accessed: '2026-10-19'
   clinician_reviewed: false
 - id: SRC-RS-01

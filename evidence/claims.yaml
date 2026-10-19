@@ -401,16 +401,17 @@ claims:
   link_resolves: true
   clinician_reviewed: false
 - id: CLM-GD-MPH-OVERDOSE
-  statement: NHS advises getting medical advice after taking more methylphenidate than prescribed even
-    without symptoms (111 online/phone), and calling 999 or going to A&E for a fit/seizure or fast, slow
+  statement: For methylphenidate (adults), the NHS advises getting urgent medical advice after taking
+    more than prescribed even without symptoms, and emergency help for a fit or seizure or a fast, slow
     or irregular heartbeat.
   sources:
   - SRC-GD-04
   locator: NHS methylphenidate for adults, 'How and when to take' > 'If you take too much'
-  supports: Immediate signposting to 111/999 (UK) on any mention of excess dose; no reassurance or assessment
-    by the tool.
+  supports: Immediate signposting to urgent medical advice or emergency help on any mention of excess
+    dose; no reassurance or assessment by the agent.
   does_not_establish: Overdose thresholds; routing outside the UK.
-  limitations: UK numbers only; methylphenidate only.
+  limitations: UK numbers only; methylphenidate only. Runtime wording is generic (no UK numbers or service
+    names) because users may be anywhere; the source itself gives UK routes.
   tested_ai_implementation: false
   status: verified
   accessed: 2026-10-19
@@ -421,9 +422,10 @@ claims:
   link_resolves: true
   clinician_reviewed: false
 - id: CLM-GD-MPH-URGENT
-  statement: For methylphenidate (adults), NHS lists serious side effects to report to a GP or 111 straight
-    away (e.g. mood changes, palpitations, hallucinations, new facial tics) and ones needing 999 or A&E
-    (e.g. chest pain, stroke symptoms, fits, thoughts of harming yourself or others; anaphylaxis -> 999).
+  statement: For methylphenidate (adults), the NHS lists serious side effects that need urgent medical
+    advice (e.g. mood changes, palpitations, hallucinations, new facial tics) and ones that need emergency
+    help (e.g. chest pain, stroke symptoms, fits, thoughts of harming yourself or others, a serious allergic
+    reaction).
   sources:
   - SRC-GD-05
   locator: NHS 'Side effects of methylphenidate for adults' > 'Serious side effects' and 'Serious allergic
@@ -431,7 +433,8 @@ claims:
   supports: 'Escalation routing: the tool stops and signposts urgent care when a user reports such symptoms.'
   does_not_establish: Side-effect frequencies beyond 'uncommon (<1 in 100)'; triage by the tool; non-UK
     routing.
-  limitations: Methylphenidate only; UK services.
+  limitations: Methylphenidate only; UK services. Runtime wording is generic (no UK numbers or service
+    names) because users may be anywhere; the source itself gives UK routes.
   tested_ai_implementation: false
   status: verified
   accessed: 2026-10-19

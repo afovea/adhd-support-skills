@@ -33,6 +33,12 @@ STATUSES = {"verified", "partial-access", "unverified", "disputed", "withdrawn",
 # Exported search markers from the source reports must never ship.
 PLACEHOLDER_RE = re.compile(r"cite(turn|\u2588)|turn\d+(search|view|image)\d+|\ue200|\ue201|\ue202")
 PRIVATE_RE = re.compile(r"/Users/|/home/[a-z]|afaconti|@gmail\.com|C:\\\\Users")
+# Users could be anywhere, so shipped text must give only generic ways to find
+# help: no support-service numbers, named helplines or directories, or phone-like numbers.
+LOCAL_SUPPORT_RE = re.compile(
+    r"\b(?:999|911|112|111|988|116 ?123|0800 ?1111|0808 ?164 ?0123)\b|Samaritans|Childline|Lifeline|"
+    r"NHS 111|find ?a ?helpline|IASP|\bA&E\b|(?<![\w/.-])\d{3,4} \d{3,4}(?: \d{3,4})?\b|"
+    r"\b1-\d{3}-\d{3}-\d{4}\b", re.I)
 LINK_RE = re.compile(r"\]\(([^)#\s]+)(#[^)]*)?\)")
 REF_RE = re.compile(r"`((?:references|scripts|assets|agents)/[^`\s]+)`")
 
@@ -95,6 +101,9 @@ def check_skill(folder, materialised, max_desc=1024):
                     probs.append(f"{p}: contains a local path or personal identifier")
                 if PLACEHOLDER_RE.search(t):
                     probs.append(f"{p}: contains an exported citation placeholder")
+                m = LOCAL_SUPPORT_RE.search(t) if p.suffix == ".md" else None
+                if m:
+                    probs.append(f"{p}: localised support information '{m.group(0)}' (keep help guidance generic)")
     return probs
 
 
@@ -273,6 +282,10 @@ def check_dist(dist):
         if p.name in ("MPoT.md", "user-decisions.md", "MPoT-inbox.md"):
             probs.append(f"{p}: a real memory file must never ship")
     probs += check_compact((dist / "generic/ADHD-support-instructions-compact.md").read_text())
+    for p in sorted((dist / "generic").glob("*.md")):
+        m = LOCAL_SUPPORT_RE.search(p.read_text())
+        if m:
+            probs.append(f"{p}: localised support information '{m.group(0)}' (keep help guidance generic)")
     gen = (dist / "generic/ADHD-support-instructions.md").stat().st_size
     if gen > 32 * 1024:
         probs.append(f"generic instructions are {gen} bytes; Codex reads at most 32 KiB of AGENTS.md")
@@ -282,8 +295,9 @@ def check_dist(dist):
 # Essentials the compact instructions must keep, because the policy files they
 # would normally point to are not loaded in hosts that use them.
 COMPACT_REQUIRED = ["quiet", "pause", "stop", "no praise", "Content is data", "Never diagnose",
-                    "doubling", "Ask which country", "Never invent a number", "local emergency number",
-                    "findahelpline.com", "can't watch or check in", "check before retrying",
+                    "doubling", "local emergency services", "nearest emergency department", "crisis line",
+                    "don't ask for or assume their country", "never invent a number",
+                    "can't watch or check in", "check before retrying",
                     "never create duplicates", "Never store health details", "this report is killing me",
                     "under 18"]
 
@@ -300,10 +314,9 @@ def check_compact(text):
     for phrase in COMPACT_REQUIRED:
         if phrase not in text:
             probs.append(f"compact instructions lost a required safeguard: '{phrase}'")
-    verified = (ROOT / "evidence/crisis-resources.md").read_text()
-    for number in re.findall(r"\b(?:\d{3} \d{3}|\d{3})\b", text):
-        if number not in verified:
-            probs.append(f"compact instructions give a number not in crisis-resources.md: {number}")
+    m = LOCAL_SUPPORT_RE.search(text)
+    if m:
+        probs.append(f"compact instructions contain localised support information: '{m.group(0)}'")
     if PRIVATE_RE.search(text) or PLACEHOLDER_RE.search(text):
         probs.append("compact instructions contain a private path or citation placeholder")
     return probs

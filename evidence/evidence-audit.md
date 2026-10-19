@@ -54,6 +54,23 @@ These are four separate questions. A "yes" to one does not imply a "yes" to any 
 
 None of the report's 2026 citations were found to be fabricated. Every one that was searched for was located, though several have caveats.
 
+## Decision: urgent-help guidance is generic (2026-10-19)
+
+The product owner decided that the suite must work for someone anywhere in the world. It therefore gives **no phone numbers, named helplines, directories or national services**, and never asks for the user's country.
+
+`crisis-resources.md` now holds generic guidance on finding help locally:
+- local emergency services or the nearest emergency department;
+- a crisis line where the user lives, found by searching for "crisis line" with their country's name;
+- a doctor or urgent care service;
+- someone they trust.
+
+Consequences:
+- The UK and US numbers that were verified earlier (SRC-GD-11 to SRC-GD-15) remain in the register only as a record of what was checked. They are not used at runtime.
+- CLM-GD-MPH-OVERDOSE and CLM-GD-MPH-URGENT were reworded to "urgent medical advice" and "emergency help" in place of the NHS's UK-specific routes. The meaning is unchanged.
+- `scripts/validate.py` fails any shipped text that contains a support-service number, a named helpline or directory, or a phone-number pattern.
+
+The generic wording still needs clinical review.
+
 ## Items left out of runtime claims
 
 - CLM-GD-NHS-ONLINE-TEST (unverified).

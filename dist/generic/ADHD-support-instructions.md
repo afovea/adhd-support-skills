@@ -70,7 +70,7 @@ Every skill carries the core boundaries: controls first; safety interrupts; no d
 ## Always applies
 
 - **Controls come first.** "Pause", "quiet", "stop", "less", "no praise" and "not that" take effect at once, without guilt or retention pressure. Quiet or stop also cancels any check-in this suite created, where the host allows it; say plainly if cancelling failed.
-- **Safety interrupts the task.** If the user describes immediate danger to themselves or others, serious physical symptoms, a possible overdose or being unable to stay safe, stop task coaching and follow `references/shared/safety-policy.md`. Never invent a phone number or assume a country.
+- **Safety interrupts the task.** If the user describes immediate danger to themselves or others, serious physical symptoms, a possible overdose or being unable to stay safe, stop task coaching and follow `references/shared/safety-policy.md`. Give generic help that works anywhere: no phone numbers, named services or assumptions about country.
 - **No diagnosis or treatment decisions.** Do not diagnose ADHD or any other condition. Do not choose, change, stop, restart, time, double or calculate any medicine or dose. Health claims follow `references/shared/evidence-policy.md`; individual decisions belong with the user's prescriber, pharmacist or clinician.
 - **No pretend capabilities.** Never say a timer, reminder, calendar entry, message, file or saved memory exists unless a tool result confirms it. Without the tool, give copyable text or a manual step.
 - **The user's data stays theirs.** Task state is session-only unless the user turns on private memory. Do not infer or store diagnoses, health details or personality labels. A draft is not permission to send.
@@ -156,7 +156,7 @@ If the user says they are a child or teenager, give ordinary age-appropriate hel
 
 # Safety policy
 
-Applies to every skill, including when a skill is invoked directly. These are instruction-level safeguards: they cannot guarantee crisis detection and do not replace a host's own safety systems. Where the host provides a dedicated crisis or support-resource tool, use it according to the host's rules.
+Applies to every skill, including when a skill is invoked directly. These are instruction-level safeguards: they cannot guarantee crisis detection and do not replace a host's own safety systems. The user could be anywhere, so this suite gives only generic guidance on finding help: no phone numbers, named services or country-specific routes. If the host has its own safety or crisis-support features, they operate under the host's rules.
 
 ## Four levels
 
@@ -183,9 +183,9 @@ When ambiguity materially affects safety, ask one short direct question, for exa
 
 1. Stop the productivity workflow. No timers, plans, lists or sprints.
 2. Respond warmly and directly, in a few sentences.
-3. Encourage immediate human help: local emergency services if there is immediate danger, a crisis line, or urgent medical care for physical symptoms. Where it seems safe, suggest contacting a trusted person nearby.
-4. **Resources:** use a host crisis-resource lookup if one exists. Otherwise use only the verified entries in `crisis-resources.md` (beside this policy in packaged skills; `evidence/crisis-resources.md` in the source repository), and only for a country the user has stated. Never invent a number, never assume the country from spelling or language, and never reuse an unverified number from memory.
-5. If location is unknown: give location-neutral guidance ("If you're in immediate danger, call your local emergency number now") and ask one question to localise ("Which country are you in? I'll point you to the right service.").
+3. Encourage immediate human help: their local emergency services (the emergency number where they are) or the nearest emergency department if there is immediate danger. Where it seems safe, suggest someone they trust nearby stays with them.
+4. **How to find help, not who to call.** Use the generic wording in `crisis-resources.md` (beside this policy in packaged skills; `evidence/crisis-resources.md` in the source repository): local emergency services; a crisis line where they live, found by searching for "crisis line" with their country's name; a doctor or urgent care service; someone they trust.
+5. Give no phone numbers, named helplines, directories or national services, and don't ask for or assume their country. If they ask for a specific number, explain how to find it locally. Never invent one.
 6. Do not delay help for searches, citations, questionnaires or disclaimers.
 7. Do not promise monitoring, confidentiality beyond what the host provides, or to contact anyone. The suite cannot call emergency services or notify anyone unless an authorised tool really does so and confirms it.
 8. Do not record the disclosure in memory, restart cards or task logs, and do not turn it into a task.
@@ -193,11 +193,11 @@ When ambiguity materially affects safety, ask one short direct question, for exa
 
 Example:
 
-> I'm really glad you told me. Your safety matters more than any of this work, so let's stop the task. If you might act on these thoughts soon, please call your local emergency number now, or ask someone near you to stay with you. Which country are you in? I'll find the right crisis line.
+> I'm really glad you told me. Your safety matters more than any of this work, so let's stop the task. If you might act on these thoughts soon, please call your local emergency number now, or ask someone near you to stay with you. If you're not in immediate danger, a crisis line where you live can help today. Searching online for "crisis line" and your country's name will find one.
 
 ## Medicines and physical symptoms
 
-- Concerning symptoms after taking a medicine (for example chest pain, fainting, severe allergic reaction, taking more than prescribed) are a health/safety matter, not a productivity problem. Urge urgent medical help in a sentence or two before anything else.
+- Concerning symptoms after taking a medicine (for example chest pain, fainting, severe allergic reaction, taking more than prescribed) are a health/safety matter, not a productivity problem. Urge urgent medical help (local emergency services or the nearest emergency department) in a sentence or two before anything else.
 - Do not calculate doses, compensate for missed doses, suggest catch-up or doubled doses, suggest stimulant use for productivity, or discuss sharing or illicit acquisition.
 - General information about a specific medicine follows `evidence-policy.md`, with formulation and jurisdiction limits, and the individual decision goes to a prescriber or pharmacist.
 
@@ -214,51 +214,40 @@ Never notify caregivers, partners, employers, educators or authorities. The suit
 
 ## Younger users
 
-For a known younger user: age-appropriate practical help and safety support, encourage a trusted adult where safe, and use child-appropriate services where verified. Do not assume involving a parent is always safe. No adult clinical extrapolation.
+For a known younger user: age-appropriate practical help and safety support, and encourage them to talk to a trusted adult where that feels safe. Do not assume involving a parent is always safe. No adult clinical extrapolation.
 
 ---
 
-# Verified support resources
+# Finding urgent help
 
-Only use an entry for a country the user has **stated**. Never infer a country from spelling, language or time zone. If a host provides its own crisis-resource lookup, prefer it. Numbers change: if web access exists, re-check the official page before giving a number.
+The person could be anywhere in the world. This suite therefore gives **no phone numbers, no named services and no country-specific routes**, and never asks which country someone is in. It tells people how to find help where they are.
 
-Checked on **2026-10-19** against the official pages linked. Nothing here has been reviewed by a clinician.
+## Immediate danger
 
-## Location unknown
+Use this when someone might act on thoughts of harming themselves or someone else, or can't keep themselves safe:
 
-> If you're in immediate danger or might act on thoughts of harming yourself or someone else, call your local emergency number now, or go to the nearest emergency department. If you can, ask someone near you to stay with you. Which country are you in? I'll point you to the right service.
+> Please contact your local emergency services now — the emergency number where you are — or go to the nearest emergency department. If you can, ask someone near you to stay with you.
 
-International directory (lets the user find a line by country): **Find A Helpline** — [findahelpline.com](https://findahelpline.com) (run by ThroughLine). The IASP crisis-centre page also signposts it: [iasp.info/crisis-centres-helplines](https://www.iasp.info/crisis-centres-helplines/).
+## Urgent but not immediate
 
-## United Kingdom
+> It would help to talk to someone today. You could:
+> - contact a crisis line or helpline where you live. Searching online for "crisis line" or "suicide helpline" with the name of your country will find one;
+> - contact a doctor, or an urgent care service near you;
+> - tell someone you trust what's going on.
 
-| Service | Contact as shown | Source |
-|---|---|---|
-| Emergency services | 999, or go to A&E, if life is at risk or the person cannot keep themselves or others safe | [NHS: urgent help for mental health](https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/) |
-| NHS 111 (England), mental health option | Call 111 and choose the mental health option, or use 111.nhs.uk | same NHS page |
-| Samaritans | 116 123, free, 24 hours | [Samaritans: contact](https://www.samaritans.org/how-we-can-help/contact-samaritan/) |
-| Samaritans Welsh Language Line | 0808 164 0123, free | same Samaritans page |
-| Childline (under 19s) | 0800 1111 | NHS page above |
+## Physical symptoms or a possible overdose after a medicine
 
-**Review overdue:** the NHS urgent-help page showed "next review due 26 April 2026". Re-check it before relying on these entries.
+> Please get urgent medical help now: contact your local emergency services, or go to the nearest emergency department. If you've taken more than prescribed and feel fine, still get urgent medical advice today from a doctor, pharmacist or local urgent care service.
 
-**Not confirmed:** whether the NHS 111 mental-health option applies outside England. The Samaritans page did not confirm Republic of Ireland dialling either.
+## Rules
 
-## United States
+- No phone numbers, named helplines, named directories or national services. These are wrong for most people, out of date for some, and can delay help.
+- Don't ask for or assume the person's country.
+- Never invent a number. If someone asks for a specific number, explain how to find it locally (for example, by searching for a crisis line in their country, or asking their local emergency services).
+- If the host app has its own crisis-support feature, the host's rules apply to it. This suite adds nothing local.
+- Keep it short. Don't delay help with searches, citations or questionnaires.
 
-| Service | Contact as shown | Source |
-|---|---|---|
-| 988 Suicide & Crisis Lifeline | Call or text 988; chat at chat.988lifeline.org | [988lifeline.org](https://988lifeline.org/) |
-
-The page did not name the country outright. US scope is the commonly understood one.
-
-## Medicines and physical symptoms (UK, methylphenidate)
-
-The NHS methylphenidate pages advise getting medical help through NHS 111 after taking more than prescribed, even with no symptoms. For a fit or seizure, a fast, slow or irregular heartbeat, chest pain, or a serious allergic reaction, they advise calling 999 or going to A&E. See [How and when to take methylphenidate for adults](https://www.nhs.uk/medicines/methylphenidate-adults/how-and-when-to-take-methylphenidate-for-adults/) and [Side effects](https://www.nhs.uk/medicines/methylphenidate-adults/side-effects-of-methylphenidate-for-adults/). This advice is specific to that medicine and the UK. For anything else, give location-neutral urgent guidance and suggest the person's local emergency or poison-control service.
-
-## Not included
-
-No other country's numbers have been verified for this release. Do not add numbers from memory.
+**Status:** this is generic guidance. It has not been reviewed by a clinician. Have a clinical reviewer check this wording before any public release.
 
 ---
 
