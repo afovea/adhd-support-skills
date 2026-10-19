@@ -332,6 +332,24 @@ def check_compact(text):
     return probs
 
 
+def slug(heading):
+    """GitHub's heading anchor: lowercase, drop punctuation except hyphens, spaces to hyphens."""
+    return re.sub(r"[^\w\- ]", "", heading.strip().lower()).replace(" ", "-")
+
+
+def check_anchors(paths):
+    """Every in-page link (#anchor) must match a heading in the same file."""
+    probs = []
+    for p in paths:
+        text = p.read_text()
+        body = re.sub(r"```.*?```", "", text, flags=re.S)
+        anchors = {slug(h) for h in re.findall(r"^#{1,6} (.+)$", body, re.M)}
+        for target in re.findall(r"\]\(#([^)\s]+)\)", body):
+            if target not in anchors:
+                probs.append(f"{p.name}: link to #{target} matches no heading")
+    return probs
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-tests", action="store_true")
@@ -342,6 +360,7 @@ def main():
               ("registry and eval cases", check_registry),
               ("evidence register", check_evidence),
               ("adapter manifests", check_manifests),
+              ("in-page links", lambda: check_anchors([ROOT / "README.md", ROOT / "INSTALL.md"])),
               ("generated files in sync", check_sync),
               ("distribution bundles", lambda: check_dist(ROOT / "dist"))]
     failed = False

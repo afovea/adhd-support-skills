@@ -8,7 +8,7 @@ It is **14 portable [Agent Skills](https://agentskills.io/specification)** with 
 
 > **Not medical care.** It doesn't diagnose ADHD or anything else, doesn't advise on medicine or treatment, and hasn't been clinically validated. For health decisions, talk to your doctor, prescriber or pharmacist. If you're in danger, contact your local emergency services.
 
-**→ [What it helps with](#the-13-skills)**
+**→ [What it helps with](#the-14-skills)**
 What each skill does, in plain words, with the request that triggers it.
 
 **→ [Works with the apps you already use](#working-with-your-other-apps)**
